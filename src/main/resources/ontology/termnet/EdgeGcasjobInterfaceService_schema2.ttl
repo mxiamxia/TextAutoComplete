@@ -1,0 +1,323 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix tns:     <http://cio.att.com/commonheader/v3#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+tns:ErrorType
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:defaultValue "Functional" ;
+      term:lemma "errortype" ;
+      term:pos "n" ;
+      term:synonym "error type" ;
+      term:xpath "http://cio.att.com/commonheader/v3#ErrorType" ;
+      owl:minCardinality "0" .
+
+tns:WSContext
+      a       owl:Class ;
+      term:has tns:ToAppId , tns:WSNameValue , tns:Version , tns:SourceIPAddress , tns:FromAppId ;
+      term:lemma "wscontext" ;
+      term:pos "n" ;
+      term:synonym "ws context" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSContext" .
+
+tns:Token
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "token" ;
+      term:pos "n" ;
+      term:synonym "token" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Token" ;
+      owl:minCardinality "0" .
+
+tns:RefToMessageId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "reftomessageid" ;
+      term:pos "n" ;
+      term:synonym "ref to message id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#RefToMessageId" ;
+      owl:minCardinality "0" .
+
+tns:minor
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+      term:lemma "minor" ;
+      term:pos "n" ;
+      term:synonym "minor" ;
+      term:xpath "http://cio.att.com/commonheader/v3#minor" .
+
+tns:SourceIPAddress
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "sourceipaddress" ;
+      term:pos "n" ;
+      term:synonym "source ip address" ;
+      term:xpath "http://cio.att.com/commonheader/v3#SourceIPAddress" ;
+      owl:minCardinality "0" .
+
+tns:WSEnterpriseLogging
+      a       owl:Class ;
+      term:has tns:ApplicationID , tns:LoggingKey ;
+      term:lemma "wsenterpriselogging" ;
+      term:pos "n" ;
+      term:synonym "ws enterprise logging" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSEnterpriseLogging" .
+
+tns:FailoverRequired
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:defaultValue "false" ;
+      term:lemma "failoverrequired" ;
+      term:pos "n" ;
+      term:synonym "failover required" ;
+      term:xpath "http://cio.att.com/commonheader/v3#FailoverRequired" ;
+      owl:minCardinality "0" .
+
+tns:ApplicationID
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "applicationid" ;
+      term:pos "n" ;
+      term:synonym "application id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#ApplicationID" ;
+      owl:minCardinality "0" .
+
+tns:FaultURL
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#anyURI" ;
+      term:lemma "faulturl" ;
+      term:pos "n" ;
+      term:synonym "fault url" ;
+      term:xpath "http://cio.att.com/commonheader/v3#FaultURL" ;
+      owl:minCardinality "0" .
+
+tns:Name
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "name" ;
+      term:pos "n" ;
+      term:synonym "name" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Name" .
+
+tns:WSNameValue
+      a       owl:Class ;
+      rdfs:subClassOf tns:WSNameValueType ;
+      term:has tns:Name , tns:Value ;
+      term:lemma "wsnamevalue" ;
+      term:pos "n" ;
+      term:synonym "ws name value" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSNameValue" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+tns:Value
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "value" ;
+      term:pos "n" ;
+      term:synonym "value" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Value" .
+
+tns:Message
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "message" ;
+      term:pos "n" ;
+      term:synonym "message" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Message" .
+
+tns:WSEndUserToken
+      a       owl:Class ;
+      term:has tns:WSNameValue , tns:Token , tns:TokenType ;
+      term:lemma "wsendusertoken" ;
+      term:pos "n" ;
+      term:synonym "ws end user token" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSEndUserToken" .
+
+tns:WSCallback
+      a       owl:Class ;
+      term:has tns:FaultURL , tns:WSCorrelationId , tns:URL ;
+      term:lemma "wscallback" ;
+      term:pos "n" ;
+      term:synonym "ws callback" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSCallback" .
+
+tns:ErrorCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "errorcode" ;
+      term:pos "n" ;
+      term:synonym "error code" ;
+      term:xpath "http://cio.att.com/commonheader/v3#ErrorCode" .
+
+tns:RetryRequired
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:defaultValue "false" ;
+      term:lemma "retryrequired" ;
+      term:pos "n" ;
+      term:synonym "retry required" ;
+      term:xpath "http://cio.att.com/commonheader/v3#RetryRequired" ;
+      owl:minCardinality "0" .
+
+tns:ToAppId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "toappid" ;
+      term:pos "n" ;
+      term:synonym "to app id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#ToAppId" ;
+      owl:minCardinality "0" .
+
+tns:major
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#int" ;
+      term:lemma "major" ;
+      term:pos "n" ;
+      term:synonym "major" ;
+      term:xpath "http://cio.att.com/commonheader/v3#major" .
+
+tns:WSNameValueType
+      a       owl:Class ;
+      term:has tns:Name , tns:Value ;
+      term:lemma "wsnamevaluetype" ;
+      term:pos "n" ;
+      term:synonym "ws name value type" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSNameValueType" .
+
+tns:Version
+      a       owl:Class ;
+      term:has tns:major , tns:minor ;
+      term:lemma "version" ;
+      term:pos "n" ;
+      term:synonym "version" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Version" ;
+      owl:minCardinality "0" .
+
+tns:WSConversationId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "wsconversationid" ;
+      term:pos "n" ;
+      term:synonym "ws conversation id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSConversationId" ;
+      owl:minCardinality "0" .
+
+tns:WSCorrelationId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "wscorrelationid" ;
+      term:pos "n" ;
+      term:synonym "ws correlation id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSCorrelationId" ;
+      owl:minCardinality "0" .
+
+tns:LoggingKey
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "loggingkey" ;
+      term:pos "n" ;
+      term:synonym "logging key" ;
+      term:xpath "http://cio.att.com/commonheader/v3#LoggingKey" ;
+      owl:minCardinality "0" .
+
+tns:WSResponseMessageExpiration
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#long" ;
+      term:lemma "wsresponsemessageexpiration" ;
+      term:pos "n" ;
+      term:synonym "ws response message expiration" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSResponseMessageExpiration" ;
+      owl:minCardinality "0" .
+
+tns:URL
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "url" ;
+      term:pos "n" ;
+      term:synonym "url" ;
+      term:xpath "http://cio.att.com/commonheader/v3#URL" ;
+      owl:minCardinality "0" .
+
+tns:WSMessageData
+      a       owl:Class ;
+      term:has tns:MessageId , tns:RefToMessageId , tns:Timestamp ;
+      term:lemma "wsmessagedata" ;
+      term:pos "n" ;
+      term:synonym "ws message data" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSMessageData" .
+
+tns:AdditionalErrors
+      a       owl:Class ;
+      term:has tns:Message , tns:ErrorCode ;
+      term:lemma "additionalerrors" ;
+      term:pos "n" ;
+      term:synonym "additional errors" ;
+      term:xpath "http://cio.att.com/commonheader/v3#AdditionalErrors" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+tns:MessageId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "messageid" ;
+      term:pos "n" ;
+      term:synonym "message id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#MessageId" ;
+      owl:minCardinality "0" .
+
+tns:WSHeader
+      a       owl:Class ;
+      term:has tns:WSContext , tns:WSConversationId , tns:WSCallback , tns:WSEndUserToken , tns:WSEnterpriseLogging , tns:WSResponseMessageExpiration , tns:WSMessageData ;
+      term:lemma "wsheader" ;
+      term:pos "n" ;
+      term:synonym "ws header" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSHeader" .
+
+tns:WSResponseHeader
+      a       owl:Class ;
+      term:has tns:WSContext , tns:WSConversationId , tns:WSCorrelationId , tns:WSEnterpriseLogging , tns:WSMessageData ;
+      term:lemma "wsresponseheader" ;
+      term:pos "n" ;
+      term:synonym "ws response header" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSResponseHeader" .
+
+tns:FromAppId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "fromappid" ;
+      term:pos "n" ;
+      term:synonym "from app id" ;
+      term:xpath "http://cio.att.com/commonheader/v3#FromAppId" ;
+      owl:minCardinality "0" .
+
+tns:TokenType
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "tokentype" ;
+      term:pos "n" ;
+      term:synonym "token type" ;
+      term:xpath "http://cio.att.com/commonheader/v3#TokenType" ;
+      owl:minCardinality "0" .
+
+tns:WSException
+      a       owl:Class ;
+      term:has tns:ErrorType , tns:AdditionalErrors , tns:WSNameValue , tns:Message , tns:ErrorCode , tns:RetryRequired , tns:FailoverRequired ;
+      term:lemma "wsexception" ;
+      term:pos "n" ;
+      term:synonym "ws exception" ;
+      term:xpath "http://cio.att.com/commonheader/v3#WSException" .
+
+tns:Timestamp
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#dateTime" ;
+      term:lemma "timestamp" ;
+      term:pos "n" ;
+      term:synonym "timestamp" ;
+      term:xpath "http://cio.att.com/commonheader/v3#Timestamp" ;
+      owl:minCardinality "0" .

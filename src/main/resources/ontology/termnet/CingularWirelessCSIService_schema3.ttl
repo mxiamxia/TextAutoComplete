@@ -1,0 +1,180 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/CingularDataModel.xsd#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix tns:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+tns:cingularErrorCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "cingularerrorcode" ;
+      term:pos "n" ;
+      term:synonym "cingular error code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#cingularErrorCode" .
+
+tns:faultSequenceNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "faultsequencenumber" ;
+      term:pos "n" ;
+      term:synonym "fault sequence number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#faultSequenceNumber" .
+
+tns:BISError
+      a       owl:Class ;
+      term:has tns:origination , tns:description , tns:severity , tns:code ;
+      term:lemma "biserror" ;
+      term:pos "n" ;
+      term:synonym "bis error" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#BISError" ;
+      owl:minCardinality "0" .
+
+tns:ServiceProviderEntityInfo
+      a       owl:Class ;
+      term:has tns:faultSequenceNumber , tns:ServiceProviderRawError , tns:faultCode , tns:faultLevel , tns:faultDescription , tns:reportingServiceEntity , tns:faultDate ;
+      term:lemma "serviceproviderentityinfo" ;
+      term:pos "n" ;
+      term:synonym "service provider entity info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#ServiceProviderEntityInfo" .
+
+tns:CSIApplicationException
+      a       owl:Class ;
+      term:has tns:ServiceProviderEntity , tns:Response ;
+      term:lemma "csiapplicationexception" ;
+      term:pos "n" ;
+      term:synonym "csi application exception" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#CSIApplicationException" .
+
+tns:cingularErrorCategory
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "cingularerrorcategory" ;
+      term:pos "n" ;
+      term:synonym "cingular error category" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#cingularErrorCategory" .
+
+tns:ServiceProviderRawError
+      a       owl:Class ;
+      term:has tns:BISError , tns:description , tns:code ;
+      term:lemma "serviceproviderrawerror" ;
+      term:pos "n" ;
+      term:synonym "service provider raw error" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#ServiceProviderRawError" .
+
+tns:ServiceEntityFaultInfo
+      a       owl:Class ;
+      term:has tns:cingularErrorCode , tns:faultSequenceNumber , tns:cingularErrorCategory , tns:faultLevel , tns:cingularErrorDescription , tns:faultCode , tns:faultDescription , tns:reportingServiceEntity , tns:faultDate ;
+      term:lemma "serviceentityfaultinfo" ;
+      term:pos "n" ;
+      term:synonym "service entity fault info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#ServiceEntityFaultInfo" .
+
+tns:faultLevel
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "faultlevel" ;
+      term:pos "n" ;
+      term:synonym "fault level" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#faultLevel" .
+
+tns:faultCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "faultcode" ;
+      term:pos "n" ;
+      term:synonym "fault code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#faultCode" .
+
+tns:faultDescription
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "faultdescription" ;
+      term:pos "n" ;
+      term:synonym "fault description" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#faultDescription" .
+
+tns:description
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "description" ;
+      term:pos "n" ;
+      term:synonym "description" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#description" .
+
+tns:ResultStatusInfo
+      a       owl:Class ;
+      term:has tns:ServiceProviderEntity , tns:Response ;
+      term:lemma "resultstatusinfo" ;
+      term:pos "n" ;
+      term:synonym "result status info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#ResultStatusInfo" .
+
+tns:faultDate
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#anySimpleType" ;
+      term:lemma "faultdate" ;
+      term:pos "n" ;
+      term:synonym "fault date" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#faultDate" .
+
+tns:ServiceProviderEntity
+      a       owl:Class ;
+      rdfs:subClassOf tns:ServiceProviderEntityInfo ;
+      term:lemma "serviceproviderentity" ;
+      term:pos "n" ;
+      term:synonym "service provider entity" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#ServiceProviderEntity" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+tns:cingularErrorDescription
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "cingularerrordescription" ;
+      term:pos "n" ;
+      term:synonym "cingular error description" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#cingularErrorDescription" .
+
+tns:origination
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "origination" ;
+      term:pos "n" ;
+      term:synonym "origination" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#origination" .
+
+tns:Response
+      a       owl:Class ;
+      rdfs:subClassOf ns1:ResponseInfo ;
+      term:lemma "response" ;
+      term:pos "n" ;
+      term:synonym "response" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#Response" .
+
+tns:reportingServiceEntity
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "reportingserviceentity" ;
+      term:pos "n" ;
+      term:synonym "reporting service entity" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#reportingServiceEntity" .
+
+tns:severity
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "severity" ;
+      term:pos "n" ;
+      term:synonym "severity" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#severity" .
+
+tns:code
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "code" ;
+      term:pos "n" ;
+      term:synonym "code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#code" .

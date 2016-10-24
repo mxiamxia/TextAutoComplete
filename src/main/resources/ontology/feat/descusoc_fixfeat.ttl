@@ -1,0 +1,1108 @@
+@prefix :        <http://www.cyberobject.com/2012/12/cyberobject/ntelagent#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+:CallReturn
+      a       owl:Class ;
+      term:lemma "callreturn" ;
+      term:pos "n" ;
+      term:synonym "call return" ;
+      term:usoc "V3DFN" , "NL82R" , "NL8PS" , "M4VRC" , "NL8" , "NX8" , "NSR" , "CCRBS" , "CCR" , "CCRWS" , "CALRT" , "ZBNSS" , "NSS" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallReturn" .
+
+:TroubleDetermination
+      a       owl:Class ;
+      term:lemma "troubledetermination" ;
+      term:pos "n" ;
+      term:synonym "trouble determination" ;
+      term:usoc "TDG" , "WMQ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TroubleDetermination" .
+
+:Touchtone
+      a       owl:Class ;
+      term:lemma "touchtone" ;
+      term:pos "n" ;
+      term:synonym "touchtone" , "touch tone" , "touch tone service" ;
+      term:usoc "RRP" , "M1MEA" , "CCXPF" , "14X" , "1F1CL" , "BU2CL" , "C6OTT" , "AC6CL" , "VR1CL" , "AR7" , "44R" , "M1MD4" , "VR4CL" , "TTR" , "AROCL" , "1ARGE" , "TDN" , "AR4" , "TTRNF" , "M1MDA" , "VR4" , "AC6" , "PAMA5" , "14R" , "AC0CL" , "24R" , "A6PCL" , "1F2CL" , "AR7CL" , "A6P" , "AC7CL" , "VR1" , "PS2CL" , "TTBNF" , "14D" , "AC7" , "AC4CL" , "M1ME1" , "AC0" , "BG2" , "AR4CL" , "K2K2P" , "M1M5A" , "AC3CL" , "VR2CL" , "AC4" , "VR2" , "M1M51" , "BG2CL" , "PS1CL" , "M1M1A" , "TTB" , "14RCL" , "TJB" , "M1MD1" , "ARO" , "TTS" , "AC3" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Touchtone" .
+
+:Lphonesol
+      a       owl:Class ;
+      term:lemma "lphonesol" ;
+      term:pos "n" ;
+      term:synonym "lphonesol" ;
+      term:usoc "NLR75" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Lphonesol" .
+
+:CallerId
+      a       owl:Class ;
+      term:lemma "callerid" ;
+      term:pos "n" ;
+      term:synonym "calling number" , "caller id" , "caller id number" , "caller identification" ;
+      term:usoc "NXDPS" , "M2NBA" , "NUD" , "SOWBO" , "NUDPS" , "NSC" , "NSD" , "NXD" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerId" .
+
+:CallWaiting
+      a       owl:Class ;
+      term:lemma "callwaiting" ;
+      term:pos "n" ;
+      term:synonym "call waiting" ;
+      term:usoc "ESXWS" , "M2LB5" , "M2LCA" , "DRJ" , "M2LOA" , "E6NMN" , "6SY" , "E6N" , "ESXBS" , "CENLS" , "M2LD5" , "ESXAN" , "ESZAN" , "E6CCS" , "ESZMN" , "ESZBR" , "HUH" , "MVRCW" , "E6C" , "ESZBN" , "SOZCW" , "DCG" , "ESXAR" , "E6HPA" , "ZQESX" , "ESXBR" , "CENLR" , "ESZAR" , "ESX" , "MVPCW" , "ESXCR" , "ESXBN" , "ESXCN" , "ESXEN" , "DRDCW" , "ABCC8" , "ABCCW" , "ESXDR" , "A8JCE" , "M2LED" , "CCN" , "ESXER" , "SWZAH" , "TCAWE" , "NGW" , "ESXDN" , "MVCCW" , "WDK" , "SWZD8" , "SWZCW" , "CWD" , "SWZCO" , "M2LA6" , "SWZDW" , "ESZ" , "ESY4M" , "SWZCG" , "SWZYL" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallWaiting" .
+
+:AudibleMessageWaiting
+      a       owl:Class ;
+      term:lemma "audiblemessagewaiting" ;
+      term:pos "n" ;
+      term:synonym "message waiting indicator" , "plexar custom w or smdi message waiting indication" , "audible message waiting" , "stutter dial tone" ;
+      term:usoc "MWN" , "AWS" , "EW5AX" , "SWZ99" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AudibleMessageWaiting" .
+
+:CallPickUp
+      a       owl:Class ;
+      term:lemma "callpickup" ;
+      term:pos "n" ;
+      term:synonym "call pick up" ;
+      term:usoc "DPU" , "ABCC1" , "CENLQ" , "E3PPN" , "M4UBC" , "E3PBN" , "E3PAR" , "E3P" , "E3PAN" , "CPU" , "E3PBR" , "E3PPA" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallPickUp" .
+
+:BlockRepeatDialing
+      a       owl:Class ;
+      term:lemma "blockrepeatdialing" ;
+      term:pos "n" ;
+      term:synonym "block repeat dialing" ;
+      term:usoc "BRD" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#BlockRepeatDialing" .
+
+:CallTracePerUse
+      a       owl:Class ;
+      term:lemma "calltraceperuse" ;
+      term:pos "n" ;
+      term:synonym "call trace per use" ;
+      term:usoc "HBG" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallTracePerUse" .
+
+:BsldUnlimitedPlan
+      a       owl:Class ;
+      term:lemma "bsldunlimitedplan" ;
+      term:pos "n" ;
+      term:synonym "bsld unlimited plan" ;
+      term:usoc "BSLYF" , "BSLUX" , "BSLU9" , "BSLLU" , "BSLUV" , "BSLU3" , "BSLXC" , "BSL6C" , "BSLUW" , "BSLQU" , "BSLU2" , "BSLU1" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#BsldUnlimitedPlan" .
+
+:CallForwardRcf
+      a       owl:Class ;
+      term:lemma "callforwardrcf" ;
+      term:pos "n" ;
+      term:synonym "call forward rcf" , "remote call forwarding" ;
+      term:usoc "RCFRJ" , "RCFVN" , "*BLSL" , "RCFCE" , "RCFRC" , "RFHXN" , "RCFLR" , "RCFRR" , "*RM" , "*NC" , "\\*CR" , "RD8XS" , "RCFWS" , "PWNRG" , "*NL" , "*ML" , "RCF" , "RCFVF" , "RCFCS" , "\\*CB" , "R1BXV" , "RCFSQ" , "RCFCF" , "RCFRD" , "RCFRQ" , "\\*RLSL" , "*NM" , "RCFTX" , "P6N8X" , "RCFVE" , "RCF7G" , "RCFLB" , "RCFVQ" , "*BM" , "*NBSL" , "RCFVL" , "*MLSL" , "RCFCG" , "RCFWQ" , "RCFRE" , "*BMSL" , "RCFVD" , "RCFMS" , "RCFRF" , "RCFRG" , "*BL" , "*FRSL" , "RCF7Q" , "RCFCU" , "RD5VF" , "*BRSL" , "RCFPX" , "SOZRC" , "RCAPX" , "UERTR" , "RCFR" , "RCFVR" , "RD5RF" , "\\*RL" , "RCFWF" , "RCFVJ" , "RCF7U" , "SWZR1" , "RCFRV" , "\\*BR" , "RCFVS" , "*CBSL" , "RCFRN" , "P6NLX" , "P6NRG" , "RCFMV" , "*BFSL" , "RCFWN" , "UERLC" , "\\*CMSL" , "RCFRU" , "*FF" , "RCFSM" , "\\*CM" , "*NFSL" , "RCFWE" , "\\*FR" , "*LF" , "RCFSU" , "RCFVT" , "SWZYR" , "UERTE" , "\\*NF" , "RCFVH" , "RFH9N" , "RCFRT" , "PWNRN" , "RCF7S" , "RCFRL" , "SWZRC" , "*BF" , "RCFVU" , "RCFWU" , "P6NRN" , "RCFVG" , "RCFRS" , "RCFWG" , "PWN8X" , "\\*RCSL" , "RCF7E" , "RCFVV" , "*FL" , "\\*FC" , "QRN" , "RCFCQ" , "*LMSL" , "PWNLX" , "*LM" , "\\*CRSL" , "*NB" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardRcf" .
+
+:Basics
+      a       owl:Class ;
+      term:lemma "basics" ;
+      term:pos "n" ;
+      term:synonym "basics" ;
+      term:usoc "NLR3Y" , "NLR72" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Basics" .
+
+:CallerIdDlx
+      a       owl:Class ;
+      term:lemma "calleriddlx" ;
+      term:pos "n" ;
+      term:synonym "caller id dlx" ;
+      term:usoc "M2NA7" , "M2NJA" , "M2NC7" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdDlx" .
+
+:ThreeWayCalling
+      a       owl:Class ;
+      term:lemma "threewaycalling" ;
+      term:pos "n" ;
+      term:synonym "3 way calling" , "three way calling" ;
+      term:usoc "E9ACR" , "E8A" , "E9ACN" , "ESC" , "E9ABN" , "SWZYK" , "CENLZ" , "CENLX" , "M2RSA" , "E13" , "E1Y2N" , "ZBESC" , "M5Y" , "E9A" , "3CE" , "ZQESC" , "TJV" , "SWZ3W" , "ELY2N" , "CENLY" , "M5UTC" , "N3T" , "HWE" , "ESCXX" , "ESCBS" , "MVPAL" , "SWZ3A" , "E9AAN" , "CENJ7" , "CENLH" , "E9AEN" , "ESCPS" , "E9AER" , "E9ABR" , "E9ADR" , "ESCWT" , "E9ADN" , "E9AAR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ThreeWayCalling" .
+
+:CompleteChoiceEconomy
+      a       owl:Class ;
+      term:lemma "completechoiceeconomy" ;
+      term:pos "n" ;
+      term:synonym "complete choice economy" ;
+      term:usoc "ARPEC" , "ENHSC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoiceEconomy" .
+
+:CallControl
+      a       owl:Class ;
+      term:lemma "callcontrol" ;
+      term:pos "n" ;
+      term:synonym "call control" ;
+      term:usoc "OC4" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallControl" .
+
+:PriorityCallRinging
+      a       owl:Class ;
+      term:lemma "prioritycallringing" ;
+      term:pos "n" ;
+      term:synonym "priority call ringing" , "priority call" , "priority ringing" ;
+      term:usoc "NSK" , "ZBNSK" , "NX2PS" , "NL3" , "CLP" , "NX2" , "NL3PS" , "V3DF3" , "ZQNSK" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PriorityCallRinging" .
+
+:Works
+      a       owl:Class ;
+      term:lemma "works" ;
+      term:pos "n" ;
+      term:synonym "works" ;
+      term:usoc "NLR7Z" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Works" .
+
+:OutgoingCallControl
+      a       owl:Class ;
+      term:lemma "outgoingcallcontrol" ;
+      term:pos "n" ;
+      term:synonym "outgoing call control" ;
+      term:usoc "OC4" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#OutgoingCallControl" .
+
+:VisualMessageWaiting
+      a       owl:Class ;
+      term:lemma "visualmessagewaiting" ;
+      term:pos "n" ;
+      term:synonym "message waiting visual" , "visual message waiting" , "msg wtg visual indicator" ;
+      term:usoc "MW1V1" , "MW1V2" , "EW5VX" , "MV5" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VisualMessageWaiting" .
+
+:IpCentrex
+      a       owl:Class ;
+      term:lemma "ipcentrex" ;
+      term:pos "n" ;
+      term:synonym "ip centrex" ;
+      term:usoc "M4LF1" , "CEN1P" , "CEN1A" , "CEN1F" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#IpCentrex" .
+
+<http://www.cyberobject.com/2012/12/cyberobject/ntelagent#1010DialingBlock>
+      a       owl:Class ;
+      term:lemma "1010dialingblock" ;
+      term:pos "n" ;
+      term:synonym "1010 dialing block" ;
+      term:usoc "RTV1L" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#1010DialingBlock" .
+
+:MessageWaitingAOrV
+      a       owl:Class ;
+      term:lemma "messagewaitingaorv" ;
+      term:pos "n" ;
+      term:synonym "message waiting a or v" ;
+      term:usoc "MWWAV" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MessageWaitingAOrV" .
+
+:VmsWirelessOrWireline
+      a       owl:Class ;
+      term:lemma "vmswirelessorwireline" ;
+      term:pos "n" ;
+      term:synonym "vms wireless or wireline" ;
+      term:usoc "BVMWP" , "BVMWB" , "BVMWR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VmsWirelessOrWireline" .
+
+:CallerIdLineBlocking
+      a       owl:Class ;
+      term:lemma "calleridlineblocking" ;
+      term:pos "n" ;
+      term:synonym "caller id complete blocking" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdLineBlocking" .
+
+:CallerIdDlxName
+      a       owl:Class ;
+      term:lemma "calleriddlxname" ;
+      term:pos "n" ;
+      term:synonym "caller id dlx name" ;
+      term:usoc "NXMMN" , "NXM" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdDlxName" .
+
+:MemorycallServiceMcalcom
+      a       owl:Class ;
+      term:lemma "memorycallservicemcalcom" ;
+      term:pos "n" ;
+      term:synonym "memorycall service mcalcom" ;
+      term:usoc "EMSWB" , "EMSRT" , "WVMRB" , "EMSWR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MemorycallServiceMcalcom" .
+
+:SpeedCalling
+      a       owl:Class ;
+      term:lemma "speedcalling" ;
+      term:pos "n" ;
+      term:synonym "speed calling" ;
+      term:usoc "ZSCSL" , "EJJ" , "E78" , "ZSCSN" , "DTSP1" , "E58" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#SpeedCalling" .
+
+:InternetCallWaiting
+      a       owl:Class ;
+      term:lemma "internetcallwaiting" ;
+      term:pos "n" ;
+      term:synonym "internet call waiting" ;
+      term:usoc "CWNEO" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#InternetCallWaiting" .
+
+:CallingNumberDeliveryBlock
+      a       owl:Class ;
+      term:lemma "callingnumberdeliveryblock" ;
+      term:pos "n" ;
+      term:synonym "calling number delivery block" ;
+      term:usoc "M2NTA" , "M2NFA" , "M2NEA" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallingNumberDeliveryBlock" .
+
+:CallForwardSimultaneous
+      a       owl:Class ;
+      term:lemma "callforwardsimultaneous" ;
+      term:pos "n" ;
+      term:synonym "call forward simultaneous" ;
+      term:usoc "FRCPS" , "FRC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardSimultaneous" .
+
+:CallForwardDoNotAnswer
+      a       owl:Class ;
+      term:lemma "callforwarddonotanswer" ;
+      term:pos "n" ;
+      term:synonym "call forward do not answer" ;
+      term:usoc "E5E" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardDoNotAnswer" .
+
+:AutomaticCallback
+      a       owl:Class ;
+      term:lemma "automaticcallback" ;
+      term:pos "n" ;
+      term:synonym "automatic callback" ;
+      term:usoc "ACB" , "ACBK" , "NSQ" , "M53AK" , "ABACD" , "SAK" , "HBQ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AutomaticCallback" .
+
+:CallerIdNumberAutoCallRej
+      a       owl:Class ;
+      term:lemma "calleridnumberautocallrej" ;
+      term:pos "n" ;
+      term:synonym "caller id number auto call rej" ;
+      term:usoc "NSDCR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdNumberAutoCallRej" .
+
+:RingmasterService
+      a       owl:Class ;
+      term:lemma "ringmasterservice" ;
+      term:pos "n" ;
+      term:synonym "ringmaster service" ;
+      term:usoc "DRS" , "DRS1X" , "DRS2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#RingmasterService" .
+
+:AinTrigger
+      a       owl:Class ;
+      term:lemma "aintrigger" ;
+      term:pos "n" ;
+      term:synonym "ain trigger" ;
+      term:usoc "AIN" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AinTrigger" .
+
+:CallForwardSelective
+      a       owl:Class ;
+      term:lemma "callforwardselective" ;
+      term:pos "n" ;
+      term:synonym "call forward selective" , "selective call forwarding" ;
+      term:usoc "NX6PS" , "CSFWS" , "CSFEU" , "NCE" , "ZZNCE" , "ZQNCE" , "CSF" , "NX6" , "CSFBS" , "CSFBR" , "SCF" , "CSFRR" , "FKE" , "ZGNCE" , "CSFRS" , "ZHNCE" , "ZBNCE" , "NL6" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardSelective" .
+
+:Jack
+      a       owl:Class ;
+      term:lemma "jack" ;
+      term:pos "n" ;
+      term:synonym "jack" ;
+      term:usoc "RJ4X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Jack" .
+
+:SpeedCalling30
+      a       owl:Class ;
+      term:lemma "speedcalling30" ;
+      term:pos "n" ;
+      term:synonym "speed calling 30" , "speed call 30" ;
+      term:usoc "EJ36O" , "M3Y3O" , "EJH" , "EJ38O" , "EJ37O" , "ESFP1" , "M3Y4O" , "EJ33O" , "ESFPA" , "EJ3" , "M3Y8O" , "M3Y7O" , "M3Y5O" , "M3Y6O" , "ECF" , "EJ6" , "M3YAA" , "ESF" , "DTSP3" , "EJ3OS" , "E3D" , "EJ35O" , "EJ34O" , "M3LL8" , "ESHC3" , "DG3" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#SpeedCalling30" .
+
+:DialCallWait
+      a       owl:Class ;
+      term:lemma "dialcallwait" ;
+      term:pos "n" ;
+      term:synonym "dial call wait" ;
+      term:usoc "E6CBR" , "M5CWC" , "CENLT" , "E6C" , "E6CAR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DialCallWait" .
+
+:PhoneSolution
+      a       owl:Class ;
+      term:lemma "phonesolution" ;
+      term:pos "n" ;
+      term:synonym "phone solution" ;
+      term:usoc "NLR74" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PhoneSolution" .
+
+:Bundle
+      a       owl:Class ;
+      term:lemma "bundle" ;
+      term:pos "n" ;
+      term:synonym "bundle" ;
+      term:usoc "ESY4Y" , "EBY2V" , "EBY49" , "M1M12" , "EBY3M" , "CCX5F" , "ER6" , "M1M16" , "M1MD7" , "M1ME3" , "ESG" , "M1MEE" , "M1MA3" , "M5A" , "ES6" , "EBY2W" , "ESY53" , "EBY33" , "CCXEW" , "M1M52" , "ESY4X" , "M2EE5" , "M1M13" , "CCX5E" , "ER5" , "ESY55" , "M1MD8" , "M1ME4" , "M1MA4" , "EBY34" , "EBY2S" , "ES5" , "EBY4A" , "M1M53" , "ESY54" , "EBY2X" , "M1M5E" , "M1M14" , "EBY35" , "EBY2T" , "M1MET" , "ESA" , "CCXD1" , "M1ME5" , "CCX1A" , "M1MA1" , "EBY2Y" , "M1MD6" , "M1MD2" , "M1M54" , "M1M11" , "ET8" , "ER3" , "EBY2U" , "EBY36" , "M1M5T" , "M1M15" , "M1ME2" , "CCXED" , "CCXDM" , "ESB" , "ESY3N" , "M1ME6" , "EBY3P" , "ETC" , "ES7" , "M1MD5" , "M1MA2" , "M1M55" , "ESY66" , "M1ME9" , "ES3" , "M1M59" , "EBY32" , "ESY4Z" , "ESR" , "M1M1T" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Bundle" .
+
+:StandaloneFastAccess
+      a       owl:Class ;
+      term:lemma "standalonefastaccess" ;
+      term:pos "n" ;
+      term:synonym "standalone fast access" ;
+      term:usoc "SAFAL" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#StandaloneFastAccess" .
+
+:CallAgain
+      a       owl:Class ;
+      term:lemma "callagain" ;
+      term:pos "n" ;
+      term:synonym "call again" ;
+      term:usoc "NV9" , "NL9" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallAgain" .
+
+:IntlDialingBlock
+      a       owl:Class ;
+      term:lemma "intldialingblock" ;
+      term:pos "n" ;
+      term:synonym "intl dialing block" ;
+      term:usoc "CREXV" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#IntlDialingBlock" .
+
+:AreaCallingPlan
+      a       owl:Class ;
+      term:lemma "areacallingplan" ;
+      term:pos "n" ;
+      term:synonym "area calling plan" ;
+      term:usoc "ERW15" , "CCW15" , "OC910" , "ARW15" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AreaCallingPlan" .
+
+:CompleteChoiceWOrHtg
+      a       owl:Class ;
+      term:lemma "completechoiceworhtg" ;
+      term:pos "n" ;
+      term:synonym "complete choice w or htg" ;
+      term:usoc "HTGLO" , "HTGLE" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoiceWOrHtg" .
+
+:CallForwardPreferred
+      a       owl:Class ;
+      term:lemma "callforwardpreferred" ;
+      term:pos "n" ;
+      term:synonym "call forward preferred" ;
+      term:usoc "M5HCP" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardPreferred" .
+
+:CallBlocker
+      a       owl:Class ;
+      term:lemma "callblocker" ;
+      term:pos "n" ;
+      term:synonym "call blocker" ;
+      term:usoc "V3DFE" , "NL52R" , "NL5" , "ZBNSY" , "NX5" , "ZZNSY" , "NX5PS" , "ZQNSY" , "NL5PS" , "NSY" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallBlocker" .
+
+:PrimaryRateIsdn
+      a       owl:Class ;
+      term:lemma "primaryrateisdn" ;
+      term:pos "n" ;
+      term:synonym "primary rate isdn" ;
+      term:usoc "PR7BV" , "PR7EU" , "PR72X" , "1LD1F" , "PR7AN" , "NRCPD" , "PR7TL" , "PR7GY" , "NRCPT" , "PR7EC" , "PR7TO" , "PR7BF" , "PR7N2" , "PR71E" , "PR7BN" , "PR7PP" , "1LD1E" , "PR7NC" , "PR7CN" , "NRCPC" , "PR7RX" , "1LN1B" , "PR7TG" , "PR7BJ" , "PR7T1" , "PR71U" , "PR7GX" , "PR7N3" , "PR71D" , "PR7EX" , "PR7DX" , "PR7BE" , "PR7CO" , "PR7AX" , "PR79X" , "1LN1A" , "PR7WX" , "PR7BX" , "PR71V" , "PR7RM" , "PR7CX" , "PR7ZX" , "PR7TF" , "PR7TM" , "PR7BD" , "PR7AT" , "PR71C" , "PR7VX" , "PR7OF" , "PR7C1" , "NRCPM" , "PR7ZT" , "NRCPE" , "PR7BU" , "PR73X" , "PR74X" , "LTQ8M" , "PR7NA" , "PR7ER" , "PR7BL" , "PR7TE" , "PR7L2" , "PR7CC" , "PR7AU" , "PR7SN" , "PR7N1" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PrimaryRateIsdn" .
+
+:MemorycallService
+      a       owl:Class ;
+      term:lemma "memorycallservice" ;
+      term:pos "n" ;
+      term:synonym "memorycall service" ;
+      term:usoc "VMD1F" , "MSX" , "VMS3A" , "MBBER" , "VMB5D" , "VMN2E" , "FAMCN" , "VMN5F" , "BVBDO" , "VMD6G" , "SMA" , "VMD2F" , "VMG5F" , "VMS4A" , "V18XX" , "VMG5E" , "VMB1A" , "DVMGB" , "VMD2E" , "VMS2A" , "VMG1C" , "VMS1A" , "FMXC2" , "VMD1G" , "VMS3B" , "VMNEH" , "V17XX" , "EMSTM" , "FEACN" , "VMB5C" , "SMDAS" , "WVMR1" , "MBBR3" , "V23XX" , "BVMDS" , "VMN5G" , "VMS4B" , "VMD2G" , "EMSBX" , "VMB1B" , "VMG5D" , "MBB" , "VMS2B" , "VMG1D" , "VMZRA" , "DCT" , "MSXC2" , "MBBRD" , "EMSRF" , "VMS1B" , "MRMXX" , "VMN1A" , "VMN2G" , "VMD6E" , "EMSBD" , "NFOAS" , "VMZSX" , "MPMRP" , "VMB5B" , "NFOCS" , "VMZ1X" , "VMB1F" , "VMD4H" , "VMB1C" , "V13XX" , "VMN1F" , "VMG5C" , "EMSRE" , "MBBFO" , "MBBAO" , "VMD1C" , "VMD5B" , "V24XX" , "VMG1E" , "SMBBX" , "VMN2F" , "VMAXX" , "BLR" , "VMD1E" , "SMB" , "VMD6F" , "VMB5A" , "BVMFM" , "VMN1G" , "BVMTR" , "VMSBM" , "VMB1D" , "VMB1E" , "BLRCN" , "VMG5B" , "EMSRP" , "TRMBX" , "VMN5A" , "MMXC2" , "VMD1D" , "VMG1F" , "SMBBS" , "EMSRX" , "VMD5A" , "MBSP2" , "VMN6F" , "WVMB1" , "VMG2F" , "EMSR2" , "EMSBT" , "EMSBF" , "MPMR3" , "EMSRQ" , "VMN5B" , "VMB2E" , "FMXCN" , "BVBMP" , "VMD5D" , "MBBFA" , "VMD1A" , "VMCXX" , "VMDDB" , "EMSP2" , "BLMCN" , "VMN1D" , "VMG5A" , "EMSBL" , "VMG2E" , "VMN6G" , "SMV" , "VMG1G" , "MBBNR" , "EMSR3" , "FMX" , "MPMR2" , "EMSBE" , "VMY" , "VMB2F" , "VMG6E" , "DCTCN" , "VMN5C" , "VMD5C" , "MMX" , "VMD1B" , "WVMBB" , "VMB5G" , "EMSP3" , "VMN1E" , "VMEXX" , "MBBRX" , "BLRC2" , "MBBR2" , "VMN5D" , "SMBGE" , "VMG6F" , "BLM" , "BVBFM" , "VMN1B" , "VMD5F" , "DVMLG" , "VMG6G" , "VMB5F" , "MMXCN" , "BVMVP" , "VMB6F" , "MBBBE" , "MBBSX" , "BLMC2" , "EMSBQ" , "MSXCN" , "VMN6E" , "MBSP1" , "VMN5E" , "VMG1A" , "BVBSM" , "V14XX" , "VMZ1C" , "MBBRP" , "VMD5E" , "VMD5G" , "VMG5G" , "EMSRL" , "VMG1B" , "VMSAX" , "MBBSB" , "VMB5E" , "MBBMX" , "VMN1C" , "VMB6E" , "MBBPX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MemorycallService" .
+
+:CompleteChoiceAreaPlus
+      a       owl:Class ;
+      term:lemma "completechoiceareaplus" ;
+      term:pos "n" ;
+      term:synonym "complete choice area plus" ;
+      term:usoc "APUCL" , "AR6" , "ATLCL" , "LOCEP" , "APWCL" , "AR6CL" , "AT3CL" , "AQ3CL" , "LOCDP" , "LOCCP" , "AQCCL" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoiceAreaPlus" .
+
+:Pphone
+      a       owl:Class ;
+      term:lemma "pphone" ;
+      term:pos "n" ;
+      term:synonym "pphone" ;
+      term:usoc "R63GX" , "M1LR3" , "M1LF7" , "R63JX" , "R63LX" , "M4LFG" , "M4LR3" , "M4LF5" , "RNYNX" , "RNYAX" , "R63KX" , "M1LFG" , "R63OX" , "RNYJX" , "M4LRC" , "M1LF6" , "R63PX" , "R63MX" , "M4LF4" , "R63NX" , "M1LRC" , "RNYLX" , "WTTTX" , "RNYDX" , "M4LRD" , "R63BX" , "M4LCO" , "R63CX" , "M1LR5" , "R63AX" , "M4LF3" , "M4LR5" , "M1LRD" , "RNYBX" , "M1LRF" , "M4LRE" , "R63EX" , "M4LCP" , "R63DX" , "M1LR4" , "RNYHX" , "R63FX" , "RNYFX" , "M4LR4" , "M1LRE" , "M1LRG" , "M4LRF" , "M4LSV" , "M4LRV" , "M4LS7" , "M4LCQ" , "M4LFT" , "M1LCO" , "M4C1A" , "M4LR7" , "M4LSF" , "RNYOX" , "M4LFC" , "R63AB" , "M1FLO" , "M4LSU" , "M4LRG" , "RNYKX" , "ZZ9WJ" , "M4LCR" , "M4LFS" , "R63EB" , "M4LC3" , "M1LCP" , "M4LRU" , "M4LS6" , "M4LR6" , "M4LSG" , "M4LFD" , "M1LSO" , "M4LCS" , "M4LS5" , "M4LRT" , "M4LFV" , "M4LCD" , "M4LFE" , "M4LSD" , "RNYCX" , "M4LF7" , "M1LSP" , "M4LCT" , "MAQ1X" , "R63QX" , "M4LRS" , "M4LS4" , "M4LFU" , "RNYGX" , "M4LCC" , "M4LF6" , "M4LSE" , "M4LFF" , "R63HB" , "R63JA" , "M4LSC" , "M1LSC" , "M4CPA" , "M4LCU" , "R63BB" , "M4LCE" , "M4LFP" , "M1LC4" , "M1LRQ" , "R63DB" , "M4LSS" , "M1LCS" , "R63KA" , "R63FB" , "M1LCF" , "MAQ2X" , "M4LC5" , "M1LSQ" , "M1LFR" , "M4LCF" , "M4LCV" , "M1LC5" , "M4LFO" , "M4LST" , "M1LRR" , "M1LS3" , "M1LCT" , "M1LCE" , "M1LFQ" , "M4LC4" , "M1LSR" , "M4LCG" , "M1LC6" , "M4LSQ" , "M1LCQ" , "M4FEN" , "M4LFR" , "M1LRO" , "M4LC7" , "M1LFP" , "M1LSS" , "R63AA" , "R63JB" , "M4LFQ" , "R63HA" , "R63GA" , "M1LC7" , "R63BA" , "R63EA" , "R63DA" , "M4LSR" , "M1LCR" , "M1LST" , "M1LRP" , "R63CA" , "M4LC6" , "M1LFO" , "M1LCG" , "R63FA" , "M1LSG" , "R63GB" , "M4LRO" , "M1LFC" , "M1LFV" , "M1LS6" , "M1LRU" , "M1LR6" , "R63CB" , "M1LSU" , "M1LF3" , "M4LSO" , "M1LSF" , "RNYMX" , "M1LFD" , "M4LRP" , "M1LFU" , "M1LR7" , "M1LS7" , "M1LRV" , "M1LSV" , "M4LSP" , "M1LSE" , "RNYEX" , "M4LRQ" , "M1LFE" , "ZZ7UJ" , "M1LRS" , "M1LS4" , "M1LFT" , "M1LCD" , "M1LCU" , "M1LF5" , "M4CAA" , "ZZ6U2" , "M1LSD" , "M4LS3" , "M4LRR" , "M1LC3" , "M1LFF" , "M1LS5" , "M1LRT" , "M1LCV" , "M1LFS" , "R63KB" , "M1LCC" , "M1LF4" , "R63HX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Pphone" .
+
+:CallForwardLocalRemoteUnmeasuredUnlimited
+      a       owl:Class ;
+      term:lemma "callforwardlocalremoteunmeasuredunlimited" ;
+      term:pos "n" ;
+      term:synonym "call forward local remote unmeasured unlimited" ;
+      term:usoc "FRTOE" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardLocalRemoteUnmeasuredUnlimited" .
+
+:CallForwardValidation
+      a       owl:Class ;
+      term:lemma "callforwardvalidation" ;
+      term:pos "n" ;
+      term:synonym "call forward validation" ;
+      term:usoc "MB2CV" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardValidation" .
+
+:CancelCallWaiting
+      a       owl:Class ;
+      term:lemma "cancelcallwaiting" ;
+      term:pos "n" ;
+      term:synonym "cancel call waiting" ;
+      term:usoc "ESXCD" , "MVPCW" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CancelCallWaiting" .
+
+:Adsl
+      a       owl:Class ;
+      term:lemma "adsl" ;
+      term:pos "n" ;
+      term:synonym "adsl" ;
+      term:usoc "ADF22" , "ADLD2" , "ADFR5" , "ADF63" , "ADF17" , "ADFR1" , "ADF7W" , "ADLLM" , "ADFAC" , "ADLDY" , "ADF13" , "ADFR9" , "ADF6W" , "ADL91" , "ADL31" , "ADF1A" , "ADLMT" , "ADLB1" , "ADF2A" , "ADF64" , "ADFRO" , "ADFQ1" , "ADF83" , "ADFRX" , "ADL11" , "ADLD1" , "ADFR6" , "ADFRQ" , "ADLD5" , "ADLVC" , "ADFR2" , "ADL21" , "ADF16" , "ADLPF" , "ADFAB" , "ADFA4" , "ADF41" , "ADF12" , "ADLB2" , "ADFSX" , "ADF65" , "ADL01" , "ADF84" , "ADF51" , "ADFAA" , "ADF2W" , "ADF71" , "ADL12" , "ADFR3" , "ADF81" , "ADFA9" , "ADLD4" , "ADLPL" , "ADL22" , "ADF61" , "ADF91" , "ADFA5" , "ADLB3" , "ADFA1" , "ADF31" , "ADF15" , "ADF3W" , "ADLAA" , "ADFR7" , "ADF11" , "ADF66" , "ADF4W" , "ADLD7" , "ADF82" , "ADFR4" , "ADL51" , "ADF3A" , "ADF21" , "ADLD3" , "ADF62" , "ADFAD" , "ADL96" , "ADL41" , "ADL61" , "ADFO1" , "ADFR8" , "ADF96" , "ADF14" , "ADL71" , "ADF67" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Adsl" .
+
+:DirectCallPickupNoBargeIn
+      a       owl:Class ;
+      term:lemma "directcallpickupnobargein" ;
+      term:pos "n" ;
+      term:synonym "direct call pickup no barge in" ;
+      term:usoc "E6D" , "MLVNA" , "E69" , "CENC7" , "M2VNA" , "M2VC6" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DirectCallPickupNoBargeIn" .
+
+:SimultaneousRing
+      a       owl:Class ;
+      term:lemma "simultaneousring" ;
+      term:pos "n" ;
+      term:synonym "simultaneous ring" ;
+      term:usoc "CENOS" , "CENOR" , "CENOT" , "CENOQ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#SimultaneousRing" .
+
+:PersonalizedRing
+      a       owl:Class ;
+      term:lemma "personalizedring" ;
+      term:pos "n" ;
+      term:synonym "multi ring" , "personalized ring" ;
+      term:usoc "DRS" , "SW8DH" , "SW8DG" , "DRS1X" , "DRS2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PersonalizedRing" .
+
+:MultiRing
+      a       owl:Class ;
+      term:lemma "multiring" ;
+      term:pos "n" ;
+      term:synonym "multi ring" ;
+      term:usoc "DRS1X" , "DRS2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MultiRing" .
+
+:VmsPagerNotification
+      a       owl:Class ;
+      term:lemma "vmspagernotification" ;
+      term:pos "n" ;
+      term:synonym "vms pager notification" ;
+      term:usoc "VGFAS" , "VGFAR" , "VMSCB" , "BVMPN" , "VEFBC" , "VMSMG" , "P9G" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VmsPagerNotification" .
+
+:RepeatDial
+      a       owl:Class ;
+      term:lemma "repeatdial" ;
+      term:pos "n" ;
+      term:synonym "repeat dial" , "repeat dialing" ;
+      term:usoc "NX9" , "NSQ" , "CRPBS" , "DLGRP" , "CRP" , "M5JRC" , "HBS" , "MIM52" , "NSG" , "CCPWS" , "NSS" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#RepeatDial" .
+
+:CompleteChoice
+      a       owl:Class ;
+      term:lemma "completechoice" ;
+      term:pos "n" ;
+      term:synonym "complete choice" ;
+      term:usoc "1F3CL" , "ACO" , "VROCL" , "VR3CL" , "VRO" , "1F4CL" , "ACOCL" , "VR3" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoice" .
+
+:CallPark
+      a       owl:Class ;
+      term:lemma "callpark" ;
+      term:pos "n" ;
+      term:synonym "call park" ;
+      term:usoc "CP9R" , "CP9" , "M4SPX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallPark" .
+
+:PrivacyDirector
+      a       owl:Class ;
+      term:lemma "privacydirector" ;
+      term:pos "n" ;
+      term:synonym "privacy director" ;
+      term:usoc "PMX1R" , "PRDI2" , "PMXLO" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PrivacyDirector" .
+
+:CallForwardBsy
+      a       owl:Class ;
+      term:lemma "callforwardbsy" ;
+      term:pos "n" ;
+      term:synonym "busy line transfer" , "call forward busy" , "call forward busy line" , "call forward bsy" , "cl fwdg busy line" ;
+      term:usoc "ZCFBL" , "NQY" , "E6GFR" , "SWZC3" , "EV7" , "DBW" , "E6GER" , "69J" , "CLBEU" , "E6GCR" , "E6GAR" , "FBJ" , "BULSX" , "EVF" , "E6GDR" , "ZCFBU" , "ABCAB" , "EEPCR" , "BULQX" , "NZE" , "CENB7" , "ABCAR" , "GCEBX" , "SWZC9" , "CENLJ" , "M4JSX" , "GCE" , "M4JFC" , "NQYPS" , "CFLBL" , "EF2" , "FBQ" , "CENDC" , "FSBDF" , "EEPFR" , "EEPGR" , "BULPX" , "FWW" , "EEPER" , "SWZCB" , "EEPHR" , "CENDB" , "E6GUR" , "ZCLFC" , "GCERX" , "EVBRS" , "EVBPA" , "EEPJR" , "ABCA6" , "CFBYD" , "EVC" , "M6EBX" , "ZCF1B" , "CENF7" , "EV7PK" , "FSB" , "CENDA" , "ZCFAB" , "MVCAA" , "CENDF" , "SWZCD" , "EVB" , "CFLFB" , "BULRX" , "E6GCN" , "E6G" , "E6GFN" , "E6GEN" , "EEPCN" , "E6GDN" , "EVBCD" , "E6GDF" , "CENDO" , "FSJ" , "M4JPF" , "E6GSY" , "EVBRB" , "E6GNC" , "ZCFBA" , "EEPFN" , "FB6" , "SWZC5" , "EEPGN" , "SWZJZ" , "EBY21" , "EEPJN" , "F4S" , "EVO" , "FBH" , "SWZCF" , "EEPHN" , "CENDP" , "NQ5" , "FWT" , "E6GAN" , "E6GBN" , "E6GBR" , "E7GBY" , "EBY2Z" , "EF2PK" , "ZCFVA" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardBsy" .
+
+<http://www.cyberobject.com/2012/12/cyberobject/ntelagent#1010BlockedInSwitch>
+      a       owl:Class ;
+      term:lemma "1010blockedinswitch" ;
+      term:pos "n" ;
+      term:synonym "1010 blocked in switch" ;
+      term:usoc "PROXN" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#1010BlockedInSwitch" .
+
+:CallForwardRacf
+      a       owl:Class ;
+      term:lemma "callforwardracf" ;
+      term:pos "n" ;
+      term:synonym "remote access cl forwarding" , "call forward racf" , "remote access to call forwarding" ;
+      term:usoc "RHA" , "RAFRS" , "RAF" , "SWZC4" , "RC3" , "SOZCU" , "ANX" , "ZQRC3" , "SW8RA" , "RAFBS" , "RDEXS" , "HRMPS" , "HRM" , "RAFCA" , "SW8V8" , "AS35Q" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardRacf" .
+
+:Worksplus
+      a       owl:Class ;
+      term:lemma "worksplus" ;
+      term:pos "n" ;
+      term:synonym "worksplus" ;
+      term:usoc "NLR7J" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Worksplus" .
+
+:CallRetrieve
+      a       owl:Class ;
+      term:lemma "callretrieve" ;
+      term:pos "n" ;
+      term:synonym "call retrieve" ;
+      term:usoc "M4TAY" , "M4SPK" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallRetrieve" .
+
+:CallForwardDaBsy
+      a       owl:Class ;
+      term:lemma "callforwarddabsy" ;
+      term:pos "n" ;
+      term:synonym "call forward busy dont answer bill to enhanced svc provider" , "call forward da bsy" ;
+      term:usoc "1CRCH" , "1CRCG" , "1CRCF" , "C5GPA" , "CLAEU" , "NBVCP" , "1CRCW" , "E5GPR" , "SWZZ2" , "C5GPR" , "EV6" , "E5E" , "CFDAD" , "E5GPA" , "RCRFJ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardDaBsy" .
+
+<http://www.cyberobject.com/2012/12/cyberobject/ntelagent#900CallBlock>
+      a       owl:Class ;
+      term:lemma "900callblock" ;
+      term:pos "n" ;
+      term:synonym "900 call block" ;
+      term:usoc "SRGM4" , "CREXD" , "SRGM3" , "CREXC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#900CallBlock" .
+
+:DistinctiveRing
+      a       owl:Class ;
+      term:lemma "distinctivering" ;
+      term:pos "n" ;
+      term:synonym "distinctive ring" , "dist ring" ;
+      term:usoc "RNGBR" , "RNGDR" , "ODT" , "RNGAR" , "M2WR5" , "RNGER" , "CENLW" , "BRT" , "CENLV" , "AWXDR" , "M2WC8" , "CCN" , "RNJ" , "RNGCR" , "M2WBD" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DistinctiveRing" .
+
+:CustomerControl
+      a       owl:Class ;
+      term:lemma "customercontrol" ;
+      term:pos "n" ;
+      term:synonym "customer control" ;
+      term:usoc "SFY" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CustomerControl" .
+
+:DirectedCallPark
+      a       owl:Class ;
+      term:lemma "directedcallpark" ;
+      term:pos "n" ;
+      term:synonym "directed call park" ;
+      term:usoc "M5EDX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DirectedCallPark" .
+
+:DirectCallPickUp
+      a       owl:Class ;
+      term:lemma "directcallpickup" ;
+      term:pos "n" ;
+      term:synonym "direct call pick up" ;
+      term:usoc "DDP" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DirectCallPickUp" .
+
+:AnonymousCallRejection
+      a       owl:Class ;
+      term:lemma "anonymouscallrejection" ;
+      term:pos "n" ;
+      term:synonym "anonymous call reject" , "anonymous call rejection" ;
+      term:usoc "HAGPS" , "RCRCV" , "M2HRL" , "ZQAYK" , "RCRYK" , "AYK" , "CREEP" , "HBY" , "ZBAYK" , "RCRCG" , "HAG" , "SOWEV" , "RCRCA" , "NXMER" , "CRE" , "SWZU9" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AnonymousCallRejection" .
+
+:CallReturnBlocking
+      a       owl:Class ;
+      term:lemma "callreturnblocking" ;
+      term:pos "n" ;
+      term:synonym "call return blocking" ;
+      term:usoc "BCR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallReturnBlocking" .
+
+:VoiceMail
+      a       owl:Class ;
+      term:lemma "voicemail" ;
+      term:pos "n" ;
+      term:synonym "voice mail" ;
+      term:usoc "RVMPN" , "VSFBE" , "RVMRC" , "BVMS100" , "US1F3" , "VQWAX" , "BVMRV" , "VMS7O" , "BVMPG" , "VSFBM" , "S1BPA" , "S5B1B" , "BVMS200" , "BVM1D" , "VFZ3G" , "VSFB5" , "VF3ZG" , "US10X" , "S1BPS" , "US1BF" , "AM7V1" , "S1BSE" , "S5ESE" , "S5BP1" , "US1L1" , "VSFBF" , "US1DX" , "S1B1B" , "S5EFS" , "S1BPB" , "VJBD2" , "US1MX" , "S1EF1" , "VSFB4" , "US1D5" , "S5EFA" , "S1BP1" , "S5E3S" , "AM7V2" , "US1F5" , "US1LX" , "S5ESD" , "RXRVA" , "S5EF1" , "US1F1" , "MBXPN" , "VSFBC" , "S5BPS" , "VMPBX" , "US1BA" , "US1E1" , "US1D1" , "VSFB3" , "S1ESE" , "US1HX" , "BVMRP" , "RVMDM" , "MBXUG" , "US1FX" , "S5BPA" , "BFCMC" , "RVMOC" , "VSFBD" , "S5E31" , "US1L3" , "S5BAS" , "US1D3" , "VSFB2" , "S5BSE" , "US1E3" , "VJBDX" , "S5E11" , "US1PF" , "RVMPB" , "US1XA" , "EVMRV" , "S5BPB" , "MBXF1" , "BVMFL" , "RVMTG" , "VEFBA" , "S1BFA" , "TFM" , "VSFBB" , "US1EX" , "BVMNR" , "V4M" , "S1BF1" , "US1BB" , "US1L5" , "RVMCC" , "RMBS1" , "MBX1D" , "US1E5" , "S5BF1" , "VJBD6" , "BVMF1" , "VSFBA" , "MW1S1" , "VSFB8" , "US1XZ" , "US1CX" , "MBXFA" , "VBS" , "S1BP3" , "VJBD1" , "S5E1S" , "VSFX+" , "V4R" , "S1E11" , "RVMEX" , "BVMFA" , "S1E31" , "S1B3B" , "BVMSF" , "S1BAS" , "US1XM" , "S1EFA" , "RVMCA" , "VSFB1" , "RXRVM" , "VQWCX" , "US1XT" , "RVMBP" , "US1PB" , "RVMVM" , "RVMDP" , "VSFB6" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VoiceMail" .
+
+:Mworks
+      a       owl:Class ;
+      term:lemma "mworks" ;
+      term:pos "n" ;
+      term:synonym "mworks" ;
+      term:usoc "NLR73" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Mworks" .
+
+:TalkingCallWait
+      a       owl:Class ;
+      term:lemma "talkingcallwait" ;
+      term:pos "n" ;
+      term:synonym "talking call wait" , "talking call waiting" ;
+      term:usoc "CWT" , "TW12X" , "TW1" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TalkingCallWait" .
+
+:CallForwardingPreferred
+      a       owl:Class ;
+      term:lemma "callforwardingpreferred" ;
+      term:pos "n" ;
+      term:synonym "call forwarding preferred" ;
+      term:usoc "NCE" , "NX6" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardingPreferred" .
+
+:CommunityMessaging
+      a       owl:Class ;
+      term:lemma "communitymessaging" ;
+      term:pos "n" ;
+      term:synonym "community messaging" ;
+      term:usoc "CMSUB" , "CMSFR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CommunityMessaging" .
+
+:BusinessFaxService
+      a       owl:Class ;
+      term:lemma "businessfaxservice" ;
+      term:pos "n" ;
+      term:synonym "business fax service" ;
+      term:usoc "FAX1V" , "FAXSV" , "FAXSM" , "FAXSO" , "FAX1M" , "FAXBO" , "BFAX1" , "FAX11" , "BFAXO" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#BusinessFaxService" .
+
+:Lifeline
+      a       owl:Class ;
+      term:lemma "lifeline" ;
+      term:pos "n" ;
+      term:synonym "lifeline" ;
+      term:usoc "CRA" , "ASGFS" , "ASGFL" , "ASGF7" , "ASGF6" , "ASGF5" , "ASGF3" , "ASGSC" , "ASGTC" , "CRAFD" , "ASGF2" , "ASGFA" , "ASGSA" , "ASGS1" , "CRAS1" , "CRASC" , "ASGFC" , "CRASD" , "ASGF9" , "ASGFP" , "ASGF8" , "ASGSS" , "ASGCC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Lifeline" .
+
+:CallNotes
+      a       owl:Class ;
+      term:lemma "callnotes" ;
+      term:pos "n" ;
+      term:synonym "call notes" ;
+      term:usoc "VSFXX" , "VMXVM" , "VMSVM" , "VMX75" , "VMXAM" , "VMS70" , "VMS49" , "VMSTM" , "VMXBD" , "VMS1A" , "VMS47" , "VMS45" , "VMS97" , "VMXMB" , "VMX70" , "VMS95" , "VMS99" , "VMS7P" , "VMXBC" , "VMS15" , "VMS75" , "VMS42" , "VMSBD" , "VMX7P" , "VMS25" , "VMS44" , "VMS40" , "VMS1B" , "VMXSD" , "VMSVX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallNotes" .
+
+:ThreeWayCallingPerUse
+      a       owl:Class ;
+      term:lemma "threewaycallingperuse" ;
+      term:pos "n" ;
+      term:synonym "three way calling per use" ;
+      term:usoc "U3WC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ThreeWayCallingPerUse" .
+
+:CallForwardRingReminder
+      a       owl:Class ;
+      term:lemma "callforwardringreminder" ;
+      term:pos "n" ;
+      term:synonym "call forward ring reminder" ;
+      term:usoc "EATZZ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardRingReminder" .
+
+:OperAssistCallsOrLdBlock
+      a       owl:Class ;
+      term:lemma "operassistcallsorldblock" ;
+      term:pos "n" ;
+      term:synonym "oper assist calls or ld block" ;
+      term:usoc "SME" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#OperAssistCallsOrLdBlock" .
+
+:StarCodeAccess
+      a       owl:Class ;
+      term:lemma "starcodeaccess" ;
+      term:pos "n" ;
+      term:synonym "star code access" ;
+      term:usoc "S98AF" , "S981A" , "SQAVS" , "SQAVX" , "S98VM" , "SQAV1" , "SQAV5" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#StarCodeAccess" .
+
+:DistinctiveRingCombo
+      a       owl:Class ;
+      term:lemma "distinctiveringcombo" ;
+      term:pos "n" ;
+      term:synonym "distinctive ring combo" ;
+      term:usoc "CCN" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DistinctiveRingCombo" .
+
+:AutoRedial
+      a       owl:Class ;
+      term:lemma "autoredial" ;
+      term:pos "n" ;
+      term:synonym "auto redial" ;
+      term:usoc "NX9" , "NSQ" , "NL92R" , "ZBNSQ" , "V3DFB" , "ZQNSQ" , "NV8" , "ZGNSP" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AutoRedial" .
+
+:CallBlocking
+      a       owl:Class ;
+      term:lemma "callblocking" ;
+      term:pos "n" ;
+      term:synonym "call screen" , "call blocking" ;
+      term:usoc "THBTT" , "CCB" , "CCBRR" , "TAAHD" , "M4HCC" , "SRG" , "NX5" , "M1MAE" , "CCBWS" , "CCBBS" , "CCBBR" , "THBHD" , "TAA" , "NL5" , "CALBL" , "NSY" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallBlocking" .
+
+:CallingNumDeliveryBlock
+      a       owl:Class ;
+      term:lemma "callingnumdeliveryblock" ;
+      term:pos "n" ;
+      term:synonym "calling num delivery block" ;
+      term:usoc "NOBPC" , "NOBCC" , "NOBNP" , "NOBNN" , "M2NKA" , "NOB" , "NBANR" , "NOBPP" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallingNumDeliveryBlock" .
+
+:CallWaitingId
+      a       owl:Class ;
+      term:lemma "callwaitingid" ;
+      term:pos "n" ;
+      term:synonym "call waiting id" , "caller id on call waiting" ;
+      term:usoc "NWL" , "MSQ7C" , "NXDNW" , "NWT" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallWaitingId" .
+
+:CallSelector
+      a       owl:Class ;
+      term:lemma "callselector" ;
+      term:pos "n" ;
+      term:synonym "call selector" ;
+      term:usoc "NSK" , "M4WSC" , "M1MD3" , "NX2" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallSelector" .
+
+:InwardService
+      a       owl:Class ;
+      term:lemma "inwardservice" ;
+      term:pos "n" ;
+      term:synonym "inward service" ;
+      term:usoc "NQP1K" , "NQP1U" , "FT8" , "FTU1X" , "7MB" , "BM1" , "7MBCL" , "NNH1T" , "NQP" , "TXL" , "7FBCL" , "NNW1X" , "NNH1X" , "BMU" , "NQJ" , "SM31X" , "NNW1E" , "7FB" , "NNH1E" , "NNW1T" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#InwardService" .
+
+:CallHold
+      a       owl:Class ;
+      term:lemma "callhold" ;
+      term:pos "n" ;
+      term:synonym "call hold" ;
+      term:usoc "EABAR" , "EAB" , "M4RXC" , "EABBR" , "CENLG" , "EABBN" , "6AB" , "EABNR" , "EABAN" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallHold" .
+
+:CallerIdNumberPerUse
+      a       owl:Class ;
+      term:lemma "calleridnumberperuse" ;
+      term:pos "n" ;
+      term:synonym "caller id number per use" ;
+      term:usoc "NSDUS" , "NXEWX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdNumberPerUse" .
+
+:CallReturnPerUse
+      a       owl:Class ;
+      term:lemma "callreturnperuse" ;
+      term:pos "n" ;
+      term:synonym "call return per use" ;
+      term:usoc "UAR2" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallReturnPerUse" .
+
+:WireMaintenancePlan
+      a       owl:Class ;
+      term:lemma "wiremaintenanceplan" ;
+      term:pos "n" ;
+      term:synonym "wire maintenance plan" ;
+      term:usoc "UMW" , "SEQ1X" , "WMRT1" , "WMR" , "WMRHT" , "SEQ2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#WireMaintenancePlan" .
+
+:RepeatDialingD10
+      a       owl:Class ;
+      term:lemma "repeatdialingd10" ;
+      term:pos "n" ;
+      term:synonym "repeat dialing d10" ;
+      term:usoc "UACB" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#RepeatDialingD10" .
+
+:AlternateId
+      a       owl:Class ;
+      term:lemma "alternateid" ;
+      term:pos "n" ;
+      term:synonym "alternate id" ;
+      term:usoc "US1XA" , "US1XZ" , "US1XN" , "US1XP" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#AlternateId" .
+
+:MessageWaitingIndicator
+      a       owl:Class ;
+      term:lemma "messagewaitingindicator" ;
+      term:pos "n" ;
+      term:synonym "message waiting indicator" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MessageWaitingIndicator" .
+
+:SpeedCalling8
+      a       owl:Class ;
+      term:lemma "speedcalling8" ;
+      term:pos "n" ;
+      term:synonym "speed call 8" , "speed calling" , "speed calling 8" ;
+      term:usoc "ZZESL" , "64E" , "ESTC6" , "EST1L" , "ESL" , "EGZNR" , "MVPCD" , "ESTAL" , "EST" , "M5KSC" , "ESTPA" , "EGZ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#SpeedCalling8" .
+
+:CallerIdWn
+      a       owl:Class ;
+      term:lemma "calleridwn" ;
+      term:pos "n" ;
+      term:synonym "callerid or name" , "caller id wn" , "calling name delivery" , "caller id" , "calling name display" , "caller id with name" ;
+      term:usoc "NMP" , "CAL1D" , "NN2" , "NSDNW" , "N8D" , "NLMPS" , "NSDNX" , "NXM" , "SOWBZ" , "SOWB5" , "CNAM" , "CNM" , "NLM" , "SWZL3" , "SWZL4" , "SWZV1" , "NXDNX" , "SWZV2" , "NXMPS" , "CALNM" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdWn" .
+
+:CallWaitDeluxe
+      a       owl:Class ;
+      term:lemma "callwaitdeluxe" ;
+      term:pos "n" ;
+      term:synonym "call wait deluxe" ;
+      term:usoc "ESXDL" , "ESXDC" , "ESXD9" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallWaitDeluxe" .
+
+:CallForwardPhnSolution
+      a       owl:Class ;
+      term:lemma "callforwardphnsolution" ;
+      term:pos "n" ;
+      term:synonym "call forwarding" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardPhnSolution" .
+
+:StarRing
+      a       owl:Class ;
+      term:lemma "starring" ;
+      term:pos "n" ;
+      term:synonym "star ring" ;
+      term:usoc "DRS1X" , "DRS2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#StarRing" .
+
+:Block
+      a       owl:Class ;
+      term:lemma "block" ;
+      term:pos "n" ;
+      term:synonym "block" ;
+      term:usoc "CREXB" , "CREX7" , "CREXA" , "CREX9" , "CREX5" , "CREX6" , "CREX4" , "CREX2" , "CREX1" , "CREX3" , "CREXW" , "CREXY" , "CREXX" , "CREXZ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Block" .
+
+<http://www.cyberobject.com/2012/12/cyberobject/ntelagent#976CallBlock>
+      a       owl:Class ;
+      term:lemma "976callblock" ;
+      term:pos "n" ;
+      term:synonym "976 call block" ;
+      term:usoc "SRG" , "CREXN" , "SRGCO" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#976CallBlock" .
+
+:PrivacyManager
+      a       owl:Class ;
+      term:lemma "privacymanager" ;
+      term:pos "n" ;
+      term:synonym "privacy manager" ;
+      term:usoc "WHO" , "CPU" , "PVM" , "WHO2X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PrivacyManager" .
+
+:VoiceMailPagerNotify
+      a       owl:Class ;
+      term:lemma "voicemailpagernotify" ;
+      term:pos "n" ;
+      term:synonym "voice mail pager notify" ;
+      term:usoc "BVMTO" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VoiceMailPagerNotify" .
+
+:CallScreening
+      a       owl:Class ;
+      term:lemma "callscreening" ;
+      term:pos "n" ;
+      term:synonym "call screening" , "selective call screening" ;
+      term:usoc "NSY" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallScreening" .
+
+:CallForwardDa
+      a       owl:Class ;
+      term:lemma "callforwardda" ;
+      term:pos "n" ;
+      term:synonym "call forward dont answer" , "cl fwdg dont answer" , "call forward da" , "call forwarding dont answer" , "alternate answering" ;
+      term:usoc "SWZC7" , "GCJBX" , "E9GUR" , "CENDJ" , "FDJ" , "NQ6" , "SOZBY" , "SWZCV" , "CENLK" , "EGPFR" , "E9GNC" , "SWZC8" , "FVJ" , "CENDR" , "AS35K" , "M4NSX" , "NQHPS" , "ZCFVD" , "EGPER" , "M4NFC" , "FDQ" , "EGPCR" , "EVDCD" , "69A" , "ZCFD2" , "M4NPF" , "EF3PK" , "SWZF2" , "CENDK" , "FDRNS" , "EGPCN" , "EGPEN" , "FSS" , "E9G" , "CENDG" , "SWZCE" , "ZCFDA" , "GCJRC" , "SWZCA" , "ZCFAT" , "CENDL" , "E9GRD" , "E9GCR" , "E9GCN" , "ZCKDE" , "69H" , "E9GDR" , "E9GDN" , "CLDEU" , "EGPJR" , "E9GPA" , "ABCA7" , "E7GDA" , "EV1DN" , "EF3" , "CFLDA" , "NQH" , "E9GBR" , "F3S" , "CENDH" , "EGPJN" , "E5E" , "EVD" , "E9GAR" , "CENDM" , "E9GBN" , "EV1" , "E9GAN" , "CENDQ" , "E9GFN" , "E9GER" , "CFDA" , "E9GEN" , "E9GFR" , "EV1PK" , "M6FSX" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardDa" .
+
+:Linesafe
+      a       owl:Class ;
+      term:lemma "linesafe" ;
+      term:pos "n" ;
+      term:synonym "linesafe" ;
+      term:usoc "NW1RA" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Linesafe" .
+
+:MessageWaitingTone
+      a       owl:Class ;
+      term:lemma "messagewaitingtone" ;
+      term:pos "n" ;
+      term:synonym "message waiting tone" , "audible message waiting" ;
+      term:usoc "WBBNR" , "AWS" , "M3CAA" , "MWWAN" , "WBBLT" , "MWW" , "WCCSJ" , "MWN" , "MWWNR" , "MWWSC" , "M3CLD" , "WBB3F" , "MWWDN" , "WBB3H" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MessageWaitingTone" .
+
+:CompleteChoiceStandard
+      a       owl:Class ;
+      term:lemma "completechoicestandard" ;
+      term:pos "n" ;
+      term:synonym "complete choice standard" ;
+      term:usoc "ARPSC" , "ENHEC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoiceStandard" .
+
+:CompleteChoiceArea
+      a       owl:Class ;
+      term:lemma "completechoicearea" ;
+      term:pos "n" ;
+      term:synonym "complete choice area" ;
+      term:usoc "AT3" , "AQC" , "APW" , "ARZPK" , "APU" , "AQ3" , "ATL" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CompleteChoiceArea" .
+
+:CallTransfer
+      a       owl:Class ;
+      term:lemma "calltransfer" ;
+      term:pos "n" ;
+      term:synonym "call transfer" ;
+      term:usoc "TF1PS" , "DT3" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallTransfer" .
+
+:DirectCallPickupBargeIn
+      a       owl:Class ;
+      term:lemma "directcallpickupbargein" ;
+      term:pos "n" ;
+      term:synonym "direct call pickup barge in" ;
+      term:usoc "M2VBD" , "DXA" , "CENLU" , "DMA" , "M2VPA" , "DMD" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#DirectCallPickupBargeIn" .
+
+:PerLineBlocking
+      a       owl:Class ;
+      term:lemma "perlineblocking" ;
+      term:pos "n" ;
+      term:synonym "caller id complete blocking" , "call id per ln block no crg" , "per line blocking" ;
+      term:usoc "NBD" , "UBJ" , "NBA" , "UB2" , "CNMBK" , "NBJ" , "NB2" , "NB3" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#PerLineBlocking" .
+
+:Hunting
+      a       owl:Class ;
+      term:lemma "hunting" ;
+      term:pos "n" ;
+      term:synonym "hunting" ;
+      term:usoc "HTG" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Hunting" .
+
+:TouchtoneCredit
+      a       owl:Class ;
+      term:lemma "touchtonecredit" ;
+      term:pos "n" ;
+      term:synonym "touchtone credit" ;
+      term:usoc "CRDO2" , "CRDO1" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TouchtoneCredit" .
+
+:EquipmentMaintenancePlan
+      a       owl:Class ;
+      term:lemma "equipmentmaintenanceplan" ;
+      term:pos "n" ;
+      term:synonym "equipment maintenance plan" ;
+      term:usoc "EMP1X" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#EquipmentMaintenancePlan" .
+
+:VoiceMailCallTransfer
+      a       owl:Class ;
+      term:lemma "voicemailcalltransfer" ;
+      term:pos "n" ;
+      term:synonym "voice mail call transfer" ;
+      term:usoc "VMN" , "VMB" , "CCRA1" , "VMG" , "EMSA1" , "EMSA6" , "CCRA3" , "VMD" , "EMSA3" , "EMSFM" , "CCRA6" , "CMSFM" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VoiceMailCallTransfer" .
+
+:CallForward
+      a       owl:Class ;
+      term:lemma "callforward" ;
+      term:pos "n" ;
+      term:synonym "call forward" , "call forward variable" , "call forwarding" ;
+      term:usoc "EBY37" , "ESMPC" , "ESRDX" , "ABCCR" , "AS35S" , "EATGN" , "ESMCS" , "C7F" , "ESMRS" , "SWZSO" , "EYM" , "SOZCX" , "ESECD" , "ZQESM" , "VFBCF" , "ZCFDB" , "NKJPS" , "SWZAJ" , "SWWES" , "EATWA" , "NQ7" , "CFLPR" , "ES3DX" , "MVCCF" , "SOWLC" , "NQ7PS" , "CFDVA" , "MVPDA" , "NURAF" , "C7FSX" , "NKJTG" , "NURAM" , "ERV28" , "EAY" , "NUBAK" , "EAPRR" , "SW8GC" , "EATNR" , "CENLM" , "EATDN" , "EATRR" , "EATEN" , "NUB++" , "NZG" , "EATCN" , "PFY" , "EATBN" , "EATAN" , "EAP" , "SOZDQ" , "EAPNR" , "NURAO" , "GJP" , "CENLL" , "BPB17" , "ESDSO" , "M4QVC" , "ESM" , "WZZZJ" , "CFDBY" , "EATPA" , "ZCAFB" , "CFPF5" , "EKF" , "SOZPF" , "ABCCF" , "EATPS" , "CENLO" , "EATHR" , "NUBAD" , "EVB" , "ZCFFX" , "BPB18" , "NUR++" , "EBY3L" , "GCZ" , "SOWEP" , "E4ONR" , "NVF" , "ESD" , "CENLN" , "ZFLW1" , "CENLF" , "ES1" , "E4O" , "BPB19" , "EATFN" , "NUBAO" , "CFSBX" , "CFSDX" , "NURAK" , "VCF" , "EATFR" , "NBVPK" , "ZCFFD" , "ZCFMN" , "ESMWS" , "CENL7" , "ZCF1V" , "HWY" , "EATGR" , "ESMTC" , "EVBBS" , "SWZYQ" , "ZCFVB" , "NUBAF" , "ZCFNS" , "DCF" , "EATER" , "MVPCF" , "ESMWB" , "MB2RD" , "GCJ" , "ESMDF" , "EATDR" , "ZCFSO" , "EVDBS" , "EAT" , "NWCCF" , "CFVRD" , "ZCFVP" , "EBL" , "NURAD" , "CENLP" , "NBVBT" , "ZCFV1" , "EATAR" , "NUBAM" , "HWJ" , "CFSVX" , "EATHN" , "SOZMW" , "EATBR" , "ZCFKY" , "EATCR" , "GJC" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForward" .
+
+:SurrogateMemorycall
+      a       owl:Class ;
+      term:lemma "surrogatememorycall" ;
+      term:pos "n" ;
+      term:synonym "surrogate memorycall" ;
+      term:usoc "MCCFMCS" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#SurrogateMemorycall" .
+
+:Lineshare
+      a       owl:Class ;
+      term:lemma "lineshare" ;
+      term:pos "n" ;
+      term:synonym "lineshare" ;
+      term:usoc "UNE1" , "ULSCE" , "ULSTE" , "UEABS" , "UEALS" , "ULSRE" , "ULSDE" , "UEARS" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#Lineshare" .
+
+:CallForwardAutoDial
+      a       owl:Class ;
+      term:lemma "callforwardautodial" ;
+      term:pos "n" ;
+      term:synonym "call forward auto dial" ;
+      term:usoc "FCSPS" , "FCVPS" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallForwardAutoDial" .
+
+:VisualAudibleMessageWaiting
+      a       owl:Class ;
+      term:lemma "visualaudiblemessagewaiting" ;
+      term:pos "n" ;
+      term:synonym "message waiting indicator  lamp and tone" , "message waiting indicator" , "cae aud  vis ew5va (nse or znc to neg ic)" , "visual audible message waiting" ;
+      term:usoc "EW5VA" , "M1W" , "MAQ" , "MAU" , "MW1DC" , "MW1V4" , "MW1V5" , "MW1V7" , "MW1V3" , "EMWNO" , "EMW" , "MW1EU" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#VisualAudibleMessageWaiting" .
+
+:MemorycallServicePlus
+      a       owl:Class ;
+      term:lemma "memorycallserviceplus" ;
+      term:pos "n" ;
+      term:synonym "memorycall service plus" ;
+      term:usoc "BVBPN" , "MBBBF" , "BVMTF" , "BVMCD" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MemorycallServicePlus" .
+
+:MiscalledDialing
+      a       owl:Class ;
+      term:lemma "miscalleddialing" ;
+      term:pos "n" ;
+      term:synonym "missed call dialing" , "miscalled dialing" ;
+      term:usoc "NV8" , "NL8" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MiscalledDialing" .
+
+:MessageWaitingVisualAudible
+      a       owl:Class ;
+      term:lemma "messagewaitingvisualaudible" ;
+      term:pos "n" ;
+      term:synonym "visual audible message waiting" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#MessageWaitingVisualAudible" .
+
+:CallTrace
+      a       owl:Class ;
+      term:lemma "calltrace" ;
+      term:pos "n" ;
+      term:synonym "customer originated trace" , "call trace" , "usage sensitive call trace" ;
+      term:usoc "ZZNST" , "CLRTR" , "L7P" , "N8T" , "HBG" , "N8TPS" , "CALNC" , "NSJ" , "ZQNST" , "N6TPS" , "M2KTA" , "N6T" , "NST" , "CALTR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallTrace" .
+
+:CallerIdDlxAutoCallReject
+      a       owl:Class ;
+      term:lemma "calleriddlxautocallreject" ;
+      term:pos "n" ;
+      term:synonym "caller id dlx auto call reject" ;
+      term:usoc "N1ACR" , "NXMMW" , "NXMCR" , "NXECR" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#CallerIdDlxAutoCallReject" .
+

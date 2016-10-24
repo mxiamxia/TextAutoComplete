@@ -1,0 +1,385 @@
+@prefix :        <http://www.flukenetworks.com/QVFWebServices/Schemas/#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+:TimeStamps
+      a       owl:Class ;
+      term:has :TimeStamp ;
+      term:lemma "timestamps" ;
+      term:pos "n" ;
+      term:synonym "time stamps" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TimeStamps" ;
+      owl:minCardinality "0" .
+
+:ActiveInSwitch
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:lemma "activeinswitch" ;
+      term:pos "n" ;
+      term:synonym "active in switch" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#ActiveInSwitch" ;
+      owl:minCardinality "0" .
+
+:COName
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "coname" ;
+      term:pos "n" ;
+      term:synonym "co name" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#COName" ;
+      owl:minCardinality "0" .
+
+:AccountRingCycle
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "accountringcycle" ;
+      term:pos "n" ;
+      term:synonym "account ring cycle" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#AccountRingCycle" ;
+      owl:minCardinality "0" .
+
+:Name
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "name" ;
+      term:pos "n" ;
+      term:synonym "name" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Name" ;
+      owl:minCardinality "0" .
+
+:Type
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "type" ;
+      term:pos "n" ;
+      term:synonym "type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Type" .
+
+:FeatureCompareType
+      a       owl:Class ;
+      term:has :ActiveInSwitch , :InSwitch , :Name , :ForwardToTelephoneNumber , :InAccount , :Recommendation ;
+      term:lemma "featurecomparetype" ;
+      term:pos "n" ;
+      term:synonym "feature compare type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#FeatureCompareType" .
+
+:RingCycleType
+      a       owl:Class ;
+      term:has :AccountRingCycle , :SwitchRingCycle ;
+      term:lemma "ringcycletype" ;
+      term:pos "n" ;
+      term:synonym "ring cycle type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#RingCycleType" .
+
+:HuntGroupTNs
+      a       owl:Class ;
+      term:has :HuntGroupTN ;
+      term:lemma "huntgrouptns" ;
+      term:pos "n" ;
+      term:synonym "hunt group t ns" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#HuntGroupTNs" ;
+      owl:minCardinality "0" .
+
+:InAccount
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:lemma "inaccount" ;
+      term:pos "n" ;
+      term:synonym "in account" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#InAccount" ;
+      owl:minCardinality "0" .
+
+:Features
+      a       owl:Class ;
+      term:has :Feature ;
+      term:lemma "features" ;
+      term:pos "n" ;
+      term:synonym "features" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Features" ;
+      owl:minCardinality "0" .
+
+:Feature
+      a       owl:Class ;
+      rdfs:subClassOf :FeatureCompareType ;
+      term:lemma "feature" ;
+      term:pos "n" ;
+      term:synonym "feature" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Feature" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+:FeatureCompareResponse
+      a       owl:Class ;
+      term:has :TimeStamps , :COName , :Features , :NativeMessage , :TNStatus , :RingCycles , :SwitchType , :Terminals , :Message , :TranslatedMessage , :HuntGroupTNs , :TelephoneNumber ;
+      term:lemma "featurecompareresponse" ;
+      term:pos "n" ;
+      term:synonym "feature compare response" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#FeatureCompareResponse" .
+
+:RingCycles
+      a       owl:Class ;
+      term:has :RingCycle ;
+      term:lemma "ringcycles" ;
+      term:pos "n" ;
+      term:synonym "ring cycles" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#RingCycles" ;
+      owl:minCardinality "0" .
+
+:HuntGroupTN
+      a       owl:Class ;
+      rdfs:subClassOf :HuntGroupType ;
+      term:lemma "huntgrouptn" ;
+      term:pos "n" ;
+      term:synonym "hunt group tn" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#HuntGroupTN" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+:SwitchType
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "switchtype" ;
+      term:pos "n" ;
+      term:synonym "switch type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#SwitchType" ;
+      owl:minCardinality "0" .
+
+:EndTs
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "endts" ;
+      term:pos "n" ;
+      term:synonym "end ts" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#EndTs" .
+
+:Message
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "message" ;
+      term:pos "n" ;
+      term:synonym "message" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Message" .
+
+:TimeStampType
+      a       owl:Class ;
+      term:has :StartTs , :Type , :EndTs ;
+      term:lemma "timestamptype" ;
+      term:pos "n" ;
+      term:synonym "time stamp type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TimeStampType" .
+
+:NativeMessage
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "nativemessage" ;
+      term:pos "n" ;
+      term:synonym "native message" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#NativeMessage" ;
+      owl:minCardinality "0" .
+
+:Terminal
+      a       owl:Class ;
+      rdfs:subClassOf :TerminalType ;
+      term:lemma "terminal" ;
+      term:pos "n" ;
+      term:synonym "terminal" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Terminal" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+:TNStatus
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "tnstatus" ;
+      term:pos "n" ;
+      term:synonym "tn status" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TNStatus" ;
+      owl:minCardinality "0" .
+
+:InSwitch
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:lemma "inswitch" ;
+      term:pos "n" ;
+      term:synonym "in switch" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#InSwitch" ;
+      owl:minCardinality "0" .
+
+:TerminalGroup
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "terminalgroup" ;
+      term:pos "n" ;
+      term:synonym "terminal group" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TerminalGroup" ;
+      owl:minCardinality "0" .
+
+:ForwardToTelephoneNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "forwardtotelephonenumber" ;
+      term:pos "n" ;
+      term:synonym "forward to telephone number" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#ForwardToTelephoneNumber" ;
+      owl:minCardinality "0" .
+
+:HuntGroupTNValue
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "huntgrouptnvalue" ;
+      term:pos "n" ;
+      term:synonym "hunt group tn value" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#HuntGroupTNValue" ;
+      owl:minCardinality "0" .
+
+:Terminals
+      a       owl:Class ;
+      term:has :Terminal ;
+      term:lemma "terminals" ;
+      term:pos "n" ;
+      term:synonym "terminals" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Terminals" ;
+      owl:minCardinality "0" .
+
+:SwitchRingCycle
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "switchringcycle" ;
+      term:pos "n" ;
+      term:synonym "switch ring cycle" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#SwitchRingCycle" ;
+      owl:minCardinality "0" .
+
+:HuntGroupType
+      a       owl:Class ;
+      term:has :HuntGroupTNValue ;
+      term:lemma "huntgrouptype" ;
+      term:pos "n" ;
+      term:synonym "hunt group type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#HuntGroupType" .
+
+:TranslatedMessage
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "translatedmessage" ;
+      term:pos "n" ;
+      term:synonym "translated message" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TranslatedMessage" ;
+      owl:minCardinality "0" .
+
+:CommonRequest
+      a       owl:Class ;
+      term:has :TerminalNumber , :UserId , :TelephoneNumber , :TerminalOE , :GroupNumber ;
+      term:lemma "commonrequest" ;
+      term:pos "n" ;
+      term:synonym "common request" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#CommonRequest" .
+
+:RingCycle
+      a       owl:Class ;
+      rdfs:subClassOf :RingCycleType ;
+      term:lemma "ringcycle" ;
+      term:pos "n" ;
+      term:synonym "ring cycle" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#RingCycle" ;
+      owl:minCardinality "0" .
+
+:TerminalType
+      a       owl:Class ;
+      term:has :TerminalGroup , :TerminalValue , :TerminalOE ;
+      term:lemma "terminaltype" ;
+      term:pos "n" ;
+      term:synonym "terminal type" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TerminalType" .
+
+:StartTs
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "startts" ;
+      term:pos "n" ;
+      term:synonym "start ts" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#StartTs" .
+
+:TerminalNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "terminalnumber" ;
+      term:pos "n" ;
+      term:synonym "terminal number" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TerminalNumber" ;
+      owl:minCardinality "0" .
+
+:TerminalValue
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "terminalvalue" ;
+      term:pos "n" ;
+      term:synonym "terminal value" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TerminalValue" ;
+      owl:minCardinality "0" .
+
+:TimeStamp
+      a       owl:Class ;
+      rdfs:subClassOf :TimeStampType ;
+      term:lemma "timestamp" ;
+      term:pos "n" ;
+      term:synonym "time stamp" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TimeStamp" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+:UserId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "userid" ;
+      term:pos "n" ;
+      term:synonym "user id" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#UserId" .
+
+:ErrorResponse
+      a       owl:Class ;
+      term:has :UserId , :Message , :TelephoneNumber ;
+      term:lemma "errorresponse" ;
+      term:pos "n" ;
+      term:synonym "error response" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#ErrorResponse" .
+
+:Recommendation
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "recommendation" ;
+      term:pos "n" ;
+      term:synonym "recommendation" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#Recommendation" ;
+      owl:minCardinality "0" .
+
+:TelephoneNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "telephonenumber" ;
+      term:pos "n" ;
+      term:synonym "telephone number" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TelephoneNumber" .
+
+:TerminalOE
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "terminaloe" ;
+      term:pos "n" ;
+      term:synonym "terminal oe" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#TerminalOE" ;
+      owl:minCardinality "0" .
+
+:GroupNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "groupnumber" ;
+      term:pos "n" ;
+      term:synonym "group number" ;
+      term:xpath "http://www.flukenetworks.com/QVFWebServices/Schemas/#GroupNumber" ;
+      owl:minCardinality "0" .

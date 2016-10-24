@@ -1,0 +1,34 @@
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix loopcare:                <http://www.cyberobject.com/2015/1/SubmitMechanizedLoopTestETC.owl#> .
+@prefix qvf:                     <http://www.cyberobject.com/2015/1/FeatureCompareETC.owl#> .
+@prefix dispathAndJobDetail:     <http://www.cyberobject.com/2015/1/calloutTechnicianETC.owl#> .
+@prefix forceComplete:           <http://www.cyberobject.com/2015/1/forceGetServiceOrderImageETC.owl#> .
+
+loopcare:SubmitMechanizedLoopTestProcess
+      a       owl:Class ;
+      term:lemma "loopcare" ;
+      term:pos "n" ;
+      term:synonym "loopcare process" ;
+      term:xpath "http://www.cyberobject.com/2015/1/SubmitMechanizedLoopTestETC.owl#SubmitMechanizedLoopTestProcess" .
+
+qvf:FeatureCompareProcess
+      a       owl:Class ;
+      term:lemma "qvf" ;
+      term:pos "n" ;
+      term:synonym "qvf process" ;
+      term:xpath "http://www.cyberobject.com/2015/1/FeatureCompareETC.owl#FeatureCompareProcess" .
+
+dispathAndJobDetail:dispatchAndJobDetailsProcess
+      a       owl:Class ;
+      term:lemma "jobdetail" ;
+      term:pos "n" ;
+      term:synonym "jobdetail process" ;
+      term:xpath "http://www.cyberobject.com/2015/1/calloutTechnicianETC.owl#dispatchAndJobDetailsProcess" .
+
+forceComplete:forceCompleteProcess
+      a       owl:Class ;
+      term:lemma "forcecomplete" ;
+      term:pos "n" ;
+      term:synonym "forcecomplete process" ;
+      term:xpath "http://www.cyberobject.com/2015/1/forceGetServiceOrderImageETC.owl#forceCompleteProcess" .

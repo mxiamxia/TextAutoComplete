@@ -1,0 +1,17 @@
+@prefix :        <http://csi.cingular.com/CSI/Namespaces/Types/Publics/SoapFaultDetails.xsd#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/ErrorResponse.xsd#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+:CSIApplicationException
+      a       owl:Class ;
+      rdfs:subClassOf ns1:CSIApplicationException ;
+      term:lemma "csiapplicationexception" ;
+      term:pos "n" ;
+      term:synonym "csi application exception" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/SoapFaultDetails.xsd#CSIApplicationException" .

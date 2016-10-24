@@ -1,0 +1,49 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/CingularDataModel.xsd#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix tns:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+tns:TrackingMessageHeader
+      a       owl:Class ;
+      rdfs:subClassOf ns1:MessageHeaderTracking ;
+      term:lemma "trackingmessageheader" ;
+      term:pos "n" ;
+      term:synonym "tracking message header" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#TrackingMessageHeader" .
+
+tns:SecurityMessageHeader
+      a       owl:Class ;
+      rdfs:subClassOf ns1:MessageHeaderSecurity ;
+      term:lemma "securitymessageheader" ;
+      term:pos "n" ;
+      term:synonym "security message header" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#SecurityMessageHeader" .
+
+tns:MessageHeader
+      a       owl:Class ;
+      rdfs:subClassOf tns:MessageHeaderInfo ;
+      term:lemma "messageheader" ;
+      term:pos "n" ;
+      term:synonym "message header" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#MessageHeader" .
+
+tns:SequenceMessageHeader
+      a       owl:Class ;
+      rdfs:subClassOf ns1:MessageHeaderSequence ;
+      term:lemma "sequencemessageheader" ;
+      term:pos "n" ;
+      term:synonym "sequence message header" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#SequenceMessageHeader" .
+
+tns:MessageHeaderInfo
+      a       owl:Class ;
+      term:has tns:TrackingMessageHeader , tns:SecurityMessageHeader , tns:SequenceMessageHeader ;
+      term:lemma "messageheaderinfo" ;
+      term:pos "n" ;
+      term:synonym "message header info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Types/Publics/MessageHeader.xsd#MessageHeaderInfo" .

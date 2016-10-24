@@ -1,0 +1,2735 @@
+@prefix :        <http://www.cyberobject.com/2012/12/cyberobject/ntelagent#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+
+:ReasonCode0571
+      a       owl:Class ;
+      term:description "loopback device" ;
+      term:lemma "reasoncode0571" ;
+      term:pos "n" ;
+      term:reasoncode "0571" ;
+      term:synonym "cause code 0571" , "reason code 0571" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0571" .
+
+:ReasonCode0211
+      a       owl:Class ;
+      term:description "twisted wire/coax or jack(s) - at&t maintenance plan. not billable." ;
+      term:lemma "reasoncode0211" ;
+      term:pos "n" ;
+      term:reasoncode "0211" ;
+      term:synonym "cause code 0211" , "reason code 0211" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0211" .
+
+:ReasonCode0489
+      a       owl:Class ;
+      term:description "temporarily transfer to a lightspeed conditioned pair" ;
+      term:lemma "reasoncode0489" ;
+      term:pos "n" ;
+      term:reasoncode "0489" ;
+      term:synonym "cause code 0489" , "reason code 0489" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0489" .
+
+:ReasonCode1001
+      a       owl:Class ;
+      term:description "referred to dbac or annoyance call bureau" ;
+      term:lemma "reasoncode1001" ;
+      term:pos "n" ;
+      term:reasoncode "1001" ;
+      term:synonym "cause code 1001" , "reason code 1001" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1001" .
+
+:ReasonCode0406
+      a       owl:Class ;
+      term:description "bridge tap removal" ;
+      term:lemma "reasoncode0406" ;
+      term:pos "n" ;
+      term:reasoncode "0406" ;
+      term:synonym "cause code 0406" , "reason code 0406" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0406" .
+
+:ReasonCode1116
+      a       owl:Class ;
+      term:description "na initial dispatch clec commercial wire mtc plan - no bill" ;
+      term:lemma "reasoncode1116" ;
+      term:pos "n" ;
+      term:reasoncode "1116" ;
+      term:synonym "reason code 1116" , "cause code 1116" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1116" .
+
+:ReasonCode0408
+      a       owl:Class ;
+      term:description "miscellaneous" ;
+      term:lemma "reasoncode0408" ;
+      term:pos "n" ;
+      term:reasoncode "0408" ;
+      term:synonym "cause code 0408" , "reason code 0408" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0408" .
+
+:ReasonCode0290
+      a       owl:Class ;
+      term:description "u-verse service order activity 1159 pm" ;
+      term:lemma "reasoncode0290" ;
+      term:pos "n" ;
+      term:reasoncode "0290" ;
+      term:synonym "reason code 0290" , "cause code 0290" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0290" .
+
+:ReasonCode0532
+      a       owl:Class ;
+      term:description "protector units/coils" ;
+      term:lemma "reasoncode0532" ;
+      term:pos "n" ;
+      term:reasoncode "0532" ;
+      term:synonym "cause code 0532" , "reason code 0532" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0532" .
+
+:ReasonCode0545
+      a       owl:Class ;
+      term:description "ffice repeater/bay mounting" ;
+      term:lemma "reasoncode0545" ;
+      term:pos "n" ;
+      term:reasoncode "0545" ;
+      term:synonym "cause code 0545" , "reason code 0545" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0545" .
+
+:ReasonCode0479
+      a       owl:Class ;
+      term:description "software crossconnect" ;
+      term:lemma "reasoncode0479" ;
+      term:pos "n" ;
+      term:reasoncode "0479" ;
+      term:synonym "reason code 0479" , "cause code 0479" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0479" .
+
+:ReasonCode1140
+      a       owl:Class ;
+      term:description "customer / end user refuses nid installation" ;
+      term:lemma "reasoncode1140" ;
+      term:pos "n" ;
+      term:reasoncode "1140" ;
+      term:synonym "cause code 1140" , "reason code 1140" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1140" .
+
+:ReasonCode1214
+      a       owl:Class ;
+      term:description "mtu customer declines dispatch" ;
+      term:lemma "reasoncode1214" ;
+      term:pos "n" ;
+      term:reasoncode "1214" ;
+      term:synonym "reason code 1214" , "cause code 1214" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1214" .
+
+:ReasonCode0284
+      a       owl:Class ;
+      term:description "bbt test ok. no re-dispatch required." ;
+      term:lemma "reasoncode0284" ;
+      term:pos "n" ;
+      term:reasoncode "0284" ;
+      term:synonym "reason code 0284" , "cause code 0284" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0284" .
+
+:ReasonCode1034
+      a       owl:Class ;
+      term:description "stp" ;
+      term:lemma "reasoncode1034" ;
+      term:pos "n" ;
+      term:reasoncode "1034" ;
+      term:synonym "reason code 1034" , "cause code 1034" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1034" .
+
+:ReasonCode0981
+      a       owl:Class ;
+      term:description "customer not on premises/retest okay" ;
+      term:lemma "reasoncode0981" ;
+      term:pos "n" ;
+      term:reasoncode "0981" ;
+      term:synonym "reason code 0981" , "cause code 0981" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0981" .
+
+:ReasonCode1101
+      a       owl:Class ;
+      term:description "memory call" ;
+      term:lemma "reasoncode1101" ;
+      term:pos "n" ;
+      term:reasoncode "1101" ;
+      term:synonym "reason code 1101" , "cause code 1101" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1101" .
+
+:ReasonCode1240
+      a       owl:Class ;
+      term:description "router-no bill" ;
+      term:lemma "reasoncode1240" ;
+      term:pos "n" ;
+      term:reasoncode "1240" ;
+      term:synonym "cause code 1240" , "reason code 1240" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1240" .
+
+:ReasonCode0212
+      a       owl:Class ;
+      term:description "twisted wire/coaxial or jack(s) - no at&t maintenance plan. billable" ;
+      term:lemma "reasoncode0212" ;
+      term:pos "n" ;
+      term:reasoncode "0212" ;
+      term:synonym "cause code 0212" , "reason code 0212" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0212" .
+
+:ReasonCode0930
+      a       owl:Class ;
+      term:description "retail no trouble found / found ok out forced dispatch" ;
+      term:lemma "reasoncode0930" ;
+      term:pos "n" ;
+      term:reasoncode "0930" ;
+      term:synonym "cause code 0930" , "reason code 0930" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0930" .
+
+:ReasonCode0469
+      a       owl:Class ;
+      term:description "digital loop carrier lockups and precautionary measures" ;
+      term:lemma "reasoncode0469" ;
+      term:pos "n" ;
+      term:reasoncode "0469" ;
+      term:synonym "reason code 0469" , "cause code 0469" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0469" .
+
+:ReasonCode0270
+      a       owl:Class ;
+      term:description "vrad card failure" ;
+      term:lemma "reasoncode0270" ;
+      term:pos "n" ;
+      term:reasoncode "0270" ;
+      term:synonym "cause code 0270" , "reason code 0270" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0270" .
+
+:ReasonCode0806
+      a       owl:Class ;
+      term:description "found ok - line translations" ;
+      term:lemma "reasoncode0806" ;
+      term:pos "n" ;
+      term:reasoncode "0806" ;
+      term:synonym "cause code 0806" , "reason code 0806" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0806" .
+
+:ReasonCode0431
+      a       owl:Class ;
+      term:description "crossbox, sac, access pt., control pt." ;
+      term:lemma "reasoncode0431" ;
+      term:pos "n" ;
+      term:reasoncode "0431" ;
+      term:synonym "reason code 0431" , "cause code 0431" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0431" .
+
+:ReasonCode1085
+      a       owl:Class ;
+      term:description "defective section recovery/replacement - rao generated" ;
+      term:lemma "reasoncode1085" ;
+      term:pos "n" ;
+      term:reasoncode "1085" ;
+      term:synonym "reason code 1085" , "cause code 1085" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1085" .
+
+:ReasonCode1300
+      a       owl:Class ;
+      term:description "wholesale / resale no trouble found/found ok out - no bill" ;
+      term:lemma "reasoncode1300" ;
+      term:pos "n" ;
+      term:reasoncode "1300" ;
+      term:synonym "cause code 1300" , "reason code 1300" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1300" .
+
+:ReasonCode1329
+      a       owl:Class ;
+      term:description "clec order error" ;
+      term:lemma "reasoncode1329" ;
+      term:pos "n" ;
+      term:reasoncode "1329" ;
+      term:synonym "cause code 1329" , "reason code 1329" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1329" .
+
+:ReasonCode1155
+      a       owl:Class ;
+      term:description "tech burying service wire" ;
+      term:lemma "reasoncode1155" ;
+      term:pos "n" ;
+      term:reasoncode "1155" ;
+      term:synonym "cause code 1155" , "reason code 1155" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1155" .
+
+:ReasonCode0570
+      a       owl:Class ;
+      term:description "central office special services equipment" ;
+      term:lemma "reasoncode0570" ;
+      term:pos "n" ;
+      term:reasoncode "0570" ;
+      term:synonym "cause code 0570" , "reason code 0570" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0570" .
+
+:ReasonCode0546
+      a       owl:Class ;
+      term:description "fiber optic" ;
+      term:lemma "reasoncode0546" ;
+      term:pos "n" ;
+      term:reasoncode "0546" ;
+      term:synonym "cause code 0546" , "reason code 0546" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0546" .
+
+:ReasonCode1115
+      a       owl:Class ;
+      term:description "clec commercial wire mtc plan - no bill" ;
+      term:lemma "reasoncode1115" ;
+      term:pos "n" ;
+      term:reasoncode "1115" ;
+      term:synonym "reason code 1115" , "cause code 1115" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1115" .
+
+:ReasonCode0531
+      a       owl:Class ;
+      term:description "central office wiring" ;
+      term:lemma "reasoncode0531" ;
+      term:pos "n" ;
+      term:reasoncode "0531" ;
+      term:synonym "cause code 0531" , "reason code 0531" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0531" .
+
+:ReasonCode0203
+      a       owl:Class ;
+      term:description "customer owned / provided equipment miscellaneous (cpe)" ;
+      term:lemma "reasoncode0203" ;
+      term:pos "n" ;
+      term:reasoncode "0203" ;
+      term:synonym "reason code 0203" , "cause code 0203" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0203" .
+
+:ReasonCode0409
+      a       owl:Class ;
+      term:description "wrong pair assigned" ;
+      term:lemma "reasoncode0409" ;
+      term:pos "n" ;
+      term:reasoncode "0409" ;
+      term:synonym "cause code 0409" , "reason code 0409" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0409" .
+
+:ReasonCode0407
+      a       owl:Class ;
+      term:description "pair reclaimed / reconstructed" ;
+      term:lemma "reasoncode0407" ;
+      term:pos "n" ;
+      term:reasoncode "0407" ;
+      term:synonym "cause code 0407" , "reason code 0407" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0407" .
+
+:ReasonCode0222
+      a       owl:Class ;
+      term:description "diplexer" ;
+      term:lemma "reasoncode0222" ;
+      term:pos "n" ;
+      term:reasoncode "0222" ;
+      term:synonym "cause code 0222" , "reason code 0222" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0222" .
+
+:ReasonCode0478
+      a       owl:Class ;
+      term:description "onu lockups and precautionary measures" ;
+      term:lemma "reasoncode0478" ;
+      term:pos "n" ;
+      term:reasoncode "0478" ;
+      term:synonym "reason code 0478" , "cause code 0478" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0478" .
+
+:ReasonCode1310
+      a       owl:Class ;
+      term:description "msc associated with line sharing overtime / dlec" ;
+      term:lemma "reasoncode1310" ;
+      term:pos "n" ;
+      term:reasoncode "1310" ;
+      term:synonym "reason code 1310" , "cause code 1310" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1310" .
+
+:ReasonCode1095
+      a       owl:Class ;
+      term:description "bulk pair recovery" ;
+      term:lemma "reasoncode1095" ;
+      term:pos "n" ;
+      term:reasoncode "1095" ;
+      term:synonym "cause code 1095" , "reason code 1095" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1095" .
+
+:ReasonCode1033
+      a       owl:Class ;
+      term:description "net pilot" ;
+      term:lemma "reasoncode1033" ;
+      term:pos "n" ;
+      term:reasoncode "1033" ;
+      term:synonym "reason code 1033" , "cause code 1033" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1033" .
+
+:ReasonCode0283
+      a       owl:Class ;
+      term:description "dispatched in error" ;
+      term:lemma "reasoncode0283" ;
+      term:pos "n" ;
+      term:reasoncode "0283" ;
+      term:synonym "cause code 0283" , "reason code 0283" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0283" .
+
+:ReasonCode0458
+      a       owl:Class ;
+      term:description "fiber failure-terminals" ;
+      term:lemma "reasoncode0458" ;
+      term:pos "n" ;
+      term:reasoncode "0458" ;
+      term:synonym "cause code 0458" , "reason code 0458" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0458" .
+
+:ReasonCode0530
+      a       owl:Class ;
+      term:description "central office distributing frame" ;
+      term:lemma "reasoncode0530" ;
+      term:pos "n" ;
+      term:reasoncode "0530" ;
+      term:synonym "reason code 0530" , "cause code 0530" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0530" .
+
+:ReasonCode2005
+      a       owl:Class ;
+      term:description "routine: transducer/contactor device- pressure & flow" ;
+      term:lemma "reasoncode2005" ;
+      term:pos "n" ;
+      term:reasoncode "2005" ;
+      term:synonym "reason code 2005" , "cause code 2005" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2005" .
+
+:ReasonCode0179
+      a       owl:Class ;
+      term:description "asi owned dsl infrastructure router" ;
+      term:lemma "reasoncode0179" ;
+      term:pos "n" ;
+      term:reasoncode "0179" ;
+      term:synonym "cause code 0179" , "reason code 0179" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0179" .
+
+:ReasonCode0468
+      a       owl:Class ;
+      term:description "protection" ;
+      term:lemma "reasoncode0468" ;
+      term:pos "n" ;
+      term:reasoncode "0468" ;
+      term:synonym "reason code 0468" , "cause code 0468" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0468" .
+
+:ReasonCode1352
+      a       owl:Class ;
+      term:description "clec request standard line conditioning - no bill" ;
+      term:lemma "reasoncode1352" ;
+      term:pos "n" ;
+      term:reasoncode "1352" ;
+      term:synonym "reason code 1352" , "cause code 1352" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1352" .
+
+:ReasonCode0213
+      a       owl:Class ;
+      term:description "twisted wire/coax or jack(s) - warranty - not billable" ;
+      term:lemma "reasoncode0213" ;
+      term:pos "n" ;
+      term:reasoncode "0213" ;
+      term:synonym "reason code 0213" , "cause code 0213" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0213" .
+
+:ReasonCode0177
+      a       owl:Class ;
+      term:description "dsl line share - non billable to isp" ;
+      term:lemma "reasoncode0177" ;
+      term:pos "n" ;
+      term:reasoncode "0177" ;
+      term:synonym "cause code 0177" , "reason code 0177" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0177" .
+
+:ReasonCode1104
+      a       owl:Class ;
+      term:description "memory call mulitline hunt group (mlhg), regulated\"" ;
+      term:lemma "reasoncode1104" ;
+      term:pos "n" ;
+      term:reasoncode "1104" ;
+      term:synonym "cause code 1104" , "reason code 1104" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1104" .
+
+:ReasonCode0520
+      a       owl:Class ;
+      term:description "translations" ;
+      term:lemma "reasoncode0520" ;
+      term:pos "n" ;
+      term:reasoncode "0520" ;
+      term:synonym "reason code 0520" , "cause code 0520" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0520" .
+
+:ReasonCode1084
+      a       owl:Class ;
+      term:description "first mile package" ;
+      term:lemma "reasoncode1084" ;
+      term:pos "n" ;
+      term:reasoncode "1084" ;
+      term:synonym "reason code 1084" , "cause code 1084" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1084" .
+
+:ReasonCode1328
+      a       owl:Class ;
+      term:description "clec reported in error" ;
+      term:lemma "reasoncode1328" ;
+      term:pos "n" ;
+      term:reasoncode "1328" ;
+      term:synonym "cause code 1328" , "reason code 1328" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1328" .
+
+:ReasonCode1280
+      a       owl:Class ;
+      term:description "intra-building cable repaired no bill" ;
+      term:lemma "reasoncode1280" ;
+      term:pos "n" ;
+      term:reasoncode "1280" ;
+      term:synonym "reason code 1280" , "cause code 1280" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1280" .
+
+:ReasonCode0477
+      a       owl:Class ;
+      term:description "system generic software-onu lockups and precautionary" ;
+      term:lemma "reasoncode0477" ;
+      term:pos "n" ;
+      term:reasoncode "0477" ;
+      term:synonym "reason code 0477" , "cause code 0477" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0477" .
+
+:ReasonCode1052
+      a       owl:Class ;
+      term:description "locate non at&t - no service agreement. billable" ;
+      term:lemma "reasoncode1052" ;
+      term:pos "n" ;
+      term:reasoncode "1052" ;
+      term:synonym "reason code 1052" , "cause code 1052" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1052" .
+
+:ReasonCode1098
+      a       owl:Class ;
+      term:description "defective section recovery/replacement i&m generated" ;
+      term:lemma "reasoncode1098" ;
+      term:pos "n" ;
+      term:reasoncode "1098" ;
+      term:synonym "reason code 1098" , "cause code 1098" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1098" .
+
+:ReasonCode0204
+      a       owl:Class ;
+      term:description "dvr (digital video recorder)" ;
+      term:lemma "reasoncode0204" ;
+      term:pos "n" ;
+      term:reasoncode "0204" ;
+      term:synonym "reason code 0204" , "cause code 0204" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0204" .
+
+:ReasonCode0547
+      a       owl:Class ;
+      term:description "dsl central office unit" ;
+      term:lemma "reasoncode0547" ;
+      term:pos "n" ;
+      term:reasoncode "0547" ;
+      term:synonym "cause code 0547" , "reason code 0547" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0547" .
+
+:ReasonCode1265
+      a       owl:Class ;
+      term:description "nevada only - diagnostic business (billable)" ;
+      term:lemma "reasoncode1265" ;
+      term:pos "n" ;
+      term:reasoncode "1265" ;
+      term:synonym "reason code 1265" , "cause code 1265" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1265" .
+
+:ReasonCode1032
+      a       owl:Class ;
+      term:description "iscp" ;
+      term:lemma "reasoncode1032" ;
+      term:pos "n" ;
+      term:reasoncode "1032" ;
+      term:synonym "reason code 1032" , "cause code 1032" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1032" .
+
+:ReasonCode1216
+      a       owl:Class ;
+      term:description "dsl save dispatch only-no bill" ;
+      term:lemma "reasoncode1216" ;
+      term:pos "n" ;
+      term:reasoncode "1216" ;
+      term:synonym "reason code 1216" , "cause code 1216" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1216" .
+
+:ReasonCode0282
+      a       owl:Class ;
+      term:description "prem tech use only found ok fttp" ;
+      term:lemma "reasoncode0282" ;
+      term:pos "n" ;
+      term:reasoncode "0282" ;
+      term:synonym "reason code 0282" , "cause code 0282" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0282" .
+
+:ReasonCode0705
+      a       owl:Class ;
+      term:description "test only" ;
+      term:lemma "reasoncode0705" ;
+      term:pos "n" ;
+      term:reasoncode "0705" ;
+      term:synonym "cause code 0705" , "reason code 0705" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0705" .
+
+:ReasonCode1226
+      a       owl:Class ;
+      term:description "software-bill" ;
+      term:lemma "reasoncode1226" ;
+      term:pos "n" ;
+      term:reasoncode "1226" ;
+      term:synonym "reason code 1226" , "cause code 1226" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1226" .
+
+:ReasonCode1351
+      a       owl:Class ;
+      term:description "lst bb - clec (billable)" ;
+      term:lemma "reasoncode1351" ;
+      term:pos "n" ;
+      term:reasoncode "1351" ;
+      term:synonym "cause code 1351" , "reason code 1351" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1351" .
+
+:ReasonCode0405
+      a       owl:Class ;
+      term:description "defective section / temporary placed" ;
+      term:lemma "reasoncode0405" ;
+      term:pos "n" ;
+      term:reasoncode "0405" ;
+      term:synonym "reason code 0405" , "cause code 0405" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0405" .
+
+:ReasonCode1103
+      a       owl:Class ;
+      term:description "memory call siplified message desk interface (smdi) regulated" ;
+      term:lemma "reasoncode1103" ;
+      term:pos "n" ;
+      term:reasoncode "1103" ;
+      term:synonym "cause code 1103" , "reason code 1103" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1103" .
+
+:ReasonCode1327
+      a       owl:Class ;
+      term:description "clec request information" ;
+      term:lemma "reasoncode1327" ;
+      term:pos "n" ;
+      term:reasoncode "1327" ;
+      term:synonym "cause code 1327" , "reason code 1327" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1327" .
+
+:ReasonCode1029
+      a       owl:Class ;
+      term:description "ntc use only for trouble found outside the at&t network" ;
+      term:lemma "reasoncode1029" ;
+      term:pos "n" ;
+      term:reasoncode "1029" ;
+      term:synonym "cause code 1029" , "reason code 1029" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1029" .
+
+:ReasonCode1083
+      a       owl:Class ;
+      term:description "predictor maintenance pattern" ;
+      term:lemma "reasoncode1083" ;
+      term:pos "n" ;
+      term:reasoncode "1083" ;
+      term:synonym "reason code 1083" , "cause code 1083" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1083" .
+
+:ReasonCode2085
+      a       owl:Class ;
+      term:description "routine: cable sheath" ;
+      term:lemma "reasoncode2085" ;
+      term:pos "n" ;
+      term:reasoncode "2085" ;
+      term:synonym "reason code 2085" , "cause code 2085" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2085" .
+
+:ReasonCode1051
+      a       owl:Class ;
+      term:description "locate non at&t inc -service agreement  billable" ;
+      term:lemma "reasoncode1051" ;
+      term:pos "n" ;
+      term:reasoncode "1051" ;
+      term:synonym "reason code 1051" , "cause code 1051" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1051" .
+
+:ReasonCode1097
+      a       owl:Class ;
+      term:description "carrier" ;
+      term:lemma "reasoncode1097" ;
+      term:pos "n" ;
+      term:reasoncode "1097" ;
+      term:synonym "cause code 1097" , "reason code 1097" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1097" .
+
+:ReasonCode2025
+      a       owl:Class ;
+      term:description "routine; air pipe" ;
+      term:lemma "reasoncode2025" ;
+      term:pos "n" ;
+      term:reasoncode "2025" ;
+      term:synonym "reason code 2025" , "cause code 2025" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2025" .
+
+:ReasonCode0476
+      a       owl:Class ;
+      term:description "onu protection" ;
+      term:lemma "reasoncode0476" ;
+      term:pos "n" ;
+      term:reasoncode "0476" ;
+      term:synonym "cause code 0476" , "reason code 0476" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0476" .
+
+:ReasonCode2095
+      a       owl:Class ;
+      term:description "routine: closures" ;
+      term:lemma "reasoncode2095" ;
+      term:pos "n" ;
+      term:reasoncode "2095" ;
+      term:synonym "cause code 2095" , "reason code 2095" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2095" .
+
+:ReasonCode0205
+      a       owl:Class ;
+      term:description "stb (set top box)" ;
+      term:lemma "reasoncode0205" ;
+      term:pos "n" ;
+      term:reasoncode "0205" ;
+      term:synonym "reason code 0205" , "cause code 0205" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0205" .
+
+:ReasonCode0456
+      a       owl:Class ;
+      term:description "fiber failure-splices/fusion, epoxy" ;
+      term:lemma "reasoncode0456" ;
+      term:pos "n" ;
+      term:reasoncode "0456" ;
+      term:synonym "reason code 0456" , "cause code 0456" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0456" .
+
+:ReasonCode1217
+      a       owl:Class ;
+      term:description "inside wiring/jack cpe-no bill" ;
+      term:lemma "reasoncode1217" ;
+      term:pos "n" ;
+      term:reasoncode "1217" ;
+      term:synonym "reason code 1217" , "cause code 1217" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1217" .
+
+:ReasonCode2045
+      a       owl:Class ;
+      term:description "routine: dryers" ;
+      term:lemma "reasoncode2045" ;
+      term:pos "n" ;
+      term:reasoncode "2045" ;
+      term:synonym "reason code 2045" , "cause code 2045" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2045" .
+
+:ReasonCode1112
+      a       owl:Class ;
+      term:description "clec order activity (loc use only)" ;
+      term:lemma "reasoncode1112" ;
+      term:pos "n" ;
+      term:reasoncode "1112" ;
+      term:synonym "reason code 1112" , "cause code 1112" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1112" .
+
+:ReasonCode1031
+      a       owl:Class ;
+      term:description "space" ;
+      term:lemma "reasoncode1031" ;
+      term:pos "n" ;
+      term:reasoncode "1031" ;
+      term:synonym "reason code 1031" , "cause code 1031" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1031" .
+
+:ReasonCode2065
+      a       owl:Class ;
+      term:description "routine: pmap" ;
+      term:lemma "reasoncode2065" ;
+      term:pos "n" ;
+      term:reasoncode "2065" ;
+      term:synonym "reason code 2065" , "cause code 2065" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2065" .
+
+:ReasonCode1340
+      a       owl:Class ;
+      term:description "found ok-in: bill - une classes of service" ;
+      term:lemma "reasoncode1340" ;
+      term:pos "n" ;
+      term:reasoncode "1340" ;
+      term:synonym "cause code 1340" , "reason code 1340" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1340" .
+
+:ReasonCode0475
+      a       owl:Class ;
+      term:description "onu power pair" ;
+      term:lemma "reasoncode0475" ;
+      term:pos "n" ;
+      term:reasoncode "0475" ;
+      term:synonym "cause code 0475" , "reason code 0475" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0475" .
+
+:ReasonCode0281
+      a       owl:Class ;
+      term:description "prem tech use only found ok fttn" ;
+      term:lemma "reasoncode0281" ;
+      term:pos "n" ;
+      term:reasoncode "0281" ;
+      term:synonym "reason code 0281" , "cause code 0281" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0281" .
+
+:ReasonCode1227
+      a       owl:Class ;
+      term:description "cords / cables-bill" ;
+      term:lemma "reasoncode1227" ;
+      term:pos "n" ;
+      term:reasoncode "1227" ;
+      term:synonym "cause code 1227" , "reason code 1227" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1227" .
+
+:ReasonCode2075
+      a       owl:Class ;
+      term:description "routine: buffering" ;
+      term:lemma "reasoncode2075" ;
+      term:pos "n" ;
+      term:reasoncode "2075" ;
+      term:synonym "cause code 2075" , "reason code 2075" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2075" .
+
+:ReasonCode0931
+      a       owl:Class ;
+      term:description "test ok - demand dispatch ntf at network - bill" ;
+      term:lemma "reasoncode0931" ;
+      term:pos "n" ;
+      term:reasoncode "0931" ;
+      term:synonym "cause code 0931" , "reason code 0931" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0931" .
+
+:ReasonCode1379
+      a       owl:Class ;
+      term:description "clec request dispatch out - no trouble found - bill" ;
+      term:lemma "reasoncode1379" ;
+      term:pos "n" ;
+      term:reasoncode "1379" ;
+      term:synonym "cause code 1379" , "reason code 1379" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1379" .
+
+:ReasonCode1350
+      a       owl:Class ;
+      term:description "lst codslam conditioning bill" ;
+      term:lemma "reasoncode1350" ;
+      term:pos "n" ;
+      term:reasoncode "1350" ;
+      term:synonym "cause code 1350" , "reason code 1350" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1350" .
+
+:ReasonCode1102
+      a       owl:Class ;
+      term:description "memory call siplified message desk interface (smdi) unregulated" ;
+      term:lemma "reasoncode1102" ;
+      term:pos "n" ;
+      term:reasoncode "1102" ;
+      term:synonym "reason code 1102" , "cause code 1102" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1102" .
+
+:ReasonCode1336
+      a       owl:Class ;
+      term:description "lnp premature disconnect-frame time without loop" ;
+      term:lemma "reasoncode1336" ;
+      term:pos "n" ;
+      term:reasoncode "1336" ;
+      term:synonym "cause code 1336" , "reason code 1336" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1336" .
+
+:ReasonCode0549
+      a       owl:Class ;
+      term:description "hdsl central office unit" ;
+      term:lemma "reasoncode0549" ;
+      term:pos "n" ;
+      term:reasoncode "0549" ;
+      term:synonym "reason code 0549" , "cause code 0549" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0549" .
+
+:ReasonCode0380
+      a       owl:Class ;
+      term:description "service drop" ;
+      term:lemma "reasoncode0380" ;
+      term:pos "n" ;
+      term:reasoncode "0380" ;
+      term:synonym "reason code 0380" , "cause code 0380" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0380" .
+
+:ReasonCode2020
+      a       owl:Class ;
+      term:description "alarm: air pipe" ;
+      term:lemma "reasoncode2020" ;
+      term:pos "n" ;
+      term:reasoncode "2020" ;
+      term:synonym "reason code 2020" , "cause code 2020" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2020" .
+
+:ReasonCode1082
+      a       owl:Class ;
+      term:description "proactive maintenance package other" ;
+      term:lemma "reasoncode1082" ;
+      term:pos "n" ;
+      term:reasoncode "1082" ;
+      term:synonym "reason code 1082" , "cause code 1082" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1082" .
+
+:ReasonCode0901
+      a       owl:Class ;
+      term:description "retail found ok - out - no premises visit" ;
+      term:lemma "reasoncode0901" ;
+      term:pos "n" ;
+      term:reasoncode "0901" ;
+      term:synonym "reason code 0901" , "cause code 0901" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0901" .
+
+:ReasonCode0741
+      a       owl:Class ;
+      term:description "verified ok - - non billable to isp" ;
+      term:lemma "reasoncode0741" ;
+      term:pos "n" ;
+      term:reasoncode "0741" ;
+      term:synonym "reason code 0741" , "cause code 0741" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0741" .
+
+:ReasonCode1092
+      a       owl:Class ;
+      term:description "demand helping" ;
+      term:lemma "reasoncode1092" ;
+      term:pos "n" ;
+      term:reasoncode "1092" ;
+      term:synonym "reason code 1092" , "cause code 1092" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1092" .
+
+:ReasonCode0402
+      a       owl:Class ;
+      term:description "pair cut dead ahead" ;
+      term:lemma "reasoncode0402" ;
+      term:pos "n" ;
+      term:reasoncode "0402" ;
+      term:synonym "cause code 0402" , "reason code 0402" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0402" .
+
+:ReasonCode2010
+      a       owl:Class ;
+      term:description "alarm: pressure plug cable & terminal" ;
+      term:lemma "reasoncode2010" ;
+      term:pos "n" ;
+      term:reasoncode "2010" ;
+      term:synonym "reason code 2010" , "cause code 2010" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2010" .
+
+:ReasonCode0464
+      a       owl:Class ;
+      term:description "rt channel unit - defective or missing" ;
+      term:lemma "reasoncode0464" ;
+      term:pos "n" ;
+      term:reasoncode "0464" ;
+      term:synonym "cause code 0464" , "reason code 0464" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0464" .
+
+:ReasonCode0465
+      a       owl:Class ;
+      term:description "digital added main line rt (daml-rt)" ;
+      term:lemma "reasoncode0465" ;
+      term:pos "n" ;
+      term:reasoncode "0465" ;
+      term:synonym "reason code 0465" , "cause code 0465" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0465" .
+
+:ReasonCode1006
+      a       owl:Class ;
+      term:description "referred out- construction/engineering" ;
+      term:lemma "reasoncode1006" ;
+      term:pos "n" ;
+      term:reasoncode "1006" ;
+      term:synonym "cause code 1006" , "reason code 1006" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1006" .
+
+:ReasonCode2060
+      a       owl:Class ;
+      term:description "alarm: pmap" ;
+      term:lemma "reasoncode2060" ;
+      term:pos "n" ;
+      term:reasoncode "2060" ;
+      term:synonym "reason code 2060" , "cause code 2060" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2060" .
+
+:ReasonCode0280
+      a       owl:Class ;
+      term:description "no access - unable to reschedule access." ;
+      term:lemma "reasoncode0280" ;
+      term:pos "n" ;
+      term:reasoncode "0280" ;
+      term:synonym "cause code 0280" , "reason code 0280" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0280" .
+
+:ReasonCode0455
+      a       owl:Class ;
+      term:description "fiber failure - splices/mechanical" ;
+      term:lemma "reasoncode0455" ;
+      term:pos "n" ;
+      term:reasoncode "0455" ;
+      term:synonym "reason code 0455" , "cause code 0455" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0455" .
+
+:ReasonCode1111
+      a       owl:Class ;
+      term:description "service order activity 1159pm" ;
+      term:lemma "reasoncode1111" ;
+      term:pos "n" ;
+      term:reasoncode "1111" ;
+      term:synonym "cause code 1111" , "reason code 1111" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1111" .
+
+:ReasonCode1218
+      a       owl:Class ;
+      term:description "inside wiring/jack repaired under warranty - no bill" ;
+      term:lemma "reasoncode1218" ;
+      term:pos "n" ;
+      term:reasoncode "1218" ;
+      term:synonym "reason code 1218" , "cause code 1218" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1218" .
+
+:ReasonCode1335
+      a       owl:Class ;
+      term:description "lnp premature disconnect-frame tiem with loop" ;
+      term:lemma "reasoncode1335" ;
+      term:pos "n" ;
+      term:reasoncode "1335" ;
+      term:synonym "reason code 1335" , "cause code 1335" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1335" .
+
+:ReasonCode0381
+      a       owl:Class ;
+      term:description "service drop buried/permanent" ;
+      term:lemma "reasoncode0381" ;
+      term:pos "n" ;
+      term:reasoncode "0381" ;
+      term:synonym "reason code 0381" , "cause code 0381" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0381" .
+
+:ReasonCode0518
+      a       owl:Class ;
+      term:description "power/fuses - analog & digital equipment" ;
+      term:lemma "reasoncode0518" ;
+      term:pos "n" ;
+      term:reasoncode "0518" ;
+      term:synonym "reason code 0518" , "cause code 0518" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0518" .
+
+:ReasonCode1239
+      a       owl:Class ;
+      term:description "mounting cord billable" ;
+      term:lemma "reasoncode1239" ;
+      term:pos "n" ;
+      term:reasoncode "1239" ;
+      term:synonym "cause code 1239" , "reason code 1239" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1239" .
+
+:ReasonCode1081
+      a       owl:Class ;
+      term:description "clear defective pair list (cdpl)" ;
+      term:lemma "reasoncode1081" ;
+      term:pos "n" ;
+      term:reasoncode "1081" ;
+      term:synonym "reason code 1081" , "cause code 1081" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1081" .
+
+:ReasonCode0742
+      a       owl:Class ;
+      term:description "tok - no customer contact  - non billable to isp" ;
+      term:lemma "reasoncode0742" ;
+      term:pos "n" ;
+      term:reasoncode "0742" ;
+      term:synonym "reason code 0742" , "cause code 0742" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0742" .
+
+:ReasonCode1091
+      a       owl:Class ;
+      term:description "central office miscellaneous demand dispatch" ;
+      term:lemma "reasoncode1091" ;
+      term:pos "n" ;
+      term:reasoncode "1091" ;
+      term:synonym "reason code 1091" , "cause code 1091" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1091" .
+
+:ReasonCode0463
+      a       owl:Class ;
+      term:description "rt-common equipment circuit pack" ;
+      term:lemma "reasoncode0463" ;
+      term:pos "n" ;
+      term:reasoncode "0463" ;
+      term:synonym "reason code 0463" , "cause code 0463" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0463" .
+
+:ReasonCode0403
+      a       owl:Class ;
+      term:description "pair transposed" ;
+      term:lemma "reasoncode0403" ;
+      term:pos "n" ;
+      term:reasoncode "0403" ;
+      term:synonym "cause code 0403" , "reason code 0403" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0403" .
+
+:ReasonCode1376
+      a       owl:Class ;
+      term:description "lwc (local wholesale complete)" ;
+      term:lemma "reasoncode1376" ;
+      term:pos "n" ;
+      term:reasoncode "1376" ;
+      term:synonym "reason code 1376" , "cause code 1376" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1376" .
+
+:ReasonCode1131
+      a       owl:Class ;
+      term:description "refer to vendor - (vad)" ;
+      term:lemma "reasoncode1131" ;
+      term:pos "n" ;
+      term:reasoncode "1131" ;
+      term:synonym "cause code 1131" , "reason code 1131" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1131" .
+
+:ReasonCode0700
+      a       owl:Class ;
+      term:description "test ok (verify ok), reversal - no dispatch" ;
+      term:lemma "reasoncode0700" ;
+      term:pos "n" ;
+      term:reasoncode "0700" ;
+      term:synonym "cause code 0700" , "reason code 0700" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0700" .
+
+:ReasonCode0340
+      a       owl:Class ;
+      term:description "inside / outside network interface / optical network terminal" ;
+      term:lemma "reasoncode0340" ;
+      term:pos "n" ;
+      term:reasoncode "0340" ;
+      term:synonym "cause code 0340" , "reason code 0340" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0340" .
+
+:ReasonCode0350
+      a       owl:Class ;
+      term:description "network terminating wire" ;
+      term:lemma "reasoncode0350" ;
+      term:pos "n" ;
+      term:reasoncode "0350" ;
+      term:synonym "reason code 0350" , "cause code 0350" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0350" .
+
+:ReasonCode1219
+      a       owl:Class ;
+      term:description "dsl/inside wire/jack - no bill" ;
+      term:lemma "reasoncode1219" ;
+      term:pos "n" ;
+      term:reasoncode "1219" ;
+      term:synonym "reason code 1219" , "cause code 1219" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1219" .
+
+:ReasonCode0454
+      a       owl:Class ;
+      term:description "fiber failure - cable" ;
+      term:lemma "reasoncode0454" ;
+      term:pos "n" ;
+      term:reasoncode "0454" ;
+      term:synonym "cause code 0454" , "reason code 0454" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0454" .
+
+:ReasonCode1080
+      a       owl:Class ;
+      term:description "mechanized field system (mfvs)" ;
+      term:lemma "reasoncode1080" ;
+      term:pos "n" ;
+      term:reasoncode "1080" ;
+      term:synonym "cause code 1080" , "reason code 1080" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1080" .
+
+:ReasonCode0440
+      a       owl:Class ;
+      term:description "wire used in lieu of cable" ;
+      term:lemma "reasoncode0440" ;
+      term:pos "n" ;
+      term:reasoncode "0440" ;
+      term:synonym "reason code 0440" , "cause code 0440" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0440" .
+
+:ReasonCode0452
+      a       owl:Class ;
+      term:description "fiber sheath" ;
+      term:lemma "reasoncode0452" ;
+      term:pos "n" ;
+      term:reasoncode "0452" ;
+      term:synonym "cause code 0452" , "reason code 0452" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0452" .
+
+:ReasonCode0519
+      a       owl:Class ;
+      term:description "central office switch overload" ;
+      term:lemma "reasoncode0519" ;
+      term:pos "n" ;
+      term:reasoncode "0519" ;
+      term:synonym "cause code 0519" , "reason code 0519" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0519" .
+
+:ReasonCode1294
+      a       owl:Class ;
+      term:description "east & mw only loaner set provided / cord -  sw cords only no bill" ;
+      term:lemma "reasoncode1294" ;
+      term:pos "n" ;
+      term:reasoncode "1294" ;
+      term:synonym "cause code 1294" , "reason code 1294" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1294" .
+
+:ReasonCode0400
+      a       owl:Class ;
+      term:description "trouble not repaired / came clear" ;
+      term:lemma "reasoncode0400" ;
+      term:pos "n" ;
+      term:reasoncode "0400" ;
+      term:synonym "reason code 0400" , "cause code 0400" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0400" .
+
+:ReasonCode0430
+      a       owl:Class ;
+      term:description "accessible plant" ;
+      term:lemma "reasoncode0430" ;
+      term:pos "n" ;
+      term:reasoncode "0430" ;
+      term:synonym "cause code 0430" , "reason code 0430" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0430" .
+
+:ReasonCode1094
+      a       owl:Class ;
+      term:description "cable locate requests" ;
+      term:lemma "reasoncode1094" ;
+      term:pos "n" ;
+      term:reasoncode "1094" ;
+      term:synonym "reason code 1094" , "cause code 1094" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1094" .
+
+:ReasonCode1304
+      a       owl:Class ;
+      term:description "test ok - clec" ;
+      term:lemma "reasoncode1304" ;
+      term:pos "n" ;
+      term:reasoncode "1304" ;
+      term:synonym "reason code 1304" , "cause code 1304" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1304" .
+
+:ReasonCode0467
+      a       owl:Class ;
+      term:description "rt power/ rt rectifier" ;
+      term:lemma "reasoncode0467" ;
+      term:pos "n" ;
+      term:reasoncode "0467" ;
+      term:synonym "cause code 0467" , "reason code 0467" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0467" .
+
+:ReasonCode0420
+      a       owl:Class ;
+      term:description "non-accessible plant" ;
+      term:lemma "reasoncode0420" ;
+      term:pos "n" ;
+      term:reasoncode "0420" ;
+      term:synonym "cause code 0420" , "reason code 0420" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0420" .
+
+:ReasonCode1168
+      a       owl:Class ;
+      term:description "wnp mixed service." ;
+      term:lemma "reasoncode1168" ;
+      term:pos "n" ;
+      term:reasoncode "1168" ;
+      term:synonym "cause code 1168" , "reason code 1168" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1168" .
+
+:ReasonCode0201
+      a       owl:Class ;
+      term:description "rg (residental gateway)" ;
+      term:lemma "reasoncode0201" ;
+      term:pos "n" ;
+      term:reasoncode "0201" ;
+      term:synonym "cause code 0201" , "reason code 0201" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0201" .
+
+:ReasonCode0451
+      a       owl:Class ;
+      term:description "lightwave repeaters/multiplexers" ;
+      term:lemma "reasoncode0451" ;
+      term:pos "n" ;
+      term:reasoncode "0451" ;
+      term:synonym "cause code 0451" , "reason code 0451" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0451" .
+
+:ReasonCode1323
+      a       owl:Class ;
+      term:description "proactive testing" ;
+      term:lemma "reasoncode1323" ;
+      term:pos "n" ;
+      term:reasoncode "1323" ;
+      term:synonym "cause code 1323" , "reason code 1323" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1323" .
+
+:ReasonCode0410
+      a       owl:Class ;
+      term:description "damaged cable - damage claim not required" ;
+      term:lemma "reasoncode0410" ;
+      term:pos "n" ;
+      term:reasoncode "0410" ;
+      term:synonym "cause code 0410" , "reason code 0410" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0410" .
+
+:ReasonCode1093
+      a       owl:Class ;
+      term:description "customer direct report excluded" ;
+      term:lemma "reasoncode1093" ;
+      term:pos "n" ;
+      term:reasoncode "1093" ;
+      term:synonym "reason code 1093" , "cause code 1093" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1093" .
+
+:ReasonCode0401
+      a       owl:Class ;
+      term:description "pair change" ;
+      term:lemma "reasoncode0401" ;
+      term:pos "n" ;
+      term:reasoncode "0401" ;
+      term:synonym "cause code 0401" , "reason code 0401" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0401" .
+
+:ReasonCode2035
+      a       owl:Class ;
+      term:description "routine: manifold" ;
+      term:lemma "reasoncode2035" ;
+      term:pos "n" ;
+      term:reasoncode "2035" ;
+      term:synonym "reason code 2035" , "cause code 2035" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2035" .
+
+:ReasonCode0466
+      a       owl:Class ;
+      term:description "rt wiring/physical/etc." ;
+      term:lemma "reasoncode0466" ;
+      term:pos "n" ;
+      term:reasoncode "0466" ;
+      term:synonym "cause code 0466" , "reason code 0466" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0466" .
+
+:ReasonCode1322
+      a       owl:Class ;
+      term:description "request for test" ;
+      term:lemma "reasoncode1322" ;
+      term:pos "n" ;
+      term:reasoncode "1322" ;
+      term:synonym "cause code 1322" , "reason code 1322" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1322" .
+
+:ReasonCode1330
+      a       owl:Class ;
+      term:description "wholesale / resale no trouble found/found ok out - bill" ;
+      term:lemma "reasoncode1330" ;
+      term:pos "n" ;
+      term:reasoncode "1330" ;
+      term:synonym "cause code 1330" , "reason code 1330" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1330" .
+
+:ReasonCode0512
+      a       owl:Class ;
+      term:description "originating equipment" ;
+      term:lemma "reasoncode0512" ;
+      term:pos "n" ;
+      term:reasoncode "0512" ;
+      term:synonym "reason code 0512" , "cause code 0512" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0512" .
+
+:ReasonCode0565
+      a       owl:Class ;
+      term:description "carrier systems - common circuit pack" ;
+      term:lemma "reasoncode0565" ;
+      term:pos "n" ;
+      term:reasoncode "0565" ;
+      term:synonym "cause code 0565" , "reason code 0565" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0565" .
+
+:ReasonCode2070
+      a       owl:Class ;
+      term:description "alarm: buffering" ;
+      term:lemma "reasoncode2070" ;
+      term:pos "n" ;
+      term:reasoncode "2070" ;
+      term:synonym "cause code 2070" , "reason code 2070" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2070" .
+
+:ReasonCode0550
+      a       owl:Class ;
+      term:description "central office power" ;
+      term:lemma "reasoncode0550" ;
+      term:pos "n" ;
+      term:reasoncode "0550" ;
+      term:synonym "cause code 0550" , "reason code 0550" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0550" .
+
+:ReasonCode0171
+      a       owl:Class ;
+      term:description "speed profile change - optimization up - non billable to isp" ;
+      term:lemma "reasoncode0171" ;
+      term:pos "n" ;
+      term:reasoncode "0171" ;
+      term:synonym "reason code 0171" , "cause code 0171" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0171" .
+
+:ReasonCode1373
+      a       owl:Class ;
+      term:description "no access-disp-out  (billable)" ;
+      term:lemma "reasoncode1373" ;
+      term:pos "n" ;
+      term:reasoncode "1373" ;
+      term:synonym "reason code 1373" , "cause code 1373" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1373" .
+
+:ReasonCode0413
+      a       owl:Class ;
+      term:description "fiber cable damages - damage claim required" ;
+      term:lemma "reasoncode0413" ;
+      term:pos "n" ;
+      term:reasoncode "0413" ;
+      term:synonym "reason code 0413" , "cause code 0413" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0413" .
+
+:ReasonCode1273
+      a       owl:Class ;
+      term:description "ilec outside plant" ;
+      term:lemma "reasoncode1273" ;
+      term:pos "n" ;
+      term:reasoncode "1273" ;
+      term:synonym "reason code 1273" , "cause code 1273" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1273" .
+
+:ReasonCode0279
+      a       owl:Class ;
+      term:description "vrad alarms" ;
+      term:lemma "reasoncode0279" ;
+      term:pos "n" ;
+      term:reasoncode "0279" ;
+      term:synonym "cause code 0279" , "reason code 0279" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0279" .
+
+:ReasonCode1220
+      a       owl:Class ;
+      term:description "router-bill" ;
+      term:lemma "reasoncode1220" ;
+      term:pos "n" ;
+      term:reasoncode "1220" ;
+      term:synonym "cause code 1220" , "reason code 1220" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1220" .
+
+:ReasonCode2090
+      a       owl:Class ;
+      term:description "alarm: closures" ;
+      term:lemma "reasoncode2090" ;
+      term:pos "n" ;
+      term:reasoncode "2090" ;
+      term:synonym "reason code 2090" , "cause code 2090" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2090" .
+
+:ReasonCode0384
+      a       owl:Class ;
+      term:description "service drop aerial" ;
+      term:lemma "reasoncode0384" ;
+      term:pos "n" ;
+      term:reasoncode "0384" ;
+      term:synonym "cause code 0384" , "reason code 0384" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0384" .
+
+:ReasonCode1235
+      a       owl:Class ;
+      term:description "no access to nid, or previous test may have been beyond the nid. no bill" ;
+      term:lemma "reasoncode1235" ;
+      term:pos "n" ;
+      term:reasoncode "1235" ;
+      term:synonym "cause code 1235" , "reason code 1235" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1235" .
+
+:ReasonCode0511
+      a       owl:Class ;
+      term:description "common equipment" ;
+      term:lemma "reasoncode0511" ;
+      term:pos "n" ;
+      term:reasoncode "0511" ;
+      term:synonym "reason code 0511" , "cause code 0511" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0511" .
+
+:ReasonCode1260
+      a       owl:Class ;
+      term:description "nevada only- flat rate res repair.  (billable - retail)" ;
+      term:lemma "reasoncode1260" ;
+      term:pos "n" ;
+      term:reasoncode "1260" ;
+      term:synonym "cause code 1260" , "reason code 1260" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1260" .
+
+:ReasonCode1331
+      a       owl:Class ;
+      term:description "dsl found ok out bill" ;
+      term:lemma "reasoncode1331" ;
+      term:pos "n" ;
+      term:reasoncode "1331" ;
+      term:synonym "cause code 1331" , "reason code 1331" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1331" .
+
+:ReasonCode1206
+      a       owl:Class ;
+      term:description "clec trouble isolation-central office collocation-bill" ;
+      term:lemma "reasoncode1206" ;
+      term:pos "n" ;
+      term:reasoncode "1206" ;
+      term:synonym "cause code 1206" , "reason code 1206" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1206" .
+
+:ReasonCode0277
+      a       owl:Class ;
+      term:description "u-verse jumper" ;
+      term:lemma "reasoncode0277" ;
+      term:pos "n" ;
+      term:reasoncode "0277" ;
+      term:synonym "cause code 0277" , "reason code 0277" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0277" .
+
+:ReasonCode1135
+      a       owl:Class ;
+      term:description "customer request tcf or line made busy / release" ;
+      term:lemma "reasoncode1135" ;
+      term:pos "n" ;
+      term:reasoncode "1135" ;
+      term:synonym "cause code 1135" , "reason code 1135" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1135" .
+
+:ReasonCode0551
+      a       owl:Class ;
+      term:description "dc power equipment" ;
+      term:lemma "reasoncode0551" ;
+      term:pos "n" ;
+      term:reasoncode "0551" ;
+      term:synonym "cause code 0551" , "reason code 0551" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0551" .
+
+:ReasonCode1321
+      a       owl:Class ;
+      term:description "referred to data service provider" ;
+      term:lemma "reasoncode1321" ;
+      term:pos "n" ;
+      term:reasoncode "1321" ;
+      term:synonym "reason code 1321" , "cause code 1321" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1321" .
+
+:ReasonCode0480
+      a       owl:Class ;
+      term:description "multi-channel analog carrier & other loop electronics" ;
+      term:lemma "reasoncode0480" ;
+      term:pos "n" ;
+      term:reasoncode "0480" ;
+      term:synonym "reason code 0480" , "cause code 0480" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0480" .
+
+:ReasonCode0525
+      a       owl:Class ;
+      term:description "line translations" ;
+      term:lemma "reasoncode0525" ;
+      term:pos "n" ;
+      term:reasoncode "0525" ;
+      term:synonym "cause code 0525" , "reason code 0525" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0525" .
+
+:ReasonCode0460
+      a       owl:Class ;
+      term:description "digital loop carrier (dlc)" ;
+      term:lemma "reasoncode0460" ;
+      term:pos "n" ;
+      term:reasoncode "0460" ;
+      term:synonym "cause code 0460" , "reason code 0460" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0460" .
+
+:ReasonCode0278
+      a       owl:Class ;
+      term:description "port issue" ;
+      term:lemma "reasoncode0278" ;
+      term:pos "n" ;
+      term:reasoncode "0278" ;
+      term:synonym "cause code 0278" , "reason code 0278" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0278" .
+
+:ReasonCode0412
+      a       owl:Class ;
+      term:description "outside plant damages -  damage claim required" ;
+      term:lemma "reasoncode0412" ;
+      term:pos "n" ;
+      term:reasoncode "0412" ;
+      term:synonym "reason code 0412" , "cause code 0412" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0412" .
+
+:ReasonCode1274
+      a       owl:Class ;
+      term:description "lnp trouble" ;
+      term:lemma "reasoncode1274" ;
+      term:pos "n" ;
+      term:reasoncode "1274" ;
+      term:synonym "reason code 1274" , "cause code 1274" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1274" .
+
+:ReasonCode0366
+      a       owl:Class ;
+      term:description "customer to provide trench on property" ;
+      term:lemma "reasoncode0366" ;
+      term:pos "n" ;
+      term:reasoncode "0366" ;
+      term:synonym "cause code 0366" , "reason code 0366" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0366" .
+
+:ReasonCode0450
+      a       owl:Class ;
+      term:description "lightwave system & fiber optic cable" ;
+      term:lemma "reasoncode0450" ;
+      term:pos "n" ;
+      term:reasoncode "0450" ;
+      term:synonym "cause code 0450" , "reason code 0450" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0450" .
+
+:ReasonCode1209
+      a       owl:Class ;
+      term:description "adsl inside wire / jack - bill" ;
+      term:lemma "reasoncode1209" ;
+      term:pos "n" ;
+      term:reasoncode "1209" ;
+      term:synonym "cause code 1209" , "reason code 1209" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1209" .
+
+:ReasonCode0567
+      a       owl:Class ;
+      term:description "vendor equipment" ;
+      term:lemma "reasoncode0567" ;
+      term:pos "n" ;
+      term:reasoncode "0567" ;
+      term:synonym "reason code 0567" , "cause code 0567" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0567" .
+
+:ReasonCode2105
+      a       owl:Class ;
+      term:description "routine: monitoring system" ;
+      term:lemma "reasoncode2105" ;
+      term:pos "n" ;
+      term:reasoncode "2105" ;
+      term:synonym "cause code 2105" , "reason code 2105" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2105" .
+
+:ReasonCode1332
+      a       owl:Class ;
+      term:description "dsl found ok out ? no bill" ;
+      term:lemma "reasoncode1332" ;
+      term:pos "n" ;
+      term:reasoncode "1332" ;
+      term:synonym "cause code 1332" , "reason code 1332" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1332" .
+
+:ReasonCode0510
+      a       owl:Class ;
+      term:description "central office equipment" ;
+      term:lemma "reasoncode0510" ;
+      term:pos "n" ;
+      term:reasoncode "0510" ;
+      term:synonym "reason code 0510" , "cause code 0510" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0510" .
+
+:ReasonCode1132
+      a       owl:Class ;
+      term:description "customer requests technician to return" ;
+      term:lemma "reasoncode1132" ;
+      term:pos "n" ;
+      term:reasoncode "1132" ;
+      term:synonym "cause code 1132" , "reason code 1132" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1132" .
+
+:ReasonCode0481
+      a       owl:Class ;
+      term:description "asymmetrical digital subscriber line remote common equipment (adsl)" ;
+      term:lemma "reasoncode0481" ;
+      term:pos "n" ;
+      term:reasoncode "0481" ;
+      term:synonym "cause code 0481" , "reason code 0481" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0481" .
+
+:ReasonCode0500
+      a       owl:Class ;
+      term:description "co database services system errors" ;
+      term:lemma "reasoncode0500" ;
+      term:pos "n" ;
+      term:reasoncode "0500" ;
+      term:synonym "cause code 0500" , "reason code 0500" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0500" .
+
+:ReasonCode1099
+      a       owl:Class ;
+      term:description "bpc" ;
+      term:lemma "reasoncode1099" ;
+      term:pos "n" ;
+      term:reasoncode "1099" ;
+      term:synonym "cause code 1099" , "reason code 1099" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1099" .
+
+:ReasonCode0726
+      a       owl:Class ;
+      term:description "ndc verified ok, customer doesn't answer" ;
+      term:lemma "reasoncode0726" ;
+      term:pos "n" ;
+      term:reasoncode "0726" ;
+      term:synonym "reason code 0726" , "cause code 0726" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0726" .
+
+:ReasonCode0577
+      a       owl:Class ;
+      term:description "line share ilec-owned splitters" ;
+      term:lemma "reasoncode0577" ;
+      term:pos "n" ;
+      term:reasoncode "0577" ;
+      term:synonym "reason code 0577" , "cause code 0577" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0577" .
+
+:ReasonCode1090
+      a       owl:Class ;
+      term:description "pree-ct/installation work" ;
+      term:lemma "reasoncode1090" ;
+      term:pos "n" ;
+      term:reasoncode "1090" ;
+      term:synonym "reason code 1090" , "cause code 1090" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1090" .
+
+:ReasonCode1371
+      a       owl:Class ;
+      term:description "clec request dispach in - ntf" ;
+      term:lemma "reasoncode1371" ;
+      term:pos "n" ;
+      term:reasoncode "1371" ;
+      term:synonym "cause code 1371" , "reason code 1371" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1371" .
+
+:ReasonCode0461
+      a       owl:Class ;
+      term:description "repeater/repeater plug-in" ;
+      term:lemma "reasoncode0461" ;
+      term:pos "n" ;
+      term:reasoncode "0461" ;
+      term:synonym "cause code 0461" , "reason code 0461" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0461" .
+
+:ReasonCode1275
+      a       owl:Class ;
+      term:description "missed s.o. due date" ;
+      term:lemma "reasoncode1275" ;
+      term:pos "n" ;
+      term:reasoncode "1275" ;
+      term:synonym "reason code 1275" , "cause code 1275" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1275" .
+
+:ReasonCode0415
+      a       owl:Class ;
+      term:description "on premise distribution cable" ;
+      term:lemma "reasoncode0415" ;
+      term:pos "n" ;
+      term:reasoncode "0415" ;
+      term:synonym "reason code 0415" , "cause code 0415" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0415" .
+
+:ReasonCode0528
+      a       owl:Class ;
+      term:description "applies to facility based clec npa-nxx code problems" ;
+      term:lemma "reasoncode0528" ;
+      term:pos "n" ;
+      term:reasoncode "0528" ;
+      term:synonym "cause code 0528" , "reason code 0528" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0528" .
+
+:ReasonCode1237
+      a       owl:Class ;
+      term:description "ntf-wire maintenance plan - customer requested activation not covered under maintenance plan" ;
+      term:lemma "reasoncode1237" ;
+      term:pos "n" ;
+      term:reasoncode "1237" ;
+      term:synonym "reason code 1237" , "cause code 1237" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1237" .
+
+:ReasonCode0382
+      a       owl:Class ;
+      term:description "service drop buried/temporary" ;
+      term:lemma "reasoncode0382" ;
+      term:pos "n" ;
+      term:reasoncode "0382" ;
+      term:synonym "reason code 0382" , "cause code 0382" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0382" .
+
+:ReasonCode2300
+      a       owl:Class ;
+      term:description "alarm: came clear/found ok - alarms only" ;
+      term:lemma "reasoncode2300" ;
+      term:pos "n" ;
+      term:reasoncode "2300" ;
+      term:synonym "cause code 2300" , "reason code 2300" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2300" .
+
+:ReasonCode0725
+      a       owl:Class ;
+      term:description "ndc verified ok-greater than 24 hrs, verified w/customer" ;
+      term:lemma "reasoncode0725" ;
+      term:pos "n" ;
+      term:reasoncode "0725" ;
+      term:synonym "reason code 0725" , "cause code 0725" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0725" .
+
+:ReasonCode1208
+      a       owl:Class ;
+      term:description "adsl only sia-bill" ;
+      term:lemma "reasoncode1208" ;
+      term:pos "n" ;
+      term:reasoncode "1208" ;
+      term:synonym "cause code 1208" , "reason code 1208" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1208" .
+
+:ReasonCode1333
+      a       owl:Class ;
+      term:description "lnp premature disconnect-hot cut with loop" ;
+      term:lemma "reasoncode1333" ;
+      term:pos "n" ;
+      term:reasoncode "1333" ;
+      term:synonym "cause code 1333" , "reason code 1333" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1333" .
+
+:ReasonCode0568
+      a       owl:Class ;
+      term:description "carrier channel units - pots" ;
+      term:lemma "reasoncode0568" ;
+      term:pos "n" ;
+      term:reasoncode "0568" ;
+      term:synonym "reason code 0568" , "cause code 0568" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0568" .
+
+:ReasonCode0482
+      a       owl:Class ;
+      term:description "dsl common channel card assoc. w/common equip. and jumper/protectorjumper" ;
+      term:lemma "reasoncode0482" ;
+      term:pos "n" ;
+      term:reasoncode "0482" ;
+      term:synonym "cause code 0482" , "reason code 0482" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0482" .
+
+:ReasonCode0578
+      a       owl:Class ;
+      term:description "digital x-connect systems" ;
+      term:lemma "reasoncode0578" ;
+      term:pos "n" ;
+      term:reasoncode "0578" ;
+      term:synonym "cause code 0578" , "reason code 0578" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0578" .
+
+:ReasonCode2050
+      a       owl:Class ;
+      term:description "alarm: tubing/fittings" ;
+      term:lemma "reasoncode2050" ;
+      term:pos "n" ;
+      term:reasoncode "2050" ;
+      term:synonym "cause code 2050" , "reason code 2050" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2050" .
+
+:ReasonCode1246
+      a       owl:Class ;
+      term:description "cords / cables-no bill" ;
+      term:lemma "reasoncode1246" ;
+      term:pos "n" ;
+      term:reasoncode "1246" ;
+      term:synonym "reason code 1246" , "cause code 1246" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1246" .
+
+:ReasonCode0527
+      a       owl:Class ;
+      term:description "at&t npa-nxx code" ;
+      term:lemma "reasoncode0527" ;
+      term:pos "n" ;
+      term:reasoncode "0527" ;
+      term:synonym "cause code 0527" , "reason code 0527" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0527" .
+
+:ReasonCode0462
+      a       owl:Class ;
+      term:description "apparatus case (including wiring, gas tubes, housing, etc.,)" ;
+      term:lemma "reasoncode0462" ;
+      term:pos "n" ;
+      term:reasoncode "0462" ;
+      term:synonym "cause code 0462" , "reason code 0462" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0462" .
+
+:ReasonCode2030
+      a       owl:Class ;
+      term:description "alarm: manifold" ;
+      term:lemma "reasoncode2030" ;
+      term:pos "n" ;
+      term:reasoncode "2030" ;
+      term:synonym "reason code 2030" , "cause code 2030" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2030" .
+
+:ReasonCode1334
+      a       owl:Class ;
+      term:description "lnp premature disconnect-hot cut without loop" ;
+      term:lemma "reasoncode1334" ;
+      term:pos "n" ;
+      term:reasoncode "1334" ;
+      term:synonym "reason code 1334" , "cause code 1334" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1334" .
+
+:ReasonCode0900
+      a       owl:Class ;
+      term:description "retail found ok - out" ;
+      term:lemma "reasoncode0900" ;
+      term:pos "n" ;
+      term:reasoncode "0900" ;
+      term:synonym "reason code 0900" , "cause code 0900" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0900" .
+
+:ReasonCode1164
+      a       owl:Class ;
+      term:description "clec referrals (loc use only)" ;
+      term:lemma "reasoncode1164" ;
+      term:pos "n" ;
+      term:reasoncode "1164" ;
+      term:synonym "cause code 1164" , "reason code 1164" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1164" .
+
+:ReasonCode1070
+      a       owl:Class ;
+      term:description "restoration of dsl service after vdsl service is incomplete/cancelled" ;
+      term:lemma "reasoncode1070" ;
+      term:pos "n" ;
+      term:reasoncode "1070" ;
+      term:synonym "cause code 1070" , "reason code 1070" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1070" .
+
+:ReasonCode0111
+      a       owl:Class ;
+      term:description "ocs - station equipment" ;
+      term:lemma "reasoncode0111" ;
+      term:pos "n" ;
+      term:reasoncode "0111" ;
+      term:synonym "cause code 0111" , "reason code 0111" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0111" .
+
+:ReasonCode0383
+      a       owl:Class ;
+      term:description "service drop buried/cutover" ;
+      term:lemma "reasoncode0383" ;
+      term:pos "n" ;
+      term:reasoncode "0383" ;
+      term:synonym "reason code 0383" , "cause code 0383" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0383" .
+
+:ReasonCode0575
+      a       owl:Class ;
+      term:description "analog  repeaters" ;
+      term:lemma "reasoncode0575" ;
+      term:pos "n" ;
+      term:reasoncode "0575" ;
+      term:synonym "cause code 0575" , "reason code 0575" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0575" .
+
+:ReasonCode0483
+      a       owl:Class ;
+      term:description "digital subscriber line (dsl): does not support the dsl service" ;
+      term:lemma "reasoncode0483" ;
+      term:pos "n" ;
+      term:reasoncode "0483" ;
+      term:synonym "cause code 0483" , "reason code 0483" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0483" .
+
+:ReasonCode0728
+      a       owl:Class ;
+      term:description "customer does not answer - ndc only" ;
+      term:lemma "reasoncode0728" ;
+      term:pos "n" ;
+      term:reasoncode "0728" ;
+      term:synonym "reason code 0728" , "cause code 0728" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0728" .
+
+:ReasonCode1244
+      a       owl:Class ;
+      term:description "filter-no bill" ;
+      term:lemma "reasoncode1244" ;
+      term:pos "n" ;
+      term:reasoncode "1244" ;
+      term:synonym "reason code 1244" , "cause code 1244" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1244" .
+
+:ReasonCode0370
+      a       owl:Class ;
+      term:description "protection  gas/carbon" ;
+      term:lemma "reasoncode0370" ;
+      term:pos "n" ;
+      term:reasoncode "0370" ;
+      term:synonym "cause code 0370" , "reason code 0370" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0370" .
+
+:ReasonCode0802
+      a       owl:Class ;
+      term:description "found ok - infrastructure translations" ;
+      term:lemma "reasoncode0802" ;
+      term:pos "n" ;
+      term:reasoncode "0802" ;
+      term:synonym "cause code 0802" , "reason code 0802" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0802" .
+
+:ReasonCode2055
+      a       owl:Class ;
+      term:description "routine: tubing/fittings" ;
+      term:lemma "reasoncode2055" ;
+      term:pos "n" ;
+      term:reasoncode "2055" ;
+      term:synonym "reason code 2055" , "cause code 2055" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2055" .
+
+:ReasonCode1263
+      a       owl:Class ;
+      term:description "nevada only- flat rate per line to repair iw" ;
+      term:lemma "reasoncode1263" ;
+      term:pos "n" ;
+      term:reasoncode "1263" ;
+      term:synonym "reason code 1263" , "cause code 1263" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1263" .
+
+:ReasonCode0540
+      a       owl:Class ;
+      term:description "central office transport equipment" ;
+      term:lemma "reasoncode0540" ;
+      term:pos "n" ;
+      term:reasoncode "0540" ;
+      term:synonym "cause code 0540" , "reason code 0540" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0540" .
+
+:ReasonCode1124
+      a       owl:Class ;
+      term:description "translation work done in lieu of a service order" ;
+      term:lemma "reasoncode1124" ;
+      term:pos "n" ;
+      term:reasoncode "1124" ;
+      term:synonym "reason code 1124" , "cause code 1124" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1124" .
+
+:ReasonCode1203
+      a       owl:Class ;
+      term:description "trouble determination only - bill" ;
+      term:lemma "reasoncode1203" ;
+      term:pos "n" ;
+      term:reasoncode "1203" ;
+      term:synonym "cause code 1203" , "reason code 1203" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1203" .
+
+:ReasonCode0288
+      a       owl:Class ;
+      term:description "unable to perform 7330 test - no cpe" ;
+      term:lemma "reasoncode0288" ;
+      term:pos "n" ;
+      term:reasoncode "0288" ;
+      term:synonym "reason code 0288" , "cause code 0288" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0288" .
+
+:ReasonCode0473
+      a       owl:Class ;
+      term:description "onu common equipment circuit pack" ;
+      term:lemma "reasoncode0473" ;
+      term:pos "n" ;
+      term:reasoncode "0473" ;
+      term:synonym "cause code 0473" , "reason code 0473" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0473" .
+
+:ReasonCode2205
+      a       owl:Class ;
+      term:description "routine: manhole maintenance" ;
+      term:lemma "reasoncode2205" ;
+      term:pos "n" ;
+      term:reasoncode "2205" ;
+      term:synonym "cause code 2205" , "reason code 2205" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2205" .
+
+:ReasonCode0560
+      a       owl:Class ;
+      term:description "central office miscellaneous equipment" ;
+      term:lemma "reasoncode0560" ;
+      term:pos "n" ;
+      term:reasoncode "0560" ;
+      term:synonym "reason code 0560" , "cause code 0560" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0560" .
+
+:ReasonCode1210
+      a       owl:Class ;
+      term:description "front end close-out (feco)" ;
+      term:lemma "reasoncode1210" ;
+      term:pos "n" ;
+      term:reasoncode "1210" ;
+      term:synonym "cause code 1210" , "reason code 1210" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1210" .
+
+:ReasonCode0289
+      a       owl:Class ;
+      term:description "customer request cancel u-verse service" ;
+      term:lemma "reasoncode0289" ;
+      term:pos "n" ;
+      term:reasoncode "0289" ;
+      term:synonym "reason code 0289" , "cause code 0289" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0289" .
+
+:ReasonCode1163
+      a       owl:Class ;
+      term:description "verification - line features - clec" ;
+      term:lemma "reasoncode1163" ;
+      term:pos "n" ;
+      term:reasoncode "1163" ;
+      term:synonym "reason code 1163" , "cause code 1163" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1163" .
+
+:ReasonCode0206
+      a       owl:Class ;
+      term:description "remote control" ;
+      term:lemma "reasoncode0206" ;
+      term:pos "n" ;
+      term:reasoncode "0206" ;
+      term:synonym "cause code 0206" , "reason code 0206" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0206" .
+
+:ReasonCode0574
+      a       owl:Class ;
+      term:description "signaling equipment" ;
+      term:lemma "reasoncode0574" ;
+      term:pos "n" ;
+      term:reasoncode "0574" ;
+      term:synonym "cause code 0574" , "reason code 0574" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0574" .
+
+:ReasonCode2080
+      a       owl:Class ;
+      term:description "alarm: cable sheath" ;
+      term:lemma "reasoncode2080" ;
+      term:pos "n" ;
+      term:reasoncode "2080" ;
+      term:synonym "cause code 2080" , "reason code 2080" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2080" .
+
+:ReasonCode1224
+      a       owl:Class ;
+      term:description "filter-bill" ;
+      term:lemma "reasoncode1224" ;
+      term:pos "n" ;
+      term:reasoncode "1224" ;
+      term:synonym "cause code 1224" , "reason code 1224" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1224" .
+
+:ReasonCode0484
+      a       owl:Class ;
+      term:description "transfer to an existing lightspeed conditioned pair" ;
+      term:lemma "reasoncode0484" ;
+      term:pos "n" ;
+      term:reasoncode "0484" ;
+      term:synonym "cause code 0484" , "reason code 0484" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0484" .
+
+:ReasonCode0727
+      a       owl:Class ;
+      term:description "verified ok with customer less than 24 hrs - ndc only" ;
+      term:lemma "reasoncode0727" ;
+      term:pos "n" ;
+      term:reasoncode "0727" ;
+      term:synonym "reason code 0727" , "cause code 0727" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0727" .
+
+:ReasonCode1243
+      a       owl:Class ;
+      term:description "splitter-no bill" ;
+      term:lemma "reasoncode1243" ;
+      term:pos "n" ;
+      term:reasoncode "1243" ;
+      term:synonym "reason code 1243" , "cause code 1243" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1243" .
+
+:ReasonCode0501
+      a       owl:Class ;
+      term:description "co electronic x-conn system errors" ;
+      term:lemma "reasoncode0501" ;
+      term:pos "n" ;
+      term:reasoncode "0501" ;
+      term:synonym "cause code 0501" , "reason code 0501" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0501" .
+
+:ReasonCode1250
+      a       owl:Class ;
+      term:description "inside wire / jacks / set equipment / cords (no bill)" ;
+      term:lemma "reasoncode1250" ;
+      term:pos "n" ;
+      term:reasoncode "1250" ;
+      term:synonym "reason code 1250" , "cause code 1250" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1250" .
+
+:ReasonCode1202
+      a       owl:Class ;
+      term:description "inside wiring / jack - bill" ;
+      term:lemma "reasoncode1202" ;
+      term:pos "n" ;
+      term:reasoncode "1202" ;
+      term:synonym "cause code 1202" , "reason code 1202" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1202" .
+
+:ReasonCode1264
+      a       owl:Class ;
+      term:description "nevada only - diagnostic residence (billable)" ;
+      term:lemma "reasoncode1264" ;
+      term:pos "n" ;
+      term:reasoncode "1264" ;
+      term:synonym "cause code 1264" , "reason code 1264" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1264" .
+
+:ReasonCode0515
+      a       owl:Class ;
+      term:description "trunks" ;
+      term:lemma "reasoncode0515" ;
+      term:pos "n" ;
+      term:reasoncode "0515" ;
+      term:synonym "cause code 0515" , "reason code 0515" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0515" .
+
+:ReasonCode0474
+      a       owl:Class ;
+      term:description "onu channel unit" ;
+      term:lemma "reasoncode0474" ;
+      term:pos "n" ;
+      term:reasoncode "0474" ;
+      term:synonym "reason code 0474" , "cause code 0474" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0474" .
+
+:ReasonCode0287
+      a       owl:Class ;
+      term:description "7330 turn - up prefielded to sai" ;
+      term:lemma "reasoncode0287" ;
+      term:pos "n" ;
+      term:reasoncode "0287" ;
+      term:synonym "reason code 0287" , "cause code 0287" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0287" .
+
+:ReasonCode1162
+      a       owl:Class ;
+      term:description "verification:  call forwarding - clec" ;
+      term:lemma "reasoncode1162" ;
+      term:pos "n" ;
+      term:reasoncode "1162" ;
+      term:synonym "cause code 1162" , "reason code 1162" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1162" .
+
+:ReasonCode1201
+      a       owl:Class ;
+      term:description "cpe - bill" ;
+      term:lemma "reasoncode1201" ;
+      term:pos "n" ;
+      term:reasoncode "1201" ;
+      term:synonym "cause code 1201" , "reason code 1201" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1201" .
+
+:ReasonCode0207
+      a       owl:Class ;
+      term:description "power supply (voip, video or hsia)" ;
+      term:lemma "reasoncode0207" ;
+      term:pos "n" ;
+      term:reasoncode "0207" ;
+      term:synonym "cause code 0207" , "reason code 0207" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0207" .
+
+:ReasonCode0542
+      a       owl:Class ;
+      term:description "digital services cross-connect (dsx) bays/jacks/cables" ;
+      term:lemma "reasoncode0542" ;
+      term:pos "n" ;
+      term:reasoncode "0542" ;
+      term:synonym "reason code 0542" , "cause code 0542" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0542" .
+
+:ReasonCode2000
+      a       owl:Class ;
+      term:description "alarm: transducer/contactor device- pressure & flow" ;
+      term:lemma "reasoncode2000" ;
+      term:pos "n" ;
+      term:reasoncode "2000" ;
+      term:synonym "reason code 2000" , "cause code 2000" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2000" .
+
+:ReasonCode0521
+      a       owl:Class ;
+      term:description "infrastructure translations" ;
+      term:lemma "reasoncode0521" ;
+      term:pos "n" ;
+      term:reasoncode "0521" ;
+      term:synonym "reason code 0521" , "cause code 0521" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0521" .
+
+:ReasonCode1223
+      a       owl:Class ;
+      term:description "splitter-bill" ;
+      term:lemma "reasoncode1223" ;
+      term:pos "n" ;
+      term:reasoncode "1223" ;
+      term:synonym "cause code 1223" , "reason code 1223" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1223" .
+
+:ReasonCode1251
+      a       owl:Class ;
+      term:description "inside wire / jacks / set equipment / cords (bill)" ;
+      term:lemma "reasoncode1251" ;
+      term:pos "n" ;
+      term:reasoncode "1251" ;
+      term:synonym "cause code 1251" , "reason code 1251" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1251" .
+
+:ReasonCode0372
+      a       owl:Class ;
+      term:description "back up battery ont" ;
+      term:lemma "reasoncode0372" ;
+      term:pos "n" ;
+      term:reasoncode "0372" ;
+      term:synonym "reason code 0372" , "cause code 0372" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0372" .
+
+:ReasonCode1242
+      a       owl:Class ;
+      term:description "modem-no bill" ;
+      term:lemma "reasoncode1242" ;
+      term:pos "n" ;
+      term:reasoncode "1242" ;
+      term:synonym "reason code 1242" , "cause code 1242" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1242" .
+
+:ReasonCode0552
+      a       owl:Class ;
+      term:description "ac power equipment" ;
+      term:lemma "reasoncode0552" ;
+      term:pos "n" ;
+      term:reasoncode "0552" ;
+      term:synonym "reason code 0552" , "cause code 0552" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0552" .
+
+:ReasonCode0276
+      a       owl:Class ;
+      term:description "speed profile change uverse s.o. helper ticket" ;
+      term:lemma "reasoncode0276" ;
+      term:pos "n" ;
+      term:reasoncode "0276" ;
+      term:synonym "reason code 0276" , "cause code 0276" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0276" .
+
+:ReasonCode1213
+      a       owl:Class ;
+      term:description "trouble determination only no bill" ;
+      term:lemma "reasoncode1213" ;
+      term:pos "n" ;
+      term:reasoncode "1213" ;
+      term:synonym "reason code 1213" , "cause code 1213" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1213" .
+
+:ReasonCode0286
+      a       owl:Class ;
+      term:description "7330 turn - up successfully. prefielded to sai" ;
+      term:lemma "reasoncode0286" ;
+      term:pos "n" ;
+      term:reasoncode "0286" ;
+      term:synonym "reason code 0286" , "cause code 0286" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0286" .
+
+:ReasonCode0800
+      a       owl:Class ;
+      term:description "found ok in - central office" ;
+      term:lemma "reasoncode0800" ;
+      term:pos "n" ;
+      term:reasoncode "0800" ;
+      term:synonym "cause code 0800" , "reason code 0800" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0800" .
+
+:ReasonCode0471
+      a       owl:Class ;
+      term:description "rdt/hdt common equipment circuit pack" ;
+      term:lemma "reasoncode0471" ;
+      term:pos "n" ;
+      term:reasoncode "0471" ;
+      term:synonym "reason code 0471" , "cause code 0471" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0471" .
+
+:ReasonCode1261
+      a       owl:Class ;
+      term:description "nevada only - initial flat rate res. installation" ;
+      term:lemma "reasoncode1261" ;
+      term:pos "n" ;
+      term:reasoncode "1261" ;
+      term:synonym "reason code 1261" , "cause code 1261" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1261" .
+
+:ReasonCode0543
+      a       owl:Class ;
+      term:description "central office multiplexers" ;
+      term:lemma "reasoncode0543" ;
+      term:pos "n" ;
+      term:reasoncode "0543" ;
+      term:synonym "reason code 0543" , "cause code 0543" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0543" .
+
+:ReasonCode1117
+      a       owl:Class ;
+      term:description "ciwmp contract exclutions no bill" ;
+      term:lemma "reasoncode1117" ;
+      term:pos "n" ;
+      term:reasoncode "1117" ;
+      term:synonym "reason code 1117" , "cause code 1117" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1117" .
+
+:ReasonCode0208
+      a       owl:Class ;
+      term:description "dapters/fittings" ;
+      term:lemma "reasoncode0208" ;
+      term:pos "n" ;
+      term:reasoncode "0208" ;
+      term:synonym "reason code 0208" , "cause code 0208" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0208" .
+
+:ReasonCode1161
+      a       owl:Class ;
+      term:description "pic / lpic verification" ;
+      term:lemma "reasoncode1161" ;
+      term:pos "n" ;
+      term:reasoncode "1161" ;
+      term:synonym "cause code 1161" , "reason code 1161" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1161" .
+
+:ReasonCode1212
+      a       owl:Class ;
+      term:description "inside wiring / jack - no bill" ;
+      term:lemma "reasoncode1212" ;
+      term:pos "n" ;
+      term:reasoncode "1212" ;
+      term:synonym "cause code 1212" , "reason code 1212" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1212" .
+
+:ReasonCode0220
+      a       owl:Class ;
+      term:description "balun or splitter filter" ;
+      term:lemma "reasoncode0220" ;
+      term:pos "n" ;
+      term:reasoncode "0220" ;
+      term:synonym "cause code 0220" , "reason code 0220" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0220" .
+
+:ReasonCode2100
+      a       owl:Class ;
+      term:description "alarm: monitoring system" ;
+      term:lemma "reasoncode2100" ;
+      term:pos "n" ;
+      term:reasoncode "2100" ;
+      term:synonym "reason code 2100" , "cause code 2100" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2100" .
+
+:ReasonCode0562
+      a       owl:Class ;
+      term:description "central office line testing equipment" ;
+      term:lemma "reasoncode0562" ;
+      term:pos "n" ;
+      term:reasoncode "0562" ;
+      term:synonym "reason code 0562" , "cause code 0562" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0562" .
+
+:ReasonCode1281
+      a       owl:Class ;
+      term:description "billing  errors (moosa)" ;
+      term:lemma "reasoncode1281" ;
+      term:pos "n" ;
+      term:reasoncode "1281" ;
+      term:synonym "cause code 1281" , "reason code 1281" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1281" .
+
+:ReasonCode1222
+      a       owl:Class ;
+      term:description "modem-bill" ;
+      term:lemma "reasoncode1222" ;
+      term:pos "n" ;
+      term:reasoncode "1222" ;
+      term:synonym "cause code 1222" , "reason code 1222" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1222" .
+
+:ReasonCode1107
+      a       owl:Class ;
+      term:description "memory call tok (tok)" ;
+      term:lemma "reasoncode1107" ;
+      term:pos "n" ;
+      term:reasoncode "1107" ;
+      term:synonym "reason code 1107" , "cause code 1107" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1107" .
+
+:ReasonCode0553
+      a       owl:Class ;
+      term:description "ringing plant" ;
+      term:lemma "reasoncode0553" ;
+      term:pos "n" ;
+      term:reasoncode "0553" ;
+      term:synonym "reason code 0553" , "cause code 0553" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0553" .
+
+:ReasonCode0173
+      a       owl:Class ;
+      term:description "speed tier product downgrade - non billable to isp" ;
+      term:lemma "reasoncode0173" ;
+      term:pos "n" ;
+      term:reasoncode "0173" ;
+      term:synonym "reason code 0173" , "cause code 0173" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0173" .
+
+:ReasonCode0121
+      a       owl:Class ;
+      term:description "ocs - connecting block/inside wire" ;
+      term:lemma "reasoncode0121" ;
+      term:pos "n" ;
+      term:reasoncode "0121" ;
+      term:synonym "reason code 0121" , "cause code 0121" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0121" .
+
+:ReasonCode1241
+      a       owl:Class ;
+      term:description "wireless router-no bill" ;
+      term:lemma "reasoncode1241" ;
+      term:pos "n" ;
+      term:reasoncode "1241" ;
+      term:synonym "reason code 1241" , "cause code 1241" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1241" .
+
+:ReasonCode0285
+      a       owl:Class ;
+      term:description "customer canceled dispatch" ;
+      term:lemma "reasoncode0285" ;
+      term:pos "n" ;
+      term:reasoncode "0285" ;
+      term:synonym "reason code 0285" , "cause code 0285" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0285" .
+
+:ReasonCode0513
+      a       owl:Class ;
+      term:description "signal transfer point (stp)" ;
+      term:lemma "reasoncode0513" ;
+      term:pos "n" ;
+      term:reasoncode "0513" ;
+      term:synonym "cause code 0513" , "reason code 0513" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0513" .
+
+:ReasonCode0564
+      a       owl:Class ;
+      term:description "central office range extenders/bridge lifters (bls)" ;
+      term:lemma "reasoncode0564" ;
+      term:pos "n" ;
+      term:reasoncode "0564" ;
+      term:synonym "cause code 0564" , "reason code 0564" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0564" .
+
+:ReasonCode0715
+      a       owl:Class ;
+      term:description "customer canceled report" ;
+      term:lemma "reasoncode0715" ;
+      term:pos "n" ;
+      term:reasoncode "0715" ;
+      term:synonym "reason code 0715" , "cause code 0715" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0715" .
+
+:ReasonCode2040
+      a       owl:Class ;
+      term:description "alarm: dryers" ;
+      term:lemma "reasoncode2040" ;
+      term:pos "n" ;
+      term:reasoncode "2040" ;
+      term:synonym "cause code 2040" , "reason code 2040" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2040" .
+
+:ReasonCode0472
+      a       owl:Class ;
+      term:description "rdt/hdt channel unit" ;
+      term:lemma "reasoncode0472" ;
+      term:pos "n" ;
+      term:reasoncode "0472" ;
+      term:synonym "reason code 0472" , "cause code 0472" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0472" .
+
+:ReasonCode1035
+      a       owl:Class ;
+      term:description "datacom link to ne" ;
+      term:lemma "reasoncode1035" ;
+      term:pos "n" ;
+      term:reasoncode "1035" ;
+      term:synonym "cause code 1035" , "reason code 1035" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1035" .
+
+:ReasonCode1262
+      a       owl:Class ;
+      term:description "nevada only - initial flat rate bus. installation (billable)" ;
+      term:lemma "reasoncode1262" ;
+      term:pos "n" ;
+      term:reasoncode "1262" ;
+      term:synonym "cause code 1262" , "reason code 1262" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1262" .
+
+:ReasonCode1204
+      a       owl:Class ;
+      term:description "trouble isolation -cev/rt collocation - bill" ;
+      term:lemma "reasoncode1204" ;
+      term:pos "n" ;
+      term:reasoncode "1204" ;
+      term:synonym "reason code 1204" , "cause code 1204" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1204" .
+
+:ReasonCode0418
+      a       owl:Class ;
+      term:description "bond" ;
+      term:lemma "reasoncode0418" ;
+      term:pos "n" ;
+      term:reasoncode "0418" ;
+      term:synonym "cause code 0418" , "reason code 0418" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0418" .
+
+:ReasonCode1118
+      a       owl:Class ;
+      term:description "service order activity 1159pm" ;
+      term:lemma "reasoncode1118" ;
+      term:pos "n" ;
+      term:reasoncode "1118" ;
+      term:synonym "cause code 1118" , "reason code 1118" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1118" .
+
+:ReasonCode0533
+      a       owl:Class ;
+      term:description "central office test cord" ;
+      term:lemma "reasoncode0533" ;
+      term:pos "n" ;
+      term:reasoncode "0533" ;
+      term:synonym "reason code 0533" , "cause code 0533" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0533" .
+
+:ReasonCode1211
+      a       owl:Class ;
+      term:description "cpe - no bill" ;
+      term:lemma "reasoncode1211" ;
+      term:pos "n" ;
+      term:reasoncode "1211" ;
+      term:synonym "cause code 1211" , "reason code 1211" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1211" .
+
+:ReasonCode1272
+      a       owl:Class ;
+      term:description "ilec co" ;
+      term:lemma "reasoncode1272" ;
+      term:pos "n" ;
+      term:reasoncode "1272" ;
+      term:synonym "reason code 1272" , "cause code 1272" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1272" .
+
+:ReasonCode1221
+      a       owl:Class ;
+      term:description "wireless router-bill" ;
+      term:lemma "reasoncode1221" ;
+      term:pos "n" ;
+      term:reasoncode "1221" ;
+      term:synonym "cause code 1221" , "reason code 1221" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1221" .
+
+:ReasonCode0523
+      a       owl:Class ;
+      term:description "feature line translations" ;
+      term:lemma "reasoncode0523" ;
+      term:pos "n" ;
+      term:reasoncode "0523" ;
+      term:synonym "cause code 0523" , "reason code 0523" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0523" .
+
+:ReasonCode0573
+      a       owl:Class ;
+      term:description "carrier channel units - specials" ;
+      term:lemma "reasoncode0573" ;
+      term:pos "n" ;
+      term:reasoncode "0573" ;
+      term:synonym "cause code 0573" , "reason code 0573" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0573" .
+
+:ReasonCode0487
+      a       owl:Class ;
+      term:description "temporarily transfer to a non conditioned pair" ;
+      term:lemma "reasoncode0487" ;
+      term:pos "n" ;
+      term:reasoncode "0487" ;
+      term:synonym "cause code 0487" , "reason code 0487" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0487" .
+
+:ReasonCode1060
+      a       owl:Class ;
+      term:description "internet services" ;
+      term:lemma "reasoncode1060" ;
+      term:pos "n" ;
+      term:reasoncode "1060" ;
+      term:synonym "reason code 1060" , "cause code 1060" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode1060" .
+
+:ReasonCode2015
+      a       owl:Class ;
+      term:description "routine: pressure plug cable & terminal" ;
+      term:lemma "reasoncode2015" ;
+      term:pos "n" ;
+      term:reasoncode "2015" ;
+      term:synonym "reason code 2015" , "cause code 2015" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode2015" .
+
+:ReasonCode0209
+      a       owl:Class ;
+      term:description "at&t provided peripheral equipment" ;
+      term:lemma "reasoncode0209" ;
+      term:pos "n" ;
+      term:reasoncode "0209" ;
+      term:synonym "reason code 0209" , "cause code 0209" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0209" .
+
+:ReasonCode0960
+      a       owl:Class ;
+      term:description "test ok for wiretap" ;
+      term:lemma "reasoncode0960" ;
+      term:pos "n" ;
+      term:reasoncode "0960" ;
+      term:synonym "reason code 0960" , "cause code 0960" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0960" .
+
+:ReasonCode0172
+      a       owl:Class ;
+      term:description "speed profile change - optimization down - non billable to isp" ;
+      term:lemma "reasoncode0172" ;
+      term:pos "n" ;
+      term:reasoncode "0172" ;
+      term:synonym "reason code 0172" , "cause code 0172" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0172" .
+
+:ReasonCode0554
+      a       owl:Class ;
+      term:description "standby emergency power" ;
+      term:lemma "reasoncode0554" ;
+      term:pos "n" ;
+      term:reasoncode "0554" ;
+      term:synonym "cause code 0554" , "reason code 0554" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#ReasonCode0554" .

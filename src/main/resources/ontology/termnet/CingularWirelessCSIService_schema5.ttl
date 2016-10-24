@@ -1,0 +1,230 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/CingularDataModel.xsd#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix tns:     <http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+tns:CentralOffice
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleCentralOfficeInfo ;
+      term:lemma "centraloffice" ;
+      term:pos "n" ;
+      term:synonym "central office" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#CentralOffice" ;
+      owl:minCardinality "0" .
+
+tns:CraftDCSignature
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleDCSignatureInfo ;
+      term:lemma "craftdcsignature" ;
+      term:pos "n" ;
+      term:synonym "craft dc signature" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#CraftDCSignature" ;
+      owl:minCardinality "0" .
+
+tns:deviceNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "devicenumber" ;
+      term:pos "n" ;
+      term:synonym "device number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#deviceNumber" .
+
+tns:WirelineServiceFaultDetails
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleFaultInfo ;
+      term:lemma "wirelineservicefaultdetails" ;
+      term:pos "n" ;
+      term:synonym "wireline service fault details" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#WirelineServiceFaultDetails" ;
+      owl:minCardinality "0" .
+
+tns:loopCareMessage
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "loopcaremessage" ;
+      term:pos "n" ;
+      term:synonym "loop care message" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#loopCareMessage" ;
+      owl:minCardinality "0" .
+
+tns:switchType
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "switchtype" ;
+      term:pos "n" ;
+      term:synonym "switch type" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#switchType" ;
+      owl:minCardinality "0" .
+
+tns:terminationCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "terminationcode" ;
+      term:pos "n" ;
+      term:synonym "termination code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#terminationCode" ;
+      owl:minCardinality "0" .
+
+tns:FaultLocationResults
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleLoc1Loc2Info ;
+      term:lemma "faultlocationresults" ;
+      term:pos "n" ;
+      term:synonym "fault location results" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#FaultLocationResults" ;
+      owl:minCardinality "0" .
+
+tns:originatingEquipmentOverride
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "originatingequipmentoverride" ;
+      term:pos "n" ;
+      term:synonym "originating equipment override" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#originatingEquipmentOverride" ;
+      owl:minCardinality "0" .
+
+tns:Balance
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleBalanceInfo ;
+      term:lemma "balance" ;
+      term:pos "n" ;
+      term:synonym "balance" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#Balance" ;
+      owl:minCardinality "0" .
+
+tns:SoakResistance
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleSoakResistanceInfo ;
+      term:lemma "soakresistance" ;
+      term:pos "n" ;
+      term:synonym "soak resistance" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#SoakResistance" ;
+      owl:minCardinality "0" .
+
+tns:SubmitMechanizedLoopTestResponseInfo
+      a       owl:Class ;
+      term:has tns:CentralOffice , tns:MltDCSignature , tns:CableInformation , tns:CraftDCSignature , tns:WirelineServiceFaultDetails , tns:OpenDistance , tns:loopCareMessage , tns:terminationCode , tns:switchType , tns:FaultLocationResults , tns:originatingEquipmentOverride , tns:UserTerminal , tns:Balance , tns:sessionStatus , tns:SoakResistance , tns:Ringers , tns:ACSignature , tns:Response , tns:textResults , tns:Thermistors , tns:LoopLength ;
+      term:lemma "submitmechanizedlooptestresponseinfo" ;
+      term:pos "n" ;
+      term:synonym "submit mechanized loop test response info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#SubmitMechanizedLoopTestResponseInfo" .
+
+tns:Response
+      a       owl:Class ;
+      rdfs:subClassOf ns1:ResponseInfo ;
+      term:lemma "response" ;
+      term:pos "n" ;
+      term:synonym "response" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#Response" .
+
+tns:textResults
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "textresults" ;
+      term:pos "n" ;
+      term:synonym "text results" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#textResults" ;
+      owl:maxCardinality "unbounded" ;
+      owl:minCardinality "0" .
+
+tns:LoopLength
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleLoopLengthInfo ;
+      term:lemma "looplength" ;
+      term:pos "n" ;
+      term:synonym "loop length" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#LoopLength" ;
+      owl:minCardinality "0" .
+
+tns:MltDCSignature
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleDCSignatureInfo ;
+      term:lemma "mltdcsignature" ;
+      term:pos "n" ;
+      term:synonym "mlt dc signature" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#MltDCSignature" ;
+      owl:minCardinality "0" .
+
+tns:CableInformation
+      a       owl:Class ;
+      rdfs:subClassOf ns1:LoopCareCableInfo ;
+      term:lemma "cableinformation" ;
+      term:pos "n" ;
+      term:synonym "cable information" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#CableInformation" ;
+      owl:minCardinality "0" .
+
+tns:OpenDistance
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleOpenDistanceInfo ;
+      term:lemma "opendistance" ;
+      term:pos "n" ;
+      term:synonym "open distance" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#OpenDistance" ;
+      owl:minCardinality "0" .
+
+tns:lineNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "linenumber" ;
+      term:pos "n" ;
+      term:synonym "line number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#lineNumber" .
+
+tns:UserTerminal
+      a       owl:Class ;
+      term:has tns:deviceNumber , tns:lineNumber ;
+      term:lemma "userterminal" ;
+      term:pos "n" ;
+      term:synonym "user terminal" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#UserTerminal" ;
+      owl:minCardinality "0" .
+
+tns:SubmitMechanizedLoopTestResponse
+      a       owl:Class ;
+      rdfs:subClassOf tns:SubmitMechanizedLoopTestResponseInfo ;
+      term:lemma "submitmechanizedlooptestresponse" ;
+      term:pos "n" ;
+      term:synonym "submit mechanized loop test response" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#SubmitMechanizedLoopTestResponse" .
+
+tns:sessionStatus
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "sessionstatus" ;
+      term:pos "n" ;
+      term:synonym "session status" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#sessionStatus" ;
+      owl:minCardinality "0" .
+
+tns:Ringers
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleRingersInfo ;
+      term:lemma "ringers" ;
+      term:pos "n" ;
+      term:synonym "ringers" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#Ringers" ;
+      owl:minCardinality "0" .
+
+tns:ACSignature
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleACSignatureInfo ;
+      term:lemma "acsignature" ;
+      term:pos "n" ;
+      term:synonym "ac signature" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#ACSignature" ;
+      owl:minCardinality "0" .
+
+tns:Thermistors
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineTroubleThermistorsInfo ;
+      term:lemma "thermistors" ;
+      term:pos "n" ;
+      term:synonym "thermistors" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestResponse.xsd#Thermistors" ;
+      owl:minCardinality "0" .

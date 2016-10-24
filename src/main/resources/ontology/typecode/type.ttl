@@ -1,0 +1,636 @@
+@prefix :        <http://www.cyberobject.com/2012/12/cyberobject/ntelagent#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+:TypeCodeCBC
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "400" ;
+      term:lemma "typecodecbc" ;
+      term:pos "n" ;
+      term:synonym "type code cbc" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBC" .
+
+:TypeCodeNHSE
+      a       owl:Class ;
+      term:description "physical inside premises" ;
+      term:dispositioncode
+              "710" ;
+      term:lemma "typecodenhse" ;
+      term:pos "n" ;
+      term:synonym "type code nhse" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNHSE" .
+
+:TypeCodeMISC
+      a       owl:Class ;
+      term:description "miscellaneous" ;
+      term:dispositioncode
+              "800" ;
+      term:lemma "typecodemisc" ;
+      term:pos "n" ;
+      term:synonym "type code misc" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeMISC" .
+
+:TypeCodeTRNM
+      a       owl:Class ;
+      term:description "transmission" ;
+      term:dispositioncode
+              "303" ;
+      term:lemma "typecodetrnm" ;
+      term:pos "n" ;
+      term:synonym "type code trnm" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeTRNM" .
+
+:TypeCodeSPDC
+      a       owl:Class ;
+      term:description "speed dial" ;
+      term:dispositioncode
+              "516" ;
+      term:lemma "typecodespdc" ;
+      term:pos "n" ;
+      term:synonym "type code spdc" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeSPDC" .
+
+:TypeCodeCWID
+      a       owl:Class ;
+      term:description "call waiting id" ;
+      term:dispositioncode
+              "551" ;
+      term:lemma "typecodecwid" ;
+      term:pos "n" ;
+      term:synonym "type code cwid" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCWID" .
+
+:TypeCodePIC
+      a       owl:Class ;
+      term:description "primary inter-exchange carrier" ;
+      term:dispositioncode
+              "570" ;
+      term:lemma "typecodepic" ;
+      term:pos "n" ;
+      term:synonym "type code pic" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodePIC" .
+
+:TypeCodeRPTD
+      a       owl:Class ;
+      term:description "repeat dial" ;
+      term:dispositioncode
+              "525" ;
+      term:lemma "typecoderptd" ;
+      term:pos "n" ;
+      term:synonym "type code rptd" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeRPTD" .
+
+:TypeCodeFEAT
+      a       owl:Class ;
+      term:description "feature" ;
+      term:dispositioncode
+              "555" ;
+      term:lemma "typecodefeat" ;
+      term:pos "n" ;
+      term:synonym "type code feat" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeFEAT" .
+
+:TypeCodeRCF
+      a       owl:Class ;
+      term:description "remote call forwarding" ;
+      term:dispositioncode
+              "514" ;
+      term:lemma "typecodercf" ;
+      term:pos "n" ;
+      term:synonym "type code rcf" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeRCF" .
+
+:TypeCodeNTMN
+      a       owl:Class ;
+      term:description "multiple lines reported at same location-cellular no" ;
+      term:dispositioncode
+              "114" ;
+      term:lemma "typecodentmn" ;
+      term:pos "n" ;
+      term:synonym "type code ntmn" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNTMN" .
+
+:TypeCodeCBCM
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "400" ;
+      term:lemma "typecodecbcm" ;
+      term:pos "n" ;
+      term:synonym "type code cbcm" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBCM" .
+
+:TypeCodePICM
+      a       owl:Class ;
+      term:description "primary inter-exchange carrier" ;
+      term:dispositioncode
+              "573" ;
+      term:lemma "typecodepicm" ;
+      term:pos "n" ;
+      term:synonym "type code picm" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodePICM" .
+
+:TypeCodeCCLD
+      a       owl:Class ;
+      term:description "can not call long distance" ;
+      term:dispositioncode
+              "569" ;
+      term:lemma "typecodeccld" ;
+      term:pos "n" ;
+      term:synonym "type code ccld" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCLD" .
+
+:TypeCodeACBK
+      a       owl:Class ;
+      term:description "automatic call back" ;
+      term:dispositioncode
+              "527" ;
+      term:lemma "typecodeacbk" ;
+      term:pos "n" ;
+      term:synonym "type code acbk" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeACBK" .
+
+:TypeCodeDROP
+      a       owl:Class ;
+      term:description "drop wire" ;
+      term:dispositioncode
+              "985" ;
+      term:lemma "typecodedrop" ;
+      term:pos "n" ;
+      term:synonym "type code drop" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeDROP" .
+
+:TypeCodeCCOY
+      a       owl:Class ;
+      term:description "can not call out" ;
+      term:dispositioncode
+              "205" ;
+      term:lemma "typecodeccoy" ;
+      term:pos "n" ;
+      term:synonym "type code ccoy" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCOY" .
+
+:TypeCodeVMS
+      a       owl:Class ;
+      term:description "voice mail service" ;
+      term:dispositioncode
+              "598" ;
+      term:lemma "typecodevms" ;
+      term:pos "n" ;
+      term:synonym "type code vms" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeVMS" .
+
+:TypeCodeIDPR
+      a       owl:Class ;
+      term:description "isdn defective pair recovery order-ndc use only" ;
+      term:dispositioncode
+              "970" ;
+      term:lemma "typecodeidpr" ;
+      term:pos "n" ;
+      term:synonym "type code idpr" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeIDPR" .
+
+:TypeCodeRING
+      a       owl:Class ;
+      term:description "ring" ;
+      term:dispositioncode
+              "524" ;
+      term:lemma "typecodering" ;
+      term:pos "n" ;
+      term:synonym "type code ring" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeRING" .
+
+:TypeCodeCCL
+      a       owl:Class ;
+      term:description "can not call local" ;
+      term:dispositioncode
+              "567" ;
+      term:lemma "typecodeccl" ;
+      term:pos "n" ;
+      term:synonym "type code ccl" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCL" .
+
+:TypeCodeCBMN
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "414" ;
+      term:lemma "typecodecbmn" ;
+      term:pos "n" ;
+      term:synonym "type code cbmn" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBMN" .
+
+:TypeCodeDOLE
+      a       owl:Class ;
+      term:description "data over loop expectations" ;
+      term:dispositioncode
+              "613" ;
+      term:lemma "typecodedole" ;
+      term:pos "n" ;
+      term:synonym "type code dole" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeDOLE" .
+
+:TypeCodeCCMY
+      a       owl:Class ;
+      term:description "can't call out" ;
+      term:dispositioncode
+              "213" ;
+      term:lemma "typecodeccmy" ;
+      term:pos "n" ;
+      term:synonym "type code ccmy" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCMY" .
+
+:TypeCodeCCON
+      a       owl:Class ;
+      term:description "can not call out" ;
+      term:dispositioncode
+              "206" ;
+      term:lemma "typecodeccon" ;
+      term:pos "n" ;
+      term:synonym "type code ccon" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCON" .
+
+:TypeCodeCFWD
+      a       owl:Class ;
+      term:description "call forwarding" ;
+      term:dispositioncode
+              "523" ;
+      term:lemma "typecodecfwd" ;
+      term:pos "n" ;
+      term:synonym "type code cfwd" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCFWD" .
+
+:TypeCodeCCO
+      a       owl:Class ;
+      term:description "can not call out" ;
+      term:dispositioncode
+              "200" ;
+      term:lemma "typecodecco" ;
+      term:pos "n" ;
+      term:synonym "type code cco" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCO" .
+
+:TypeCodeCBCN
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "406" ;
+      term:lemma "typecodecbcn" ;
+      term:pos "n" ;
+      term:synonym "type code cbcn" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBCN" .
+
+:TypeCode3WAY
+      a       owl:Class ;
+      term:description "three way calling" ;
+      term:dispositioncode
+              "515" ;
+      term:lemma "typecode3way" ;
+      term:pos "n" ;
+      term:synonym "type code 3way" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCode3WAY" .
+
+:TypeCodeSDPR
+      a       owl:Class ;
+      term:description "subrate defective pair recovery-ndc use only" ;
+      term:dispositioncode
+              "971" ;
+      term:lemma "typecodesdpr" ;
+      term:pos "n" ;
+      term:synonym "type code sdpr" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeSDPR" .
+
+:TypeCodeMEM
+      a       owl:Class ;
+      term:description "memory" ;
+      term:dispositioncode
+              "501" ;
+      term:lemma "typecodemem" ;
+      term:pos "n" ;
+      term:synonym "type code mem" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeMEM" .
+
+:TypeCodeCOMB
+      a       owl:Class ;
+      term:description "previously type code was labeled comb drop" ;
+      term:dispositioncode
+              "978" ;
+      term:lemma "typecodecomb" ;
+      term:pos "n" ;
+      term:synonym "type code comb" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCOMB" .
+
+:TypeCodeCCMN
+      a       owl:Class ;
+      term:description "can't call out" ;
+      term:dispositioncode
+              "214" ;
+      term:lemma "typecodeccmn" ;
+      term:pos "n" ;
+      term:synonym "type code ccmn" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCMN" .
+
+:TypeCodeTRNS
+      a       owl:Class ;
+      term:description "transmission" ;
+      term:dispositioncode
+              "300" ;
+      term:lemma "typecodetrns" ;
+      term:pos "n" ;
+      term:synonym "type code trns" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeTRNS" .
+
+:TypeCodeCBLK
+      a       owl:Class ;
+      term:description "callback" ;
+      term:dispositioncode
+              "522" ;
+      term:lemma "typecodecblk" ;
+      term:pos "n" ;
+      term:synonym "type code cblk" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBLK" .
+
+:TypeCodeDPRO
+      a       owl:Class ;
+      term:description "drop" ;
+      term:dispositioncode
+              "998" ;
+      term:lemma "typecodedpro" ;
+      term:pos "n" ;
+      term:synonym "type code dpro" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeDPRO" .
+
+:TypeCode911
+      a       owl:Class ;
+      term:description "911" ;
+      term:dispositioncode
+              "519" ;
+      term:lemma "typecode911" ;
+      term:pos "n" ;
+      term:synonym "type code 911" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCode911" .
+
+:TypeCodePRIV
+      a       owl:Class ;
+      term:description "privacy" ;
+      term:dispositioncode
+              "581" ;
+      term:lemma "typecodepriv" ;
+      term:pos "n" ;
+      term:synonym "type code priv" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodePRIV" .
+
+:TypeCodeOCC
+      a       owl:Class ;
+      term:description "out going call control" ;
+      term:dispositioncode
+              "526" ;
+      term:lemma "typecodeocc" ;
+      term:pos "n" ;
+      term:synonym "type code occ" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeOCC" .
+
+:TypeCodeNDTM
+      a       owl:Class ;
+      term:description "no dial tone" ;
+      term:dispositioncode
+              "103" ;
+      term:lemma "typecodendtm" ;
+      term:pos "n" ;
+      term:synonym "type code ndtm" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNDTM" .
+
+:TypeCodeTAG
+      a       owl:Class ;
+      term:description "tag and locate" ;
+      term:dispositioncode
+              "712" ;
+      term:lemma "typecodetag" ;
+      term:pos "n" ;
+      term:synonym "type code tag" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeTAG" .
+
+:TypeCodeNID
+      a       owl:Class ;
+      term:description "network interface device" ;
+      term:dispositioncode
+              "989" ;
+      term:lemma "typecodenid" ;
+      term:pos "n" ;
+      term:synonym "type code nid" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNID" .
+
+:TypeCodeCCOM
+      a       owl:Class ;
+      term:description "can not call out" ;
+      term:dispositioncode
+              "207" ;
+      term:lemma "typecodeccom" ;
+      term:pos "n" ;
+      term:synonym "type code ccom" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCCOM" .
+
+:TypeCodeCBDT
+      a       owl:Class ;
+      term:dispositioncode
+              "200" ;
+      term:lemma "typecodecbdt" ;
+      term:pos "n" ;
+      term:synonym "type code cbdt" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBDT" .
+
+:TypeCodeTRAN
+      a       owl:Class ;
+      term:description "transmission" ;
+      term:dispositioncode
+              "300" ;
+      term:lemma "typecodetran" ;
+      term:pos "n" ;
+      term:synonym "type code tran" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeTRAN" .
+
+:TypeCodeCOBD
+      a       owl:Class ;
+      term:description "previously type code was labeled term drop" ;
+      term:dispositioncode
+              "999" ;
+      term:lemma "typecodecobd" ;
+      term:pos "n" ;
+      term:synonym "type code cobd" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCOBD" .
+
+:TypeCodeIWS
+      a       owl:Class ;
+      term:description "intra-lata wholesale service" ;
+      term:dispositioncode
+              "568" ;
+      term:lemma "typecodeiws" ;
+      term:pos "n" ;
+      term:synonym "type code iws" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeIWS" .
+
+:TypeCodeRACF
+      a       owl:Class ;
+      term:description "remote access call forwarding" ;
+      term:dispositioncode
+              "529" ;
+      term:lemma "typecoderacf" ;
+      term:pos "n" ;
+      term:synonym "type code racf" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeRACF" .
+
+:TypeCodeCWT
+      a       owl:Class ;
+      term:description "call waiting" ;
+      term:dispositioncode
+              "512" ;
+      term:lemma "typecodecwt" ;
+      term:pos "n" ;
+      term:synonym "type code cwt" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCWT" .
+
+:TypeCodeTCWT
+      a       owl:Class ;
+      term:description "three way call" ;
+      term:dispositioncode
+              "517" ;
+      term:lemma "typecodetcwt" ;
+      term:pos "n" ;
+      term:synonym "type code tcwt" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeTCWT" .
+
+:TypeCodeCLID
+      a       owl:Class ;
+      term:description "caller id" ;
+      term:dispositioncode
+              "541" ;
+      term:lemma "typecodeclid" ;
+      term:pos "n" ;
+      term:synonym "type code clid" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCLID" .
+
+:TypeCodePHYS
+      a       owl:Class ;
+      term:description "physical" ;
+      term:dispositioncode
+              "700" ;
+      term:lemma "typecodephys" ;
+      term:pos "n" ;
+      term:synonym "type code phys" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodePHYS" .
+
+:TypeCodeDSL
+      a       owl:Class ;
+      term:description "dsl" ;
+      term:dispositioncode
+              "606" ;
+      term:lemma "typecodedsl" ;
+      term:pos "n" ;
+      term:synonym "type code dsl" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeDSL" .
+
+:TypeCodeNDT
+      a       owl:Class ;
+      term:description "no dial tone" ;
+      term:dispositioncode
+              "100" ;
+      term:lemma "typecodendt" ;
+      term:pos "n" ;
+      term:synonym "type code ndt" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNDT" .
+
+:TypeCodeHDPR
+      a       owl:Class ;
+      term:description "hi cap defective pair recovery" ;
+      term:dispositioncode
+              "973" ;
+      term:lemma "typecodehdpr" ;
+      term:pos "n" ;
+      term:synonym "type code hdpr" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeHDPR" .
+
+:TypeCodeNDTN
+      a       owl:Class ;
+      term:description "no dial tone" ;
+      term:dispositioncode
+              "106" ;
+      term:lemma "typecodendtn" ;
+      term:pos "n" ;
+      term:synonym "type code ndtn" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNDTN" .
+
+:TypeCodeCLTR
+      a       owl:Class ;
+      term:description "call trace" ;
+      term:dispositioncode
+              "524" ;
+      term:lemma "typecodecltr" ;
+      term:pos "n" ;
+      term:synonym "type code cltr" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCLTR" .
+
+:TypeCodeDATA
+      a       owl:Class ;
+      term:description "data" ;
+      term:dispositioncode
+              "600" ;
+      term:lemma "typecodedata" ;
+      term:pos "n" ;
+      term:synonym "type code data" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeDATA" .
+
+:TypeCodeCBCY
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "405" ;
+      term:lemma "typecodecbcy" ;
+      term:pos "n" ;
+      term:synonym "type code cbcy" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBCY" .
+
+:TypeCodeNTMY
+      a       owl:Class ;
+      term:description "multiple lines reported at same location-cellular yes" ;
+      term:dispositioncode
+              "113" ;
+      term:lemma "typecodentmy" ;
+      term:pos "n" ;
+      term:synonym "type code ntmy" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNTMY" .
+
+:TypeCodeCBMY
+      a       owl:Class ;
+      term:description "can not be called" ;
+      term:dispositioncode
+              "413" ;
+      term:lemma "typecodecbmy" ;
+      term:pos "n" ;
+      term:synonym "type code cbmy" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeCBMY" .
+
+:TypeCodeNDTY
+      a       owl:Class ;
+      term:description "no dial tone" ;
+      term:dispositioncode
+              "105" ;
+      term:lemma "typecodendty" ;
+      term:pos "n" ;
+      term:synonym "type code ndty" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeNDTY" .
+
+:TypeCodeACR
+      a       owl:Class ;
+      term:description "automatic call return" ;
+      term:dispositioncode
+              "513" ;
+      term:lemma "typecodeacr" ;
+      term:pos "n" ;
+      term:synonym "type code acr" ;
+      term:xpath "http://www.cyberobject.com/2012/12/cyberobject/ntelagent#TypeCodeACR" .

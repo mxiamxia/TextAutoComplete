@@ -1,0 +1,35 @@
+apply plugin: 'war'
+apply plugin: 'jetty'
+apply plugin: 'eclipse-wtp'
+apply plugin: 'idea'
+
+repositories {
+   mavenCentral()
+}
+
+dependencies {
+   providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+   compile 'org.springframework:spring-webmvc:4.0.2.RELEASE'
+   compile 'org.springframework:spring-core:4.0.2.RELEASE'
+   compile 'org.springframework:spring-context:4.0.2.RELEASE'
+   compile 'org.springframework:spring-websocket:4.0.2.RELEASE'
+   compile 'org.springframework:spring-context-support:4.0.2.RELEASE'
+   compile 'org.apache.commons:commons-lang3:3.0'
+   compile 'log4j:log4j:1.2.16'
+   compile 'junit:junit:4.4'
+   compile 'com.hp.hpl.jena:arq:2.8.3'
+   compile 'com.hp.hpl.jena:jena:2.6.4'
+   compile 'org.apache.commons:commons-lang3:3.0'
+   compile 'org.json:json:20151123'
+   runtime 'javax.servlet:jstl:1.2'
+}
+
+idea {
+    module {
+        downloadJavadoc = true
+        downloadSources = true
+    }
+}
+
+/* Change context path (base url). otherwise defaults to name of project */
+jettyRunWar.contextPath = '' 

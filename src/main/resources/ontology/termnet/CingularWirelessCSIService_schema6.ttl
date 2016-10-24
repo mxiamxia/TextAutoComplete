@@ -1,0 +1,187 @@
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns1:     <http://csi.cingular.com/CSI/Namespaces/Types/Publics/CingularDataModel.xsd#> .
+@prefix term:    <http://www.cyberobject.com/2012/12/term#> .
+@prefix tns:     <http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xs:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix xml:     <http://www.w3.org/XML/1998/namespace#> .
+
+tns:InteractiveTest
+      a       owl:Class ;
+      term:has tns:testType , tns:pair , tns:mdfId , tns:objectId , tns:listId , tns:mdfRoutingTelephoneNumber , tns:sessionIndicator , tns:cable , tns:temperature ;
+      term:lemma "interactivetest" ;
+      term:pos "n" ;
+      term:synonym "interactive test" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#InteractiveTest" ;
+      owl:minCardinality "0" .
+
+tns:writeBackIndicator
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#boolean" ;
+      term:lemma "writebackindicator" ;
+      term:pos "n" ;
+      term:synonym "write back indicator" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#writeBackIndicator" ;
+      owl:minCardinality "0" .
+
+tns:overrideCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "overridecode" ;
+      term:pos "n" ;
+      term:synonym "override code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#overrideCode" ;
+      owl:minCardinality "0" .
+
+tns:pair
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "pair" ;
+      term:pos "n" ;
+      term:synonym "pair" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#pair" ;
+      owl:minCardinality "0" .
+
+tns:objectId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "objectid" ;
+      term:pos "n" ;
+      term:synonym "object id" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#objectId" .
+
+tns:sessionIndicator
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineMechanizedLoopSessionIndicatorInfo ;
+      term:lemma "sessionindicator" ;
+      term:pos "n" ;
+      term:synonym "session indicator" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#sessionIndicator" .
+
+tns:mdfRoutingTelephoneNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "mdfroutingtelephonenumber" ;
+      term:pos "n" ;
+      term:synonym "mdf routing telephone number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#mdfRoutingTelephoneNumber" ;
+      owl:minCardinality "0" .
+
+tns:listId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "listid" ;
+      term:pos "n" ;
+      term:synonym "list id" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#listId" .
+
+tns:temperature
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "temperature" ;
+      term:pos "n" ;
+      term:synonym "temperature" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#temperature" ;
+      owl:minCardinality "0" .
+
+tns:UserTerminal
+      a       owl:Class ;
+      term:has tns:deviceNumber , tns:lineNumber ;
+      term:lemma "userterminal" ;
+      term:pos "n" ;
+      term:synonym "user terminal" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#UserTerminal" ;
+      owl:minCardinality "0" .
+
+tns:NonInteractiveTest
+      a       owl:Class ;
+      term:has tns:writeBackIndicator , tns:testType ;
+      term:lemma "noninteractivetest" ;
+      term:pos "n" ;
+      term:synonym "non interactive test" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#NonInteractiveTest" ;
+      owl:minCardinality "0" .
+
+tns:testType
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineNoninteractiveMechanizedLoopTestTypeInfo , ns1:WirelineInteractiveMechanizedLoopTestTypeInfo ;
+      term:lemma "testtype" ;
+      term:pos "n" ;
+      term:synonym "test type" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#testType" .
+
+tns:mdfId
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "mdfid" ;
+      term:pos "n" ;
+      term:synonym "mdf id" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#mdfId" ;
+      owl:minCardinality "0" .
+
+tns:TestChoice
+      a       owl:Class ;
+      term:has tns:InteractiveTest , tns:NonInteractiveTest ;
+      term:lemma "testchoice" ;
+      term:pos "n" ;
+      term:synonym "test choice" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#TestChoice" .
+
+tns:deviceNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "devicenumber" ;
+      term:pos "n" ;
+      term:synonym "device number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#deviceNumber" .
+
+tns:SubmitMechanizedLoopTestRequest
+      a       owl:Class ;
+      rdfs:subClassOf tns:SubmitMechanizedLoopTestRequestInfo ;
+      term:lemma "submitmechanizedlooptestrequest" ;
+      term:pos "n" ;
+      term:synonym "submit mechanized loop test request" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#SubmitMechanizedLoopTestRequest" .
+
+tns:cable
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "cable" ;
+      term:pos "n" ;
+      term:synonym "cable" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#cable" ;
+      owl:minCardinality "0" .
+
+tns:ServiceIdentifier
+      a       owl:Class ;
+      rdfs:subClassOf ns1:WirelineServiceIdentifierInfo ;
+      term:lemma "serviceidentifier" ;
+      term:pos "n" ;
+      term:synonym "service identifier" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#ServiceIdentifier" .
+
+tns:SubmitMechanizedLoopTestRequestInfo
+      a       owl:Class ;
+      term:has tns:overrideCode , tns:TestChoice , tns:ServiceIdentifier , tns:UserTerminal , tns:employeeCode ;
+      term:lemma "submitmechanizedlooptestrequestinfo" ;
+      term:pos "n" ;
+      term:synonym "submit mechanized loop test request info" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#SubmitMechanizedLoopTestRequestInfo" .
+
+tns:employeeCode
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "employeecode" ;
+      term:pos "n" ;
+      term:synonym "employee code" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#employeeCode" .
+
+tns:lineNumber
+      a       owl:Class ;
+      rdf:datatype "http://www.w3.org/2001/XMLSchema#string" ;
+      term:lemma "linenumber" ;
+      term:pos "n" ;
+      term:synonym "line number" ;
+      term:xpath "http://csi.cingular.com/CSI/Namespaces/Container/Publics/SubmitMechanizedLoopTestRequest.xsd#lineNumber" .
