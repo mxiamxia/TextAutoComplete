@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 import com.synonym.model.Term;
 
-import co.synonym.core.SynonymProcessor;
+import co.synonym.core.SynonymFactory;
 import co.synonym.log.Log;
 
 public class QuerySynonym {
@@ -35,7 +35,7 @@ public class QuerySynonym {
 					Map.Entry<String, String> subEntry = (Entry<String, String>) subIt.next();
 					String id = subEntry.getKey();
 					String dict = subEntry.getValue();
-					int dis = SynonymProcessor.getFinder(mode).phraseDistance(input, dict);
+					int dis = SynonymFactory.getFinder(mode).phraseDistance(input, dict);
 					if (dis != -1) {
 						Term term = new Term();
 						term.setId(id);
@@ -55,7 +55,7 @@ public class QuerySynonym {
 				Map.Entry<String, String> entry = (Entry<String, String>) it.next();
 				String id = entry.getKey();
 				String dict = entry.getValue();
-				int dis = SynonymProcessor.getFinder(mode).phraseDistance(input, dict);
+				int dis = SynonymFactory.getFinder(mode).phraseDistance(input, dict);
 				if (dis != -1) {
 					Term term = new Term();
 					term.setId(id);
